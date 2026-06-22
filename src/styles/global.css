@@ -302,6 +302,14 @@ textarea {
   color: rgba(255, 215, 0, var(--o, 0.74));
 }
 
+.frame-word.tone-green {
+  color: rgba(46, 204, 113, var(--o, 0.74));
+}
+
+.frame-word.tone-olive {
+  color: #222316;
+}
+
 .frame-word.tone-white {
   --word-color: rgba(255, 255, 255, 0.52);
   mix-blend-mode: screen;
@@ -394,7 +402,7 @@ textarea {
 .rail-arrow {
   width: 30px;
   height: 30px;
-  display: contents;
+  display: grid;
   place-items: center;
   color: rgba(7, 7, 6, 0.42);
   font-size: 34px;
@@ -445,6 +453,7 @@ textarea {
   letter-spacing: 0.18em;
   font-weight: 900;
   font-style: italic;
+  text-shadow: 1px 1px 6px #fff8;
 }
 
 .project-title h2 {
@@ -455,6 +464,7 @@ textarea {
   letter-spacing: 0.18em;
   font-weight: 500;
   text-transform: uppercase;
+  text-shadow: 1px 1px 6px #fff8;
 }
 
 .feeling-panel {
@@ -493,7 +503,7 @@ textarea {
   z-index: var(--z-ui);
   right: 190px;
   top: 110px;
-  width: 150px;
+  width: 200px;
 }
 
 .meaning-panel p {
@@ -504,10 +514,12 @@ textarea {
   white-space: pre-line;
   border-left: 2px solid var(--accent);
   padding-left: 5px;
-  padding: 15px 0 15px 5px;
+  padding: 15px 20px 15px 5px;
   backdrop-filter: blur(4px);
-  background: #ffffff2e;
-  text-shadow: 0px 0px 3px #fff7;
+  background: rgba(255, 255, 255, 0.3);
+  font-weight: 100;
+  letter-spacing: 1px;
+  border-radius: 0 15px 15px 0;
 }
 
 .step-tabs {
@@ -523,21 +535,22 @@ textarea {
 .step-tab {
   appearance: none;
   border: 0;
-  background: transparent;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 20px;
   display: grid;
   grid-template-columns: 34px 1fr;
   gap: 9px;
   align-items: baseline;
-  padding: 0;
+  padding: 3px 5px;
   color: rgba(7, 7, 6, 0.86);
   text-align: left;
   cursor: pointer;
-  text-shadow: 0px 1px 0px #fffa;
+  backdrop-filter: blur(3px);
 }
 
 .step-tab:hover,
 .step-tab.active {
-  color: var(--accent);
+  color: #fff;
 }
 
 .step-tab b {
@@ -547,7 +560,6 @@ textarea {
 
 .step-tab span {
   font-size: 11px;
-  font-weight: 800;
   letter-spacing: 0.14em;
   text-transform: uppercase;
 }
@@ -1383,10 +1395,6 @@ textarea {
   letter-spacing: 0.28em;
 }
 
-.experience[data-mode="cover"] .step-tab:hover {
-  color: var(--accent);
-}
-
 .visual-mass--coverObject {
   left: 58%;
   top: 54%;
@@ -1567,4 +1575,29 @@ textarea {
     --step-title-spacing-open: 0.15em;
     animation-duration: 6.8s;
   }
+}
+
+.cover-object-scene {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: var(--cover-object-width, min(42vw, 620px));
+  height: var(--cover-object-height, auto);
+  transform: translate(-50%, -50%);
+  display: grid;
+  place-items: center;
+  pointer-events: none;
+  z-index: 6;
+}
+
+.cover-object-img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 70vh;
+  object-fit: contain;
+}
+
+.experience[data-project="chaveta"] .cover-object-scene {
+  --cover-object-width: clamp(100px, 14vw, 150px);
 }

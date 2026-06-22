@@ -2128,88 +2128,37 @@
   {
     "id": "chaveta",
     "name": "CHAVETA",
-    "subtitle": "Raw Inventory → Premium Club Store",
+    "subtitle": "Catalog → Club",
     "accent": "#b89a5e",
     "steps": [
       {
-        "id": "before",
-        "label": "Было",
-        "title": "Хорошее место. Плохая цифра.",
+        "id": "question",
+        "label": "Question",
+        "title": "Why does a catalog feel cold?",
         "feeling": [
-          "хаос",
-          "старая база",
-          "нет фото",
-          "нет структуры"
+          "list",
+          "price",
+          "filter",
+          "cold"
         ],
-        "meaning": "У заведения может быть сильный продукт, красивое место и постоянные гости.\n\nНо в цифре всё выглядит как складская таблица: сырые названия, нет нормальной структуры, нет описаний, нет фотографий, нет желания выбирать.",
-        "center": "БЫЛО",
+        "meaning": "A catalog sells items. But the client wants atmosphere and belonging.",
+        "center": "CATALOG",
         "accent": "#b89a5e",
         "object": "none",
-        "media": [
-          "/projects/chaveta/frames/01/chaveta-1-1.webp",
-          "/projects/chaveta/frames/01/chaveta-1-2.webp",
-          "/projects/chaveta/frames/01/chaveta-1-3.webp"
-        ],
-        "words": [
-          {
-            "text": "СЫРАЯ БАЗА",
-            "tone": "dust",
-            "weight": 0.78,
-            "speed": 0.38,
-            "behavior": "hit",
-            "angle": -6,
-            "spin": 0.02
-          },
-          {
-            "text": "ТАБЛИЦЫ",
-            "tone": "white",
-            "weight": 1.05,
-            "speed": 0.48,
-            "behavior": "float",
-            "angle": 8,
-            "spin": -0.03
-          },
-          {
-            "text": "НЕТ ФОТО",
-            "tone": "red",
-            "weight": 0.9,
-            "speed": 0.42,
-            "behavior": "fade",
-            "angle": -10,
-            "spin": 0.02
-          },
-          {
-            "text": "СТАРЫЙ САЙТ",
-            "tone": "concrete",
-            "weight": 1.08,
-            "speed": 0.34,
-            "behavior": "stuck",
-            "angle": 4,
-            "spin": 0.01
-          },
-          {
-            "text": "НЕТ ЖЕЛАНИЯ",
-            "tone": "red",
-            "weight": 1.0,
-            "speed": 0.44,
-            "behavior": "hit",
-            "angle": 12,
-            "spin": -0.02
-          }
-        ],
+        "media": [],
         "smart": {
-          "status": "БАЗА",
+          "status": "COLD",
           "rows": [
             {
-              "label": "СТРУКТУРА",
-              "value": "НЕТ"
+              "label": "LIST",
+              "value": "PRICE"
             },
             {
-              "label": "ФОТО",
-              "value": "НЕТ"
+              "label": "FILTER",
+              "value": "ON"
             },
             {
-              "label": "ЖЕЛАНИЕ",
+              "label": "ATMOSPHERE",
               "value": "0",
               "highlight": true
             }
@@ -2219,421 +2168,107 @@
           "mode": "cloud",
           "words": [
             {
-              "text": "хаос",
-              "x": 30,
+              "text": "list",
+              "x": 32,
               "y": 24,
-              "size": 1.45,
-              "rotate": -5,
+              "size": 1.55,
+              "rotate": -4,
               "tone": "black",
               "weight": 900,
-              "opacity": 0.9
+              "opacity": 0.95
             },
             {
-              "text": "таблицы",
-              "x": 52,
+              "text": "price",
+              "x": 24,
               "y": 42,
-              "size": 1.2,
-              "rotate": 4,
-              "tone": "gold",
-              "weight": 820,
-              "opacity": 0.78
-            },
-            {
-              "text": "нет фото",
-              "x": 25,
-              "y": 60,
-              "size": 0.92,
-              "rotate": -7,
-              "tone": "muted",
-              "weight": 650,
-              "opacity": 0.62
-            },
-            {
-              "text": "нет описаний",
-              "x": 66,
-              "y": 58,
-              "size": 0.9,
-              "rotate": 6,
-              "tone": "muted",
-              "weight": 650,
-              "opacity": 0.58
-            },
-            {
-              "text": "старый сайт",
-              "x": 48,
-              "y": 76,
-              "size": 1.04,
-              "rotate": -3,
-              "tone": "dust",
-              "weight": 760,
-              "opacity": 0.72
-            },
-            {
-              "text": "не купить",
-              "x": 78,
-              "y": 28,
-              "size": 0.78,
-              "rotate": 8,
-              "tone": "muted",
-              "weight": 620,
-              "opacity": 0.54
-            }
-          ]
-        }
-      },
-      {
-        "id": "analysis",
-        "label": "Разбор",
-        "title": "Сначала не дизайн.",
-        "feeling": [
-          "типы",
-          "поля",
-          "логика",
-          "фильтры"
-        ],
-        "meaning": "Сначала нужно понять, что вообще продаётся.\n\nКакие есть типы товаров. Какие поля нужны. Как они связаны. Как искать, фильтровать, выбирать и покупать.",
-        "center": "РАЗБОР",
-        "accent": "#b89a5e",
-        "object": "none",
-        "media": [
-          "/projects/chaveta/frames/02/chaveta-2-1.webp",
-          "/projects/chaveta/frames/02/chaveta-2-2.webp",
-          "/projects/chaveta/frames/02/chaveta-2-3.webp"
-        ],
-        "words": [
-          {
-            "text": "ТИПЫ",
-            "tone": "yellow",
-            "weight": 1.1,
-            "speed": 0.4,
-            "behavior": "hit",
-            "angle": -4,
-            "spin": 0.02
-          },
-          {
-            "text": "ПОЛЯ",
-            "tone": "white",
-            "weight": 1.0,
-            "speed": 0.42,
-            "behavior": "float",
-            "angle": 7,
-            "spin": -0.02
-          },
-          {
-            "text": "ФИЛЬТРЫ",
-            "tone": "gold",
-            "weight": 1.18,
-            "speed": 0.35,
-            "behavior": "hit",
-            "angle": 5,
-            "spin": 0.015
-          },
-          {
-            "text": "ЗАВИСИМОСТИ",
-            "tone": "accent",
-            "weight": 1.02,
-            "speed": 0.32,
-            "behavior": "stuck",
-            "angle": -8,
-            "spin": 0.01
-          },
-          {
-            "text": "КАТЕГОРИИ",
-            "tone": "black",
-            "weight": 1.0,
-            "speed": 0.45,
-            "behavior": "fade",
-            "angle": 10,
-            "spin": -0.02
-          }
-        ],
-        "smart": {
-          "status": "РАЗБОР",
-          "rows": [
-            {
-              "label": "ТИПЫ",
-              "value": "НАЙДЕНЫ"
-            },
-            {
-              "label": "ПОЛЯ",
-              "value": "55'000+ "
-            },
-            {
-              "label": "ЛОГИКА",
-              "value": "СОБРАНА",
-              "highlight": true
-            }
-          ]
-        },
-        "soul": {
-          "mode": "orbit",
-          "words": [
-            {
-              "text": "типы",
-              "x": 28,
-              "y": 20,
-              "size": 1.1,
-              "rotate": -6,
-              "tone": "accent",
+              "size": 1.3,
+              "rotate": -9,
+              "tone": "black",
               "weight": 850,
               "opacity": 0.88
             },
             {
-              "text": "поля",
-              "x": 62,
-              "y": 34,
-              "size": 0.92,
-              "rotate": 8,
-              "tone": "gold",
-              "weight": 800,
-              "opacity": 0.76
+              "text": "filter",
+              "x": 22,
+              "y": 58,
+              "size": 1.15,
+              "rotate": -5,
+              "tone": "black",
+              "weight": 780,
+              "opacity": 0.82
             },
             {
-              "text": "фильтры",
-              "x": 30,
-              "y": 50,
-              "size": 0.95,
-              "rotate": -4,
+              "text": "cold",
+              "x": 54,
+              "y": 55,
+              "size": 1.05,
+              "rotate": 5,
+              "tone": "muted",
+              "weight": 650,
+              "opacity": 0.72
+            },
+            {
+              "text": "catalog",
+              "x": 50,
+              "y": 74,
+              "size": 1.18,
+              "rotate": -3,
               "tone": "black",
               "weight": 820,
-              "opacity": 0.8
-            },
-            {
-              "text": "категории",
-              "x": 68,
-              "y": 66,
-              "size": 0.86,
-              "rotate": -8,
-              "tone": "dust",
-              "weight": 760,
-              "opacity": 0.68
-            },
-            {
-              "text": "логика",
-              "x": 48,
-              "y": 78,
-              "size": 1.08,
-              "rotate": 3,
-              "tone": "accent",
-              "weight": 850,
               "opacity": 0.86
             },
             {
-              "text": "связи",
-              "x": 78,
-              "y": 18,
-              "size": 0.62,
-              "rotate": 12,
+              "text": "item",
+              "x": 22,
+              "y": 14,
+              "size": 0.55,
+              "rotate": -8,
               "tone": "muted",
-              "weight": 620,
-              "opacity": 0.5
+              "weight": 500,
+              "opacity": 0.68
+            },
+            {
+              "text": "shop",
+              "x": 76,
+              "y": 14,
+              "size": 0.58,
+              "rotate": 7,
+              "tone": "muted",
+              "weight": 500,
+              "opacity": 0.66
             }
           ]
         }
       },
       {
-        "id": "build",
-        "label": "Сборка",
-        "title": "База становится магазином.",
+        "id": "feeling",
+        "label": "Feeling",
+        "title": "The product needs a room.",
         "feeling": [
-          "база",
-          "скрипты",
-          "карточки",
-          "checkout"
+          "dark",
+          "gold",
+          "private",
+          "slow"
         ],
-        "meaning": "Старая товарная масса превращается в рабочий e-commerce.\n\nТаблицы. Скрипты. WooCommerce. Атрибуты. Карточки. Фильтры. Страницы. Checkout.",
-        "center": "СБОРКА",
+        "meaning": "The emotional layer is lounge, not ecommerce.",
+        "center": "ATMOSPHERE",
         "accent": "#b89a5e",
         "object": "none",
-        "media": [
-          "/projects/chaveta/frames/03/chaveta-3-1.webp",
-          "/projects/chaveta/frames/03/chaveta-3-2.webp",
-          "/projects/chaveta/frames/03/chaveta-3-3.webp"
-        ],
-        "words": [
-          {
-            "text": "WOOCOMMERCE",
-            "tone": "gold",
-            "weight": 0.82,
-            "speed": 0.34,
-            "behavior": "hit",
-            "angle": -5,
-            "spin": 0.02
-          },
-          {
-            "text": "СКРИПТЫ",
-            "tone": "blue",
-            "weight": 0.95,
-            "speed": 0.48,
-            "behavior": "float",
-            "angle": 8,
-            "spin": -0.02
-          },
-          {
-            "text": "КАРТОЧКИ",
-            "tone": "yellow",
-            "weight": 1.08,
-            "speed": 0.4,
-            "behavior": "hit",
-            "angle": 6,
-            "spin": 0.02
-          },
-          {
-            "text": "CHECKOUT",
-            "tone": "black",
-            "weight": 1.0,
-            "speed": 0.36,
-            "behavior": "stuck",
-            "angle": -7,
-            "spin": 0.01
-          },
-          {
-            "text": "РАБОТАЕТ",
-            "tone": "green",
-            "weight": 0.78,
-            "speed": 0.44,
-            "behavior": "hit",
-            "angle": 3,
-            "spin": -0.02
-          }
-        ],
+        "media": [],
         "smart": {
-          "status": "МАГАЗИН",
+          "status": "ROOM",
           "rows": [
             {
-              "label": "ТОВАРЫ",
-              "value": "1'000+"
+              "label": "DARK",
+              "value": "ON"
             },
             {
-              "label": "ПОЛЯ",
-              "value": "55'000+"
+              "label": "GOLD",
+              "value": "LOW"
             },
             {
-              "label": "CHECKOUT",
-              "value": "ON",
-              "highlight": true
-            }
-          ]
-        },
-        "soul": {
-          "mode": "frame",
-          "words": [
-            {
-              "text": "база",
-              "side": "top",
-              "pos": 24,
-              "size": 0.78,
-              "tone": "accent",
-              "weight": 800
-            },
-            {
-              "text": "товары",
-              "side": "top",
-              "pos": 60,
-              "size": 0.72,
-              "tone": "gold",
-              "weight": 760
-            },
-            {
-              "text": "фильтры",
-              "side": "left",
-              "pos": 42,
-              "size": 0.74,
-              "tone": "accent",
-              "weight": 800
-            },
-            {
-              "text": "карточки",
-              "side": "right",
-              "pos": 42,
-              "size": 0.74,
-              "tone": "accent",
-              "weight": 800
-            },
-            {
-              "text": "checkout",
-              "side": "bottom",
-              "pos": 48,
-              "size": 0.72,
-              "tone": "black",
-              "weight": 780
-            },
-            {
-              "text": "работает",
-              "side": "bottom",
-              "pos": 76,
-              "size": 0.68,
-              "tone": "accent",
-              "weight": 760
-            }
-          ]
-        }
-      },
-      {
-        "id": "premium-layer",
-        "label": "Атмосфера",
-        "title": "Магазин должен звучать как клуб.",
-        "feeling": [
-          "тёмный",
-          "золото",
-          "детали",
-          "клуб"
-        ],
-        "meaning": "Cистема заработала, её пора переодеть.\n\nНе нарисовать красивую картинку, а надеть новый премиальный костюм на существующий сайт: страницы, карточки, фильтры, отступы, цвета - максимальное внимание к деталям.",
-        "center": "ПРЕМИУМ",
-        "accent": "#b89a5e",
-        "object": "none",
-        "media": [
-          "/projects/chaveta/frames/04/chaveta-4-1.webp",
-          "/projects/chaveta/frames/04/chaveta-4-2.webp",
-          "/projects/chaveta/frames/04/chaveta-4-3.webp",
-          "/projects/chaveta/frames/04/chaveta-4-4.webp"
-        ],
-        "words": [
-          {
-            "text": "PREMIUM",
-            "tone": "gold",
-            "weight": 1.22,
-            "speed": 0.4,
-            "behavior": "hit",
-            "angle": 4,
-            "spin": 0.02
-          },
-          {
-            "text": "CIGAR",
-            "tone": "accent",
-            "weight": 0.92,
-            "speed": 0.42,
-            "behavior": "float",
-            "angle": -8,
-            "spin": -0.02
-          },
-          {
-            "text": "CLUB",
-            "tone": "WHITE",
-            "weight": 1.08,
-            "speed": 0.34,
-            "behavior": "hit",
-            "angle": 9,
-            "spin": 0.02
-          }
-        ],
-        "smart": {
-          "status": "СКИН",
-          "rows": [
-            {
-              "label": "ДИЗАЙН",
-              "value": "Club noir",
-              "highlight": true
-            },
-            {
-              "label": "СТИЛЬ",
-              "value": "Камерная роскошь",
-              "highlight": true
-            },
-            {
-              "label": "АТМОСФЕРА",
-              "value": "Лаунж",
+              "label": "PRIVATE",
+              "value": "HIGH",
               "highlight": true
             }
           ]
@@ -2642,97 +2277,329 @@
           "mode": "stack",
           "words": [
             {
-              "text": "Акценты",
-              "tone": "olive",
-              "state": "want",
+              "text": "dark",
+              "tone": "black",
               "size": 1.12,
-              "weight": 900,
-              "opacity": 0.88
+              "weight": 900
             },
             {
-              "text": "Удовольствие",
-              "tone": "gold",
-              "state": "want",
-              "size": 1.22,
-              "weight": 900,
+              "text": "gold",
+              "tone": "black",
+              "size": 1.12,
+              "weight": 900
+            },
+            {
+              "text": "private",
+              "tone": "black",
+              "size": 0.9299999999999999,
+              "weight": 760
+            },
+            {
+              "text": "slow",
+              "tone": "black",
+              "size": 0.895,
+              "weight": 760
+            },
+            {
+              "text": "lounge",
+              "tone": "black",
+              "size": 0.86,
+              "weight": 760
+            },
+            {
+              "text": "ritual",
+              "tone": "muted",
+              "size": 0.825,
+              "weight": 760
+            }
+          ]
+        }
+      },
+      {
+        "id": "image",
+        "label": "Image",
+        "title": "A private club online.",
+        "feeling": [
+          "club",
+          "ritual",
+          "velvet",
+          "table"
+        ],
+        "meaning": "The image moves the site from shop to space.",
+        "center": "CLUB",
+        "accent": "#b89a5e",
+        "object": "none",
+        "media": [],
+        "smart": {
+          "status": "CLUB",
+          "rows": [
+            {
+              "label": "RITUAL",
+              "value": "ON"
+            },
+            {
+              "label": "TABLE",
+              "value": "SET"
+            },
+            {
+              "label": "BELONGING",
+              "value": "OPEN",
+              "highlight": true
+            }
+          ]
+        },
+        "soul": {
+          "mode": "orbit",
+          "words": [
+            {
+              "text": "club",
+              "x": 28,
+              "y": 18,
+              "size": 1.1,
+              "rotate": -9,
+              "tone": "accent",
+              "weight": 850,
+              "opacity": 0.9
+            },
+            {
+              "text": "velvet",
+              "x": 64,
+              "y": 36,
+              "size": 0.95,
+              "rotate": 8,
+              "tone": "black",
+              "weight": 820,
               "opacity": 0.86
             },
             {
-              "text": "клуб",
+              "text": "table",
+              "x": 24,
+              "y": 48,
+              "size": 0.85,
+              "rotate": -4,
               "tone": "accent",
-              "state": "want",
-              "size": 1.18,
-              "weight": 850,
-              "opacity": 0.82
+              "weight": 750,
+              "opacity": 0.84
             },
             {
-              "text": "детали",
-              "tone": "white",
-              "state": "want",
-              "size": 0.92,
-              "weight": 720,
-              "opacity": 0.68
+              "text": "ritual",
+              "x": 70,
+              "y": 62,
+              "size": 0.9,
+              "rotate": -11,
+              "tone": "gold",
+              "weight": 750,
+              "opacity": 0.76
             },
             {
-              "text": "Удобство",
-              "tone": "green",
-              "state": "want",
-              "size": 0.86,
-              "weight": 680,
-              "opacity": 0.58
+              "text": "private",
+              "x": 46,
+              "y": 78,
+              "size": 1.0,
+              "rotate": -7,
+              "tone": "black",
+              "weight": 800,
+              "opacity": 0.84
             },
             {
-              "text": "Впечатление",
-              "tone": "yellow",
-              "state": "want",
-              "size": 0.82,
-              "weight": 660,
-              "opacity": 0.52
+              "text": "inside",
+              "x": 78,
+              "y": 18,
+              "size": 0.46,
+              "rotate": 18,
+              "tone": "muted",
+              "weight": 500,
+              "opacity": 0.55
+            }
+          ]
+        }
+      },
+      {
+        "id": "frame",
+        "label": "Frame",
+        "title": "Catalog becomes club.",
+        "feeling": [
+          "warm",
+          "dense",
+          "selected",
+          "inside"
+        ],
+        "meaning": "The new frame gives the catalog a social atmosphere.",
+        "center": "CURATED",
+        "accent": "#b89a5e",
+        "object": "none",
+        "media": [],
+        "smart": {
+          "status": "CURATED",
+          "rows": [
+            {
+              "label": "CATALOG",
+              "value": "WARM"
+            },
+            {
+              "label": "SELECTION",
+              "value": "TIGHT",
+              "highlight": true
+            },
+            {
+              "label": "INSIDE",
+              "value": "YES"
+            }
+          ]
+        },
+        "soul": {
+          "mode": "frame",
+          "words": [
+            {
+              "text": "warm",
+              "side": "top",
+              "pos": 25,
+              "size": 0.78,
+              "tone": "accent",
+              "weight": 800
+            },
+            {
+              "text": "dense",
+              "side": "left",
+              "pos": 35,
+              "size": 0.78,
+              "tone": "accent",
+              "weight": 800
+            },
+            {
+              "text": "selected",
+              "side": "right",
+              "pos": 35,
+              "size": 0.78,
+              "tone": "accent",
+              "weight": 800
+            },
+            {
+              "text": "inside",
+              "side": "bottom",
+              "pos": 50,
+              "size": 0.78,
+              "tone": "black",
+              "weight": 800
+            },
+            {
+              "text": "curated",
+              "side": "top",
+              "pos": 75,
+              "size": 0.64,
+              "tone": "accent",
+              "weight": 700
             }
           ]
         }
       },
       {
         "id": "reality",
-        "label": "Результат",
-        "title": "Магазин стал частью клуба.",
+        "label": "Reality",
+        "title": "Chaveta.",
         "feeling": [
-          "премиум",
-          "магазин",
-          "клуб",
-          "работает"
+          "premium",
+          "dark",
+          "gold",
+          "lounge"
         ],
-        "meaning": "Рабочий магазин, который не выглядит отдельно от места.\n\nТовары, атмосфера, выбор и покупка собраны в одну премиальную систему.\n\n<a href='https://chaveta/ru' target='blanc'>Приходите в клуб</a> посмотреть и отдохнуть.",
+        "meaning": "A premium atmosphere placed over an existing catalog.",
         "center": "CHAVETA",
         "accent": "#b89a5e",
         "object": "none",
-        "media": [
-          "/projects/chaveta/frames/05/chaveta-5.png"
-        ],
-        "smart": false,
-        "soul": false,
-        "words": [],
-        "layout": "heroBackground",
-        "hide": [
-          "soul",
-          "smart",
-          "mind",
-          "visual"
-        ]
+        "media": [],
+        "smart": {
+          "status": "CHAVETA",
+          "rows": [
+            {
+              "label": "PREMIUM",
+              "value": "ON"
+            },
+            {
+              "label": "LOUNGE",
+              "value": "DEEP",
+              "highlight": true
+            },
+            {
+              "label": "CLUB",
+              "value": "OPEN"
+            }
+          ]
+        },
+        "soul": {
+          "mode": "quiet",
+          "words": [
+            {
+              "text": "premium",
+              "x": 35,
+              "y": 28,
+              "size": 1.25,
+              "rotate": -2,
+              "tone": "black",
+              "weight": 800,
+              "opacity": 0.88
+            },
+            {
+              "text": "dark",
+              "x": 62,
+              "y": 48,
+              "size": 1.42,
+              "rotate": 5,
+              "tone": "accent",
+              "weight": 850,
+              "opacity": 0.9
+            },
+            {
+              "text": "gold",
+              "x": 55,
+              "y": 70,
+              "size": 1.0,
+              "rotate": -1,
+              "tone": "gold",
+              "weight": 760,
+              "opacity": 0.75
+            },
+            {
+              "text": "lounge",
+              "x": 82,
+              "y": 18,
+              "size": 0.62,
+              "rotate": 8,
+              "tone": "muted",
+              "weight": 500,
+              "opacity": 0.55
+            },
+            {
+              "text": "inside",
+              "x": 28,
+              "y": 82,
+              "size": 0.62,
+              "rotate": -3,
+              "tone": "muted",
+              "weight": 500,
+              "opacity": 0.55
+            }
+          ]
+        }
       }
     ],
     "cover": {
-      "label": "Кейс",
+      "label": "Intro",
       "center": "CHAVETA",
-      "title": "Raw Inventory → Premium Club Store",
-      "meaning": "Сырая товарная база стала рабочим премиальным магазином — а затем цифровым продолжением клуба.",
+      "title": "Catalog → Club",
+      "meaning": "A project transformation: Catalog → Club",
       "object": "none",
       "media": [
         "/projects/chaveta/cover/chaveta-intro.webp"
       ],
       "visual": {
-        "type": "coverObject",
-        "src": "/projects/chaveta/cover/chaveta-logo.webp"
+        "type": "words",
+        "words": [
+          {
+            "text": "CHAVETA",
+            "tone": "black"
+          }
+        ]
       }
     }
   }
