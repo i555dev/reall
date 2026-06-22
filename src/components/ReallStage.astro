@@ -1,0 +1,79 @@
+---
+const projects = ['LIVETILE', 'SPEAKFIT', 'OLGA', 'SOMA', 'CHAVETA'];
+---
+
+<section class="reall-stage" data-stage>
+  <canvas class="network-canvas" data-network></canvas>
+
+  <div class="edge-glow" aria-hidden="true"></div>
+
+  <header class="top-nav">
+    <div class="brand-mark">
+      <span>RE</span>
+      <span>ALL</span>
+    </div>
+
+    <nav class="project-nav" aria-label="Projects">
+      {projects.map((project, index) => (
+        <button class={index === 0 ? 'active' : ''} type="button">{project}</button>
+      ))}
+    </nav>
+
+    <button class="contact-button" type="button">BRING AN IDEA</button>
+  </header>
+
+  <div class="stage-grid">
+    <aside class="left-panel">
+      <p class="eyebrow">QUESTION / 01</p>
+      <h2 data-question>WHY ARE WALLS STILL DEAD?</h2>
+      <p class="muted">
+        A wall is usually painted, covered, decorated, ignored. What if it could become a living architectural surface?
+      </p>
+      <div class="mini-tags">
+        <span>dead</span>
+        <span>wall</span>
+        <span>paint</span>
+        <span>surface</span>
+      </div>
+    </aside>
+
+    <main class="hero-zone">
+      <div class="object-orbit" aria-hidden="true">
+        <div class="hex-cloud">
+          <i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+        </div>
+      </div>
+
+      <div class="hero-copy">
+        <p class="eyebrow">REALL / FILM 01</p>
+        <h1 data-title>LIVETILE</h1>
+        <p data-frame>PLANTS → SURFACE → ARCHITECTURE</p>
+      </div>
+    </main>
+
+    <aside class="right-panel">
+      <p class="eyebrow">REALITY / 05</p>
+      <div class="metric">
+        <strong>01</strong>
+        <span>living wall system</span>
+      </div>
+      <div class="metric">
+        <strong>05</strong>
+        <span>layers of transformation</span>
+      </div>
+      <div class="metric">
+        <strong>∞</strong>
+        <span>new home surface</span>
+      </div>
+      <a class="live-link" href="https://live-tile.com">EXPLORE LIVETILE</a>
+    </aside>
+  </div>
+
+  <footer class="stage-footer">
+    <span>Question</span>
+    <span>Feeling</span>
+    <span>Image</span>
+    <span>Frame</span>
+    <span>Reality</span>
+  </footer>
+</section>

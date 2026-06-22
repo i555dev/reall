@@ -1,0 +1,2604 @@
+[
+  {
+    "id": "livetile",
+    "name": "LIVETILE",
+    "subtitle": "Greenery → Living Architecture",
+    "accent": "#24b837",
+    "steps": [
+      {
+        "id": "question",
+        "label": "Question",
+        "title": "What if any wall could give you something?",
+        "feeling": [
+          "dead",
+          "flat",
+          "paint",
+          "empty"
+        ],
+        "meaning": "What if any wall could give you something?\n\nMint for breakfast.\nBasil for dinner.\nFlowers for the room.\n\nNo garden.\nNo mess.\nNo complicated care.\n\nA beautiful wall with a hidden function.",
+        "center": "WALL",
+        "accent": "#24b837",
+        "object": "none",
+        "media": [
+          "/projects/livetile/frames/question/office.webp",
+          "/projects/livetile/frames/question/cafe.webp",
+          "/projects/livetile/frames/question/kitchen.webp",
+          "/projects/livetile/frames/question/terrace.webp"
+        ],
+        "words": [
+          {
+            "text": "VERTICAL",
+            "tone": "black",
+            "weight": 1.45,
+            "speed": 0.38,
+            "behavior": "stuck",
+            "angle": 0,
+            "spin": 0
+          },
+          {
+            "text": "GROWING",
+            "tone": "green",
+            "weight": 1.32,
+            "speed": 0.48,
+            "behavior": "hit",
+            "angle": -8,
+            "spin": 0.035
+          },
+          {
+            "text": "WATER",
+            "tone": "blue",
+            "weight": 1.06,
+            "speed": 0.58,
+            "behavior": "float",
+            "angle": 12,
+            "spin": -0.04
+          },
+          {
+            "text": "LIGHT",
+            "tone": "yellow",
+            "weight": 1.12,
+            "speed": 0.54,
+            "behavior": "hit",
+            "angle": -18,
+            "spin": 0.05
+          },
+          {
+            "text": "HARVEST",
+            "tone": "gold",
+            "weight": 1.18,
+            "speed": 0.5,
+            "behavior": "hit",
+            "angle": -6,
+            "spin": 0.045
+          },
+          {
+            "text": "EASY",
+            "tone": "dust",
+            "weight": 0.92,
+            "speed": 0.42,
+            "behavior": "fade",
+            "angle": 9,
+            "spin": 0.04
+          },
+          {
+            "text": "DESIGN",
+            "tone": "black",
+            "weight": 1.22,
+            "speed": 0.34,
+            "behavior": "stuck",
+            "angle": 4,
+            "spin": 0.01
+          },
+          {
+            "text": "MODULE",
+            "tone": "concrete",
+            "weight": 1.0,
+            "speed": 0.5,
+            "behavior": "hit",
+            "angle": 18,
+            "spin": -0.05
+          },
+          {
+            "text": "SYSTEM",
+            "tone": "blue",
+            "weight": 0.95,
+            "speed": 0.44,
+            "behavior": "float",
+            "angle": -12,
+            "spin": 0.045
+          }
+        ],
+        "smart": {
+          "status": "WALL",
+          "rows": [
+            {
+              "label": "FUNCTION",
+              "value": "HIDDEN"
+            },
+            {
+              "label": "CARE",
+              "value": "LOW"
+            },
+            {
+              "label": "HARVEST",
+              "value": "NOT YET",
+              "highlight": false
+            }
+          ]
+        },
+        "soul": {
+          "mode": "cloud",
+          "words": [
+            {
+              "text": "mint",
+              "x": 22,
+              "y": 28,
+              "size": 1.2,
+              "rotate": -90,
+              "tone": "green",
+              "weight": 850,
+              "opacity": 0.9
+            },
+            {
+              "text": "basil",
+              "x": 52,
+              "y": 22,
+              "size": 1.55,
+              "rotate": 4,
+              "tone": "green",
+              "weight": 900,
+              "opacity": 0.96
+            },
+            {
+              "text": "dill",
+              "x": 88,
+              "y": 58,
+              "size": 1.05,
+              "rotate": -3,
+              "tone": "green",
+              "weight": 780,
+              "opacity": 0.82
+            },
+            {
+              "text": "flowers",
+              "x": 62,
+              "y": 43,
+              "size": 1.32,
+              "rotate": -6,
+              "tone": "red",
+              "weight": 850,
+              "opacity": 0.82
+            },
+            {
+              "text": "fresh",
+              "x": 42,
+              "y": 58,
+              "size": 1.42,
+              "rotate": 2,
+              "tone": "blue",
+              "weight": 900,
+              "opacity": 0.9
+            },
+            {
+              "text": "aroma",
+              "x": 74,
+              "y": 62,
+              "size": 0.82,
+              "rotate": 9,
+              "tone": "dust",
+              "weight": 650,
+              "opacity": 0.68
+            },
+            {
+              "text": "pool",
+              "x": 76,
+              "y": 18,
+              "size": 1.2,
+              "rotate": 7,
+              "tone": "blue",
+              "weight": 600,
+              "opacity": 0.58
+            },
+            {
+              "text": "kitchen",
+              "x": 18,
+              "y": 65,
+              "size": 0.78,
+              "rotate": -9,
+              "tone": "muted",
+              "weight": 600,
+              "opacity": 0.6
+            },
+            {
+              "text": "terrace",
+              "x": 72,
+              "y": 80,
+              "size": 0.86,
+              "rotate": 5,
+              "tone": "muted",
+              "weight": 650,
+              "opacity": 0.62
+            },
+            {
+              "text": "easy",
+              "x": 82,
+              "y": 36,
+              "size": 0.92,
+              "rotate": -4,
+              "tone": "gold",
+              "weight": 760,
+              "opacity": 0.72
+            },
+            {
+              "text": "want",
+              "x": 48,
+              "y": 86,
+              "size": 1.06,
+              "rotate": -3,
+              "tone": "yellow",
+              "weight": 850,
+              "opacity": 0.82
+            },
+            {
+              "text": "beautiful",
+              "x": 18,
+              "y": 15,
+              "size": 0.68,
+              "rotate": -6,
+              "tone": "yellow",
+              "weight": 600,
+              "opacity": 0.58
+            },
+            {
+              "text": "alive",
+              "x": 64,
+              "y": 68,
+              "size": 1.08,
+              "rotate": -2,
+              "tone": "green",
+              "weight": 850,
+              "opacity": 0.86
+            }
+          ]
+        }
+      },
+      {
+        "id": "feeling",
+        "label": "Feeling",
+        "title": "I want life closer.",
+        "meaning": "I want life closer.\n\nNot somewhere far away.\nNot in a field.\nNot at the dacha.\nNot as a garden I have to visit.\n\nWithin reach.\nNear the morning cup.\nOn the wall beside me.\n\nFresh, small, alive.\nPart of the day.",
+        "center": "LIFE",
+        "accent": "#24b837",
+        "object": "none",
+        "media": [
+          "/projects/livetile/frames/feeling/createadam.webp",
+          "/projects/livetile/frames/feeling/sprout.webp",
+          "/projects/livetile/frames/feeling/manwall.webp",
+          "/projects/livetile/frames/feeling/breakfast.webp"
+        ],
+        "words": [
+          {
+            "text": "LIFE",
+            "tone": "green",
+            "weight": 1.42,
+            "speed": 0.08,
+            "behavior": "stuck",
+            "angle": -2,
+            "spin": 0
+          },
+          {
+            "text": "WITHIN",
+            "tone": "white",
+            "weight": 0.82,
+            "speed": 0.05,
+            "behavior": "stuck",
+            "angle": 0,
+            "spin": 0
+          },
+          {
+            "text": "REACH",
+            "tone": "gold",
+            "weight": 1.5,
+            "speed": 0.07,
+            "behavior": "stuck",
+            "angle": 2,
+            "spin": 0
+          }
+        ],
+        "smart": {
+          "status": "CLOSER",
+          "rows": [
+            {
+              "label": "NATURE",
+              "value": "WANTED",
+              "highlight": true
+            },
+            {
+              "label": "DISTANCE",
+              "value": "TOO FAR"
+            },
+            {
+              "label": "CONTACT",
+              "value": "MISSING"
+            }
+          ]
+        },
+        "soul": {
+          "mode": "stack",
+          "words": [
+            {
+              "text": "touch",
+              "tone": "yellow",
+              "state": "want",
+              "size": 1.22,
+              "weight": 850,
+              "opacity": 0.9
+            },
+            {
+              "text": "morning",
+              "tone": "gold",
+              "state": "want",
+              "size": 1.1,
+              "weight": 760,
+              "opacity": 0.78
+            },
+            {
+              "text": "coffee",
+              "tone": "black",
+              "state": "want",
+              "size": 0.96,
+              "weight": 700,
+              "opacity": 0.68
+            },
+            {
+              "text": "mint",
+              "tone": "green",
+              "state": "want",
+              "size": 1.34,
+              "weight": 900,
+              "opacity": 0.94
+            },
+            {
+              "text": "home",
+              "tone": "black",
+              "state": "want",
+              "size": 1.18,
+              "weight": 820,
+              "opacity": 0.82
+            },
+            {
+              "text": "fresh",
+              "tone": "green",
+              "state": "want",
+              "size": 1.08,
+              "weight": 800,
+              "opacity": 0.86
+            },
+            {
+              "text": "far",
+              "tone": "muted",
+              "state": "reject",
+              "size": 0.92,
+              "weight": 650,
+              "opacity": 0.54
+            },
+            {
+              "text": "dacha",
+              "tone": "dust",
+              "state": "reject",
+              "size": 0.9,
+              "weight": 650,
+              "opacity": 0.52
+            },
+            {
+              "text": "waiting",
+              "tone": "muted",
+              "state": "reject",
+              "size": 0.86,
+              "weight": 620,
+              "opacity": 0.5
+            }
+          ]
+        }
+      },
+      {
+        "id": "imagination",
+        "label": "Imagination",
+        "title": "Impossible systems appear.",
+        "meaning": "Before the brief, there is imagination.\n\nRoots in water.\nLight above leaves.\nA loop that keeps life growing.\n\nThen the garden escapes the table\nand starts climbing the wall.\n\nSome images are strange.\nSome are too technical.\nSome are too beautiful to ignore.\n\nOne of them becomes the task.",
+        "center": "VISION",
+        "accent": "#25d44f",
+        "object": "none",
+        "media": [
+          "/projects/livetile/frames/image/science2.webp",
+          "/projects/livetile/frames/image/table2wall2.webp",
+          "/projects/livetile/frames/image/hexhome.webp",
+          "/projects/livetile/frames/image/livehex.webp"
+        ],
+        "smart": {
+          "status": "IMAGE",
+          "rows": [
+            {
+              "label": "FORM",
+              "value": "EMERGING",
+              "highlight": true
+            },
+            {
+              "label": "TECH",
+              "value": "VISIBLE"
+            },
+            {
+              "label": "BRIEF",
+              "value": "NOT YET"
+            }
+          ]
+        },
+        "soul": {
+          "mode": "stack",
+          "words": [
+            {
+              "text": "hex",
+              "tone": "black",
+              "state": "want",
+              "size": 1.26,
+              "weight": 900,
+              "opacity": 0.92
+            },
+            {
+              "text": "roots",
+              "tone": "dust",
+              "state": "want",
+              "size": 1.08,
+              "weight": 760,
+              "opacity": 0.72
+            },
+            {
+              "text": "water",
+              "tone": "blue",
+              "state": "want",
+              "size": 1.18,
+              "weight": 840,
+              "opacity": 0.88
+            },
+            {
+              "text": "light",
+              "tone": "yellow",
+              "state": "want",
+              "size": 1.22,
+              "weight": 880,
+              "opacity": 0.9
+            },
+            {
+              "text": "wall",
+              "tone": "black",
+              "state": "want",
+              "size": 1.12,
+              "weight": 820,
+              "opacity": 0.82
+            },
+            {
+              "text": "cells",
+              "tone": "muted",
+              "state": "want",
+              "size": 1.0,
+              "weight": 760,
+              "opacity": 0.7
+            },
+            {
+              "text": "loop",
+              "tone": "gold",
+              "state": "want",
+              "size": 1.08,
+              "weight": 840,
+              "opacity": 0.84
+            },
+            {
+              "text": "lab",
+              "tone": "muted",
+              "state": "reject",
+              "size": 0.92,
+              "weight": 680,
+              "opacity": 0.56
+            },
+            {
+              "text": "mess",
+              "tone": "muted",
+              "state": "reject",
+              "size": 0.9,
+              "weight": 660,
+              "opacity": 0.52
+            },
+            {
+              "text": "soil",
+              "tone": "dust",
+              "state": "reject",
+              "size": 0.86,
+              "weight": 640,
+              "opacity": 0.5
+            },
+            {
+              "text": "take care",
+              "tone": "muted",
+              "state": "reject",
+              "size": 0.84,
+              "weight": 620,
+              "opacity": 0.48
+            }
+          ]
+        }
+      },
+      {
+        "id": "brief",
+        "label": "Frame",
+        "title": "The vision becomes a brief.",
+        "meaning": "Now the image has to obey reality.\n\nWall. Hex. Water. Light. Fastening.\n\nThe beautiful idea becomes a list of constraints.\n\nWhat is visible?\nWhat is hidden?\nWhat holds it?\nWhat feeds it?\nWhat makes it grow?\n\nThis is where imagination becomes construction.",
+        "center": "BRIEF",
+        "accent": "#24b837",
+        "object": "livetile",
+        "media": [
+          "/projects/livetile/frames/frame/1.webp",
+          "/projects/livetile/frames/frame/2.webp",
+          "/projects/livetile/frames/frame/3.webp",
+          "/projects/livetile/frames/frame/4.webp"
+        ],
+        "smart": {
+          "status": "FRAME",
+          "rows": [
+            {
+              "label": "PLANTS",
+              "value": "SURFACE"
+            },
+            {
+              "label": "MODULE",
+              "value": "HEX"
+            },
+            {
+              "label": "CATEGORY",
+              "value": "NEW",
+              "highlight": true
+            }
+          ]
+        },
+        "soul": {
+          "mode": "frame",
+          "words": [
+            {
+              "text": "plants",
+              "side": "top",
+              "pos": 22,
+              "size": 0.75,
+              "tone": "accent",
+              "weight": 760
+            },
+            {
+              "text": "plants",
+              "side": "top",
+              "pos": 50,
+              "size": 0.68,
+              "tone": "accent",
+              "weight": 700
+            },
+            {
+              "text": "plants",
+              "side": "top",
+              "pos": 78,
+              "size": 0.75,
+              "tone": "accent",
+              "weight": 760
+            },
+            {
+              "text": "surface",
+              "side": "left",
+              "pos": 34,
+              "size": 0.86,
+              "tone": "accent",
+              "weight": 800
+            },
+            {
+              "text": "surface",
+              "side": "left",
+              "pos": 64,
+              "size": 0.62,
+              "tone": "black",
+              "weight": 700
+            },
+            {
+              "text": "hex",
+              "side": "right",
+              "pos": 34,
+              "size": 0.82,
+              "tone": "accent",
+              "weight": 800
+            },
+            {
+              "text": "hex",
+              "side": "right",
+              "pos": 64,
+              "size": 0.66,
+              "tone": "accent",
+              "weight": 700
+            },
+            {
+              "text": "architecture",
+              "side": "bottom",
+              "pos": 50,
+              "size": 0.78,
+              "tone": "black",
+              "weight": 780
+            }
+          ]
+        }
+      },
+      {
+        "id": "reality",
+        "label": "Reality",
+        "title": "A new layer of home.",
+        "meaning": "LiveTile is the material result: a living wall system for fresh greens, light and home architecture.\n\n<a href='https://live-tile.com' target='_blank' rel='noopener noreferrer'>Order LiveTile</a> on the official site.",
+        "center": "LIVETILE",
+        "accent": "#24b837",
+        "object": "none",
+        "media": [
+          "/projects/livetile/frames/reality/livetile-reality-hero.webp"
+        ],
+        "smart": false,
+        "soul": false,
+        "words": [],
+        "layout": "heroBackground",
+        "hide": [
+          "soul",
+          "smart",
+          "mind",
+          "visual"
+        ]
+      }
+    ],
+    "cover": {
+      "label": "Live system",
+      "center": "LIVETILE",
+      "title": "Plants + Architecture",
+      "meaning": "A living system that connects plants, architecture and people.\n\nGreenery → Living Architecture",
+      "object": "livetile",
+      "media": [
+        "/projects/livetile/cover/background.webp"
+      ],
+      "visual": {
+        "type": "coverObject",
+        "src": "/projects/livetile/cover/house-alpha.webp"
+      }
+    }
+  },
+  {
+    "id": "speakfit",
+    "name": "SPEAKFIT",
+    "subtitle": "Language → Fitness",
+    "accent": "#ff6a00",
+    "steps": [
+      {
+        "id": "question",
+        "label": "Question",
+        "title": "Why does language learning feel like school?",
+        "feeling": [
+          "school",
+          "homework",
+          "slow",
+          "tired"
+        ],
+        "meaning": "The question attacks the old frame: lessons, grammar, waiting for results.",
+        "center": "LANGUAGE",
+        "accent": "#ff6a00",
+        "object": "none",
+        "media": [],
+        "smart": {
+          "status": "SCHOOL",
+          "rows": [
+            {
+              "label": "RESULT",
+              "value": "WAIT"
+            },
+            {
+              "label": "BODY",
+              "value": "OFF"
+            },
+            {
+              "label": "ENERGY",
+              "value": "LOW",
+              "highlight": true
+            }
+          ]
+        },
+        "soul": {
+          "mode": "cloud",
+          "words": [
+            {
+              "text": "school",
+              "x": 32,
+              "y": 24,
+              "size": 1.55,
+              "rotate": -4,
+              "tone": "black",
+              "weight": 900,
+              "opacity": 0.95
+            },
+            {
+              "text": "lesson",
+              "x": 24,
+              "y": 42,
+              "size": 1.3,
+              "rotate": -9,
+              "tone": "black",
+              "weight": 850,
+              "opacity": 0.88
+            },
+            {
+              "text": "grammar",
+              "x": 22,
+              "y": 58,
+              "size": 1.15,
+              "rotate": -5,
+              "tone": "black",
+              "weight": 780,
+              "opacity": 0.82
+            },
+            {
+              "text": "homework",
+              "x": 54,
+              "y": 55,
+              "size": 1.05,
+              "rotate": 5,
+              "tone": "muted",
+              "weight": 650,
+              "opacity": 0.72
+            },
+            {
+              "text": "slow",
+              "x": 50,
+              "y": 74,
+              "size": 1.18,
+              "rotate": -3,
+              "tone": "black",
+              "weight": 820,
+              "opacity": 0.86
+            },
+            {
+              "text": "tired",
+              "x": 22,
+              "y": 14,
+              "size": 0.55,
+              "rotate": -8,
+              "tone": "muted",
+              "weight": 500,
+              "opacity": 0.68
+            },
+            {
+              "text": "waiting",
+              "x": 76,
+              "y": 14,
+              "size": 0.58,
+              "rotate": 7,
+              "tone": "muted",
+              "weight": 500,
+              "opacity": 0.66
+            },
+            {
+              "text": "results?",
+              "x": 80,
+              "y": 35,
+              "size": 0.54,
+              "rotate": -3,
+              "tone": "muted",
+              "weight": 500,
+              "opacity": 0.66
+            }
+          ]
+        }
+      },
+      {
+        "id": "feeling",
+        "label": "Feeling",
+        "title": "No result. No body. No pulse.",
+        "feeling": [
+          "boredom",
+          "shame",
+          "delay",
+          "routine"
+        ],
+        "meaning": "The emotional truth is simple: people want progress they can feel.",
+        "center": "PROGRESS",
+        "accent": "#ff6a00",
+        "object": "none",
+        "media": [],
+        "smart": {
+          "status": "DELAY",
+          "rows": [
+            {
+              "label": "PROGRESS",
+              "value": "SLOW"
+            },
+            {
+              "label": "PULSE",
+              "value": "0",
+              "highlight": true
+            },
+            {
+              "label": "ROUTINE",
+              "value": "HIGH"
+            }
+          ]
+        },
+        "soul": {
+          "mode": "stack",
+          "words": [
+            {
+              "text": "homework",
+              "tone": "black",
+              "size": 1.12,
+              "weight": 900
+            },
+            {
+              "text": "homework",
+              "tone": "black",
+              "size": 1.12,
+              "weight": 900
+            },
+            {
+              "text": "repeat",
+              "tone": "black",
+              "size": 0.9299999999999999,
+              "weight": 760
+            },
+            {
+              "text": "shame",
+              "tone": "black",
+              "size": 0.895,
+              "weight": 760
+            },
+            {
+              "text": "delay",
+              "tone": "black",
+              "size": 0.86,
+              "weight": 760
+            },
+            {
+              "text": "routine",
+              "tone": "muted",
+              "size": 0.825,
+              "weight": 760
+            },
+            {
+              "text": "no result",
+              "tone": "muted",
+              "size": 0.79,
+              "weight": 760
+            },
+            {
+              "text": "tired",
+              "tone": "muted",
+              "size": 0.78,
+              "weight": 760
+            }
+          ]
+        }
+      },
+      {
+        "id": "image",
+        "label": "Image",
+        "title": "A gym for language.",
+        "feeling": [
+          "training",
+          "coach",
+          "sets",
+          "energy"
+        ],
+        "meaning": "The image pulls language out of school and into training.",
+        "center": "TRAINING",
+        "accent": "#ff6a00",
+        "object": "none",
+        "media": [],
+        "smart": {
+          "status": "TRAINING",
+          "rows": [
+            {
+              "label": "SETS",
+              "value": "ON"
+            },
+            {
+              "label": "COACH",
+              "value": "READY"
+            },
+            {
+              "label": "PULSE",
+              "value": "UP",
+              "highlight": true
+            }
+          ]
+        },
+        "soul": {
+          "mode": "orbit",
+          "words": [
+            {
+              "text": "gym",
+              "x": 28,
+              "y": 18,
+              "size": 1.1,
+              "rotate": -9,
+              "tone": "accent",
+              "weight": 850,
+              "opacity": 0.9
+            },
+            {
+              "text": "coach",
+              "x": 64,
+              "y": 36,
+              "size": 0.95,
+              "rotate": 8,
+              "tone": "black",
+              "weight": 820,
+              "opacity": 0.86
+            },
+            {
+              "text": "sets",
+              "x": 24,
+              "y": 48,
+              "size": 0.85,
+              "rotate": -4,
+              "tone": "accent",
+              "weight": 750,
+              "opacity": 0.84
+            },
+            {
+              "text": "pulse",
+              "x": 70,
+              "y": 62,
+              "size": 0.9,
+              "rotate": -11,
+              "tone": "gold",
+              "weight": 750,
+              "opacity": 0.76
+            },
+            {
+              "text": "training",
+              "x": 46,
+              "y": 78,
+              "size": 1.0,
+              "rotate": -7,
+              "tone": "black",
+              "weight": 800,
+              "opacity": 0.84
+            },
+            {
+              "text": "energy",
+              "x": 78,
+              "y": 18,
+              "size": 0.46,
+              "rotate": 18,
+              "tone": "muted",
+              "weight": 500,
+              "opacity": 0.55
+            },
+            {
+              "text": "body",
+              "x": 48,
+              "y": 64,
+              "size": 0.42,
+              "rotate": -3,
+              "tone": "muted",
+              "weight": 500,
+              "opacity": 0.52
+            }
+          ]
+        }
+      },
+      {
+        "id": "frame",
+        "label": "Frame",
+        "title": "Learning becomes fitness.",
+        "feeling": [
+          "measure",
+          "repeat",
+          "sweat",
+          "gain"
+        ],
+        "meaning": "A new category appears: diagnosis, technique, rhythm, trainer, progress.",
+        "center": "FITNESS",
+        "accent": "#ff6a00",
+        "object": "none",
+        "media": [],
+        "smart": {
+          "status": "SYSTEM",
+          "rows": [
+            {
+              "label": "DIAGNOSIS",
+              "value": "ON"
+            },
+            {
+              "label": "RHYTHM",
+              "value": "SET"
+            },
+            {
+              "label": "RESULT",
+              "value": "TRACKED",
+              "highlight": true
+            }
+          ]
+        },
+        "soul": {
+          "mode": "frame",
+          "words": [
+            {
+              "text": "diagnosis",
+              "side": "top",
+              "pos": 25,
+              "size": 0.78,
+              "tone": "accent",
+              "weight": 800
+            },
+            {
+              "text": "technique",
+              "side": "left",
+              "pos": 35,
+              "size": 0.78,
+              "tone": "accent",
+              "weight": 800
+            },
+            {
+              "text": "rhythm",
+              "side": "right",
+              "pos": 35,
+              "size": 0.78,
+              "tone": "accent",
+              "weight": 800
+            },
+            {
+              "text": "trainer",
+              "side": "bottom",
+              "pos": 50,
+              "size": 0.78,
+              "tone": "black",
+              "weight": 800
+            },
+            {
+              "text": "progress",
+              "side": "top",
+              "pos": 75,
+              "size": 0.64,
+              "tone": "accent",
+              "weight": 700
+            },
+            {
+              "text": "fitness",
+              "side": "bottom",
+              "pos": 72,
+              "size": 0.64,
+              "tone": "black",
+              "weight": 700
+            }
+          ]
+        }
+      },
+      {
+        "id": "reality",
+        "label": "Reality",
+        "title": "SpeakFit.",
+        "feeling": [
+          "drive",
+          "result",
+          "body",
+          "voice"
+        ],
+        "meaning": "A language product built like a fitness system.",
+        "center": "SPEAKFIT",
+        "accent": "#ff6a00",
+        "object": "none",
+        "media": [],
+        "smart": {
+          "status": "ACTIVE",
+          "rows": [
+            {
+              "label": "SESSIONS",
+              "value": "24"
+            },
+            {
+              "label": "PROGRESS",
+              "value": "+38%",
+              "highlight": true
+            },
+            {
+              "label": "VOICE",
+              "value": "ON"
+            }
+          ]
+        },
+        "soul": {
+          "mode": "quiet",
+          "words": [
+            {
+              "text": "drive",
+              "x": 35,
+              "y": 28,
+              "size": 1.25,
+              "rotate": -2,
+              "tone": "black",
+              "weight": 800,
+              "opacity": 0.88
+            },
+            {
+              "text": "result",
+              "x": 62,
+              "y": 48,
+              "size": 1.42,
+              "rotate": 5,
+              "tone": "accent",
+              "weight": 850,
+              "opacity": 0.9
+            },
+            {
+              "text": "voice",
+              "x": 55,
+              "y": 70,
+              "size": 1.0,
+              "rotate": -1,
+              "tone": "gold",
+              "weight": 760,
+              "opacity": 0.75
+            },
+            {
+              "text": "body",
+              "x": 82,
+              "y": 18,
+              "size": 0.62,
+              "rotate": 8,
+              "tone": "muted",
+              "weight": 500,
+              "opacity": 0.55
+            },
+            {
+              "text": "strong",
+              "x": 28,
+              "y": 82,
+              "size": 0.62,
+              "rotate": -3,
+              "tone": "muted",
+              "weight": 500,
+              "opacity": 0.55
+            }
+          ]
+        }
+      }
+    ],
+    "cover": {
+      "label": "Intro",
+      "center": "SPEAKFIT",
+      "title": "Language → Fitness",
+      "meaning": "A project transformation: Language → Fitness",
+      "object": "none",
+      "media": [],
+      "visual": {
+        "type": "words",
+        "words": [
+          {
+            "text": "SPEAKFIT",
+            "tone": "black"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "olga",
+    "name": "OLGA",
+    "subtitle": "Astrology → Clarity",
+    "accent": "#d00022",
+    "steps": [
+      {
+        "id": "question",
+        "label": "Question",
+        "title": "Why are people looking for predictions?",
+        "feeling": [
+          "fear",
+          "future",
+          "choice",
+          "fog"
+        ],
+        "meaning": "The point is not prediction. It is the need to stop moving blindly.",
+        "center": "ASTROLOGY",
+        "accent": "#d00022",
+        "object": "none",
+        "media": [],
+        "smart": {
+          "status": "FOG",
+          "rows": [
+            {
+              "label": "FUTURE",
+              "value": "NOISE"
+            },
+            {
+              "label": "CHOICE",
+              "value": "UNCLEAR",
+              "highlight": true
+            },
+            {
+              "label": "FEAR",
+              "value": "HIGH"
+            }
+          ]
+        },
+        "soul": {
+          "mode": "cloud",
+          "words": [
+            {
+              "text": "prediction",
+              "x": 32,
+              "y": 24,
+              "size": 1.55,
+              "rotate": -4,
+              "tone": "black",
+              "weight": 900,
+              "opacity": 0.95
+            },
+            {
+              "text": "fear",
+              "x": 24,
+              "y": 42,
+              "size": 1.3,
+              "rotate": -9,
+              "tone": "black",
+              "weight": 850,
+              "opacity": 0.88
+            },
+            {
+              "text": "future",
+              "x": 22,
+              "y": 58,
+              "size": 1.15,
+              "rotate": -5,
+              "tone": "black",
+              "weight": 780,
+              "opacity": 0.82
+            },
+            {
+              "text": "fog",
+              "x": 54,
+              "y": 55,
+              "size": 1.05,
+              "rotate": 5,
+              "tone": "muted",
+              "weight": 650,
+              "opacity": 0.72
+            },
+            {
+              "text": "choice",
+              "x": 50,
+              "y": 74,
+              "size": 1.18,
+              "rotate": -3,
+              "tone": "black",
+              "weight": 820,
+              "opacity": 0.86
+            },
+            {
+              "text": "waiting",
+              "x": 22,
+              "y": 14,
+              "size": 0.55,
+              "rotate": -8,
+              "tone": "muted",
+              "weight": 500,
+              "opacity": 0.68
+            },
+            {
+              "text": "blind",
+              "x": 76,
+              "y": 14,
+              "size": 0.58,
+              "rotate": 7,
+              "tone": "muted",
+              "weight": 500,
+              "opacity": 0.66
+            }
+          ]
+        }
+      },
+      {
+        "id": "feeling",
+        "label": "Feeling",
+        "title": "Uncertainty wants a shape.",
+        "feeling": [
+          "anxiety",
+          "waiting",
+          "hope",
+          "fragile"
+        ],
+        "meaning": "Under the request is a human wish for orientation.",
+        "center": "FOG",
+        "accent": "#d00022",
+        "object": "none",
+        "media": [],
+        "smart": {
+          "status": "WAITING",
+          "rows": [
+            {
+              "label": "HOPE",
+              "value": "FRAGILE"
+            },
+            {
+              "label": "SIGNAL",
+              "value": "WEAK"
+            },
+            {
+              "label": "SHAPE",
+              "value": "NEEDED",
+              "highlight": true
+            }
+          ]
+        },
+        "soul": {
+          "mode": "stack",
+          "words": [
+            {
+              "text": "anxiety",
+              "tone": "black",
+              "size": 1.12,
+              "weight": 900
+            },
+            {
+              "text": "anxiety",
+              "tone": "black",
+              "size": 1.12,
+              "weight": 900
+            },
+            {
+              "text": "waiting",
+              "tone": "black",
+              "size": 0.9299999999999999,
+              "weight": 760
+            },
+            {
+              "text": "hope",
+              "tone": "black",
+              "size": 0.895,
+              "weight": 760
+            },
+            {
+              "text": "fragile",
+              "tone": "black",
+              "size": 0.86,
+              "weight": 760
+            },
+            {
+              "text": "unknown",
+              "tone": "muted",
+              "size": 0.825,
+              "weight": 760
+            }
+          ]
+        }
+      },
+      {
+        "id": "image",
+        "label": "Image",
+        "title": "A navigation system for life.",
+        "feeling": [
+          "route",
+          "stars",
+          "lighthouse",
+          "window"
+        ],
+        "meaning": "The image becomes navigation, not mysticism.",
+        "center": "NAVIGATION",
+        "accent": "#d00022",
+        "object": "none",
+        "media": [],
+        "smart": {
+          "status": "ROUTE",
+          "rows": [
+            {
+              "label": "STARS",
+              "value": "MAP"
+            },
+            {
+              "label": "TIMING",
+              "value": "OPEN",
+              "highlight": true
+            },
+            {
+              "label": "LIGHT",
+              "value": "ON"
+            }
+          ]
+        },
+        "soul": {
+          "mode": "orbit",
+          "words": [
+            {
+              "text": "stars",
+              "x": 28,
+              "y": 18,
+              "size": 1.1,
+              "rotate": -9,
+              "tone": "accent",
+              "weight": 850,
+              "opacity": 0.9
+            },
+            {
+              "text": "route",
+              "x": 64,
+              "y": 36,
+              "size": 0.95,
+              "rotate": 8,
+              "tone": "black",
+              "weight": 820,
+              "opacity": 0.86
+            },
+            {
+              "text": "lighthouse",
+              "x": 24,
+              "y": 48,
+              "size": 0.85,
+              "rotate": -4,
+              "tone": "accent",
+              "weight": 750,
+              "opacity": 0.84
+            },
+            {
+              "text": "window",
+              "x": 70,
+              "y": 62,
+              "size": 0.9,
+              "rotate": -11,
+              "tone": "gold",
+              "weight": 750,
+              "opacity": 0.76
+            },
+            {
+              "text": "map",
+              "x": 46,
+              "y": 78,
+              "size": 1.0,
+              "rotate": -7,
+              "tone": "black",
+              "weight": 800,
+              "opacity": 0.84
+            },
+            {
+              "text": "navigation",
+              "x": 78,
+              "y": 18,
+              "size": 0.46,
+              "rotate": 18,
+              "tone": "muted",
+              "weight": 500,
+              "opacity": 0.55
+            }
+          ]
+        }
+      },
+      {
+        "id": "frame",
+        "label": "Frame",
+        "title": "Astrology becomes clarity.",
+        "feeling": [
+          "calm",
+          "decision",
+          "timing",
+          "self"
+        ],
+        "meaning": "The frame changes from fortune-telling to understanding.",
+        "center": "CLARITY",
+        "accent": "#d00022",
+        "object": "none",
+        "media": [],
+        "smart": {
+          "status": "CLARITY",
+          "rows": [
+            {
+              "label": "DECISION",
+              "value": "FOCUS"
+            },
+            {
+              "label": "TIMING",
+              "value": "VISIBLE",
+              "highlight": true
+            },
+            {
+              "label": "SELF",
+              "value": "ON"
+            }
+          ]
+        },
+        "soul": {
+          "mode": "frame",
+          "words": [
+            {
+              "text": "timing",
+              "side": "top",
+              "pos": 25,
+              "size": 0.78,
+              "tone": "accent",
+              "weight": 800
+            },
+            {
+              "text": "decision",
+              "side": "left",
+              "pos": 35,
+              "size": 0.78,
+              "tone": "accent",
+              "weight": 800
+            },
+            {
+              "text": "self",
+              "side": "right",
+              "pos": 35,
+              "size": 0.78,
+              "tone": "accent",
+              "weight": 800
+            },
+            {
+              "text": "clarity",
+              "side": "bottom",
+              "pos": 50,
+              "size": 0.78,
+              "tone": "black",
+              "weight": 800
+            },
+            {
+              "text": "calm",
+              "side": "top",
+              "pos": 75,
+              "size": 0.64,
+              "tone": "accent",
+              "weight": 700
+            }
+          ]
+        }
+      },
+      {
+        "id": "reality",
+        "label": "Reality",
+        "title": "Olga Tkachenko.",
+        "feeling": [
+          "elegant",
+          "white",
+          "red",
+          "clear"
+        ],
+        "meaning": "A premium personal site around clarity, not esotericism.",
+        "center": "OLGA",
+        "accent": "#d00022",
+        "object": "none",
+        "media": [],
+        "smart": {
+          "status": "CLEAR",
+          "rows": [
+            {
+              "label": "REQUESTS",
+              "value": "12"
+            },
+            {
+              "label": "FOCUS",
+              "value": "HIGH",
+              "highlight": true
+            },
+            {
+              "label": "SIGNAL",
+              "value": "RED"
+            }
+          ]
+        },
+        "soul": {
+          "mode": "quiet",
+          "words": [
+            {
+              "text": "white",
+              "x": 35,
+              "y": 28,
+              "size": 1.25,
+              "rotate": -2,
+              "tone": "black",
+              "weight": 800,
+              "opacity": 0.88
+            },
+            {
+              "text": "red",
+              "x": 62,
+              "y": 48,
+              "size": 1.42,
+              "rotate": 5,
+              "tone": "accent",
+              "weight": 850,
+              "opacity": 0.9
+            },
+            {
+              "text": "clear",
+              "x": 55,
+              "y": 70,
+              "size": 1.0,
+              "rotate": -1,
+              "tone": "gold",
+              "weight": 760,
+              "opacity": 0.75
+            },
+            {
+              "text": "elegant",
+              "x": 82,
+              "y": 18,
+              "size": 0.62,
+              "rotate": 8,
+              "tone": "muted",
+              "weight": 500,
+              "opacity": 0.55
+            },
+            {
+              "text": "calm",
+              "x": 28,
+              "y": 82,
+              "size": 0.62,
+              "rotate": -3,
+              "tone": "muted",
+              "weight": 500,
+              "opacity": 0.55
+            }
+          ]
+        }
+      }
+    ],
+    "cover": {
+      "label": "Intro",
+      "center": "OLGA",
+      "title": "Astrology → Clarity",
+      "meaning": "A project transformation: Astrology → Clarity",
+      "object": "none",
+      "media": [],
+      "visual": {
+        "type": "words",
+        "words": [
+          {
+            "text": "OLGA",
+            "tone": "black"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "soma",
+    "name": "SOMA",
+    "subtitle": "Hotel → Frequency",
+    "accent": "#7a5cff",
+    "steps": [
+      {
+        "id": "question",
+        "label": "Question",
+        "title": "Why do hotels feel the same?",
+        "feeling": [
+          "same",
+          "neutral",
+          "quiet",
+          "forgotten"
+        ],
+        "meaning": "The question opens a hidden layer: not rooms, but mood.",
+        "center": "HOTEL",
+        "accent": "#7a5cff",
+        "object": "none",
+        "media": [],
+        "smart": {
+          "status": "SAME",
+          "rows": [
+            {
+              "label": "ROOMS",
+              "value": "NEUTRAL"
+            },
+            {
+              "label": "MOOD",
+              "value": "HIDDEN",
+              "highlight": true
+            },
+            {
+              "label": "MEMORY",
+              "value": "LOW"
+            }
+          ]
+        },
+        "soul": {
+          "mode": "cloud",
+          "words": [
+            {
+              "text": "same",
+              "x": 32,
+              "y": 24,
+              "size": 1.55,
+              "rotate": -4,
+              "tone": "black",
+              "weight": 900,
+              "opacity": 0.95
+            },
+            {
+              "text": "neutral",
+              "x": 24,
+              "y": 42,
+              "size": 1.3,
+              "rotate": -9,
+              "tone": "black",
+              "weight": 850,
+              "opacity": 0.88
+            },
+            {
+              "text": "room",
+              "x": 22,
+              "y": 58,
+              "size": 1.15,
+              "rotate": -5,
+              "tone": "black",
+              "weight": 780,
+              "opacity": 0.82
+            },
+            {
+              "text": "forgotten",
+              "x": 54,
+              "y": 55,
+              "size": 1.05,
+              "rotate": 5,
+              "tone": "muted",
+              "weight": 650,
+              "opacity": 0.72
+            },
+            {
+              "text": "hotel",
+              "x": 50,
+              "y": 74,
+              "size": 1.18,
+              "rotate": -3,
+              "tone": "black",
+              "weight": 820,
+              "opacity": 0.86
+            },
+            {
+              "text": "quiet",
+              "x": 22,
+              "y": 14,
+              "size": 0.55,
+              "rotate": -8,
+              "tone": "muted",
+              "weight": 500,
+              "opacity": 0.68
+            }
+          ]
+        }
+      },
+      {
+        "id": "feeling",
+        "label": "Feeling",
+        "title": "A place needs a frequency.",
+        "feeling": [
+          "sound",
+          "night",
+          "signal",
+          "private"
+        ],
+        "meaning": "The emotional core is a room tuned to a state.",
+        "center": "MOOD",
+        "accent": "#7a5cff",
+        "object": "none",
+        "media": [],
+        "smart": {
+          "status": "FREQUENCY",
+          "rows": [
+            {
+              "label": "SOUND",
+              "value": "SOFT"
+            },
+            {
+              "label": "NIGHT",
+              "value": "DEEP"
+            },
+            {
+              "label": "STATE",
+              "value": "TUNED",
+              "highlight": true
+            }
+          ]
+        },
+        "soul": {
+          "mode": "stack",
+          "words": [
+            {
+              "text": "night",
+              "tone": "black",
+              "size": 1.12,
+              "weight": 900
+            },
+            {
+              "text": "sound",
+              "tone": "black",
+              "size": 1.12,
+              "weight": 900
+            },
+            {
+              "text": "signal",
+              "tone": "black",
+              "size": 0.9299999999999999,
+              "weight": 760
+            },
+            {
+              "text": "private",
+              "tone": "black",
+              "size": 0.895,
+              "weight": 760
+            },
+            {
+              "text": "mood",
+              "tone": "black",
+              "size": 0.86,
+              "weight": 760
+            },
+            {
+              "text": "soft",
+              "tone": "muted",
+              "size": 0.825,
+              "weight": 760
+            }
+          ]
+        }
+      },
+      {
+        "id": "image",
+        "label": "Image",
+        "title": "Rooms as stations.",
+        "feeling": [
+          "radio",
+          "wave",
+          "ambient",
+          "sleep"
+        ],
+        "meaning": "A hotel can become a space of frequencies.",
+        "center": "SIGNAL",
+        "accent": "#7a5cff",
+        "object": "none",
+        "media": [],
+        "smart": {
+          "status": "SIGNAL",
+          "rows": [
+            {
+              "label": "ROOMS",
+              "value": "STATIONS"
+            },
+            {
+              "label": "WAVE",
+              "value": "ON",
+              "highlight": true
+            },
+            {
+              "label": "SLEEP",
+              "value": "NEAR"
+            }
+          ]
+        },
+        "soul": {
+          "mode": "orbit",
+          "words": [
+            {
+              "text": "radio",
+              "x": 28,
+              "y": 18,
+              "size": 1.1,
+              "rotate": -9,
+              "tone": "accent",
+              "weight": 850,
+              "opacity": 0.9
+            },
+            {
+              "text": "wave",
+              "x": 64,
+              "y": 36,
+              "size": 0.95,
+              "rotate": 8,
+              "tone": "black",
+              "weight": 820,
+              "opacity": 0.86
+            },
+            {
+              "text": "ambient",
+              "x": 24,
+              "y": 48,
+              "size": 0.85,
+              "rotate": -4,
+              "tone": "accent",
+              "weight": 750,
+              "opacity": 0.84
+            },
+            {
+              "text": "sleep",
+              "x": 70,
+              "y": 62,
+              "size": 0.9,
+              "rotate": -11,
+              "tone": "gold",
+              "weight": 750,
+              "opacity": 0.76
+            },
+            {
+              "text": "station",
+              "x": 46,
+              "y": 78,
+              "size": 1.0,
+              "rotate": -7,
+              "tone": "black",
+              "weight": 800,
+              "opacity": 0.84
+            },
+            {
+              "text": "frequency",
+              "x": 78,
+              "y": 18,
+              "size": 0.46,
+              "rotate": 18,
+              "tone": "muted",
+              "weight": 500,
+              "opacity": 0.55
+            }
+          ]
+        }
+      },
+      {
+        "id": "frame",
+        "label": "Frame",
+        "title": "Hotel becomes frequency.",
+        "feeling": [
+          "tuned",
+          "deep",
+          "soft",
+          "hidden"
+        ],
+        "meaning": "The new category is not accommodation. It is atmosphere.",
+        "center": "FREQUENCY",
+        "accent": "#7a5cff",
+        "object": "none",
+        "media": [],
+        "smart": {
+          "status": "TUNED",
+          "rows": [
+            {
+              "label": "HOTEL",
+              "value": "MOOD"
+            },
+            {
+              "label": "ROOM",
+              "value": "STATE"
+            },
+            {
+              "label": "CATEGORY",
+              "value": "NEW",
+              "highlight": true
+            }
+          ]
+        },
+        "soul": {
+          "mode": "frame",
+          "words": [
+            {
+              "text": "tuned",
+              "side": "top",
+              "pos": 25,
+              "size": 0.78,
+              "tone": "accent",
+              "weight": 800
+            },
+            {
+              "text": "deep",
+              "side": "left",
+              "pos": 35,
+              "size": 0.78,
+              "tone": "accent",
+              "weight": 800
+            },
+            {
+              "text": "soft",
+              "side": "right",
+              "pos": 35,
+              "size": 0.78,
+              "tone": "accent",
+              "weight": 800
+            },
+            {
+              "text": "hidden",
+              "side": "bottom",
+              "pos": 50,
+              "size": 0.78,
+              "tone": "black",
+              "weight": 800
+            },
+            {
+              "text": "atmosphere",
+              "side": "top",
+              "pos": 75,
+              "size": 0.64,
+              "tone": "accent",
+              "weight": 700
+            }
+          ]
+        }
+      },
+      {
+        "id": "reality",
+        "label": "Reality",
+        "title": "Soma FM.",
+        "feeling": [
+          "dark",
+          "room",
+          "music",
+          "escape"
+        ],
+        "meaning": "A hotel concept built around sound and inner state.",
+        "center": "SOMA",
+        "accent": "#7a5cff",
+        "object": "none",
+        "media": [],
+        "smart": {
+          "status": "SOMA",
+          "rows": [
+            {
+              "label": "ROOMS",
+              "value": "12"
+            },
+            {
+              "label": "FREQUENCY",
+              "value": "ON",
+              "highlight": true
+            },
+            {
+              "label": "ESCAPE",
+              "value": "DEEP"
+            }
+          ]
+        },
+        "soul": {
+          "mode": "quiet",
+          "words": [
+            {
+              "text": "dark",
+              "x": 35,
+              "y": 28,
+              "size": 1.25,
+              "rotate": -2,
+              "tone": "black",
+              "weight": 800,
+              "opacity": 0.88
+            },
+            {
+              "text": "room",
+              "x": 62,
+              "y": 48,
+              "size": 1.42,
+              "rotate": 5,
+              "tone": "accent",
+              "weight": 850,
+              "opacity": 0.9
+            },
+            {
+              "text": "music",
+              "x": 55,
+              "y": 70,
+              "size": 1.0,
+              "rotate": -1,
+              "tone": "gold",
+              "weight": 760,
+              "opacity": 0.75
+            },
+            {
+              "text": "escape",
+              "x": 82,
+              "y": 18,
+              "size": 0.62,
+              "rotate": 8,
+              "tone": "muted",
+              "weight": 500,
+              "opacity": 0.55
+            },
+            {
+              "text": "sleep",
+              "x": 28,
+              "y": 82,
+              "size": 0.62,
+              "rotate": -3,
+              "tone": "muted",
+              "weight": 500,
+              "opacity": 0.55
+            }
+          ]
+        }
+      }
+    ],
+    "cover": {
+      "label": "Intro",
+      "center": "SOMA",
+      "title": "Hotel → Frequency",
+      "meaning": "A project transformation: Hotel → Frequency",
+      "object": "none",
+      "media": [],
+      "visual": {
+        "type": "words",
+        "words": [
+          {
+            "text": "SOMA",
+            "tone": "black"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "chaveta",
+    "name": "CHAVETA",
+    "subtitle": "Catalog → Club",
+    "accent": "#b89a5e",
+    "steps": [
+      {
+        "id": "question",
+        "label": "Question",
+        "title": "Why does a catalog feel cold?",
+        "feeling": [
+          "list",
+          "price",
+          "filter",
+          "cold"
+        ],
+        "meaning": "A catalog sells items. But the client wants atmosphere and belonging.",
+        "center": "CATALOG",
+        "accent": "#b89a5e",
+        "object": "none",
+        "media": [],
+        "smart": {
+          "status": "COLD",
+          "rows": [
+            {
+              "label": "LIST",
+              "value": "PRICE"
+            },
+            {
+              "label": "FILTER",
+              "value": "ON"
+            },
+            {
+              "label": "ATMOSPHERE",
+              "value": "0",
+              "highlight": true
+            }
+          ]
+        },
+        "soul": {
+          "mode": "cloud",
+          "words": [
+            {
+              "text": "list",
+              "x": 32,
+              "y": 24,
+              "size": 1.55,
+              "rotate": -4,
+              "tone": "black",
+              "weight": 900,
+              "opacity": 0.95
+            },
+            {
+              "text": "price",
+              "x": 24,
+              "y": 42,
+              "size": 1.3,
+              "rotate": -9,
+              "tone": "black",
+              "weight": 850,
+              "opacity": 0.88
+            },
+            {
+              "text": "filter",
+              "x": 22,
+              "y": 58,
+              "size": 1.15,
+              "rotate": -5,
+              "tone": "black",
+              "weight": 780,
+              "opacity": 0.82
+            },
+            {
+              "text": "cold",
+              "x": 54,
+              "y": 55,
+              "size": 1.05,
+              "rotate": 5,
+              "tone": "muted",
+              "weight": 650,
+              "opacity": 0.72
+            },
+            {
+              "text": "catalog",
+              "x": 50,
+              "y": 74,
+              "size": 1.18,
+              "rotate": -3,
+              "tone": "black",
+              "weight": 820,
+              "opacity": 0.86
+            },
+            {
+              "text": "item",
+              "x": 22,
+              "y": 14,
+              "size": 0.55,
+              "rotate": -8,
+              "tone": "muted",
+              "weight": 500,
+              "opacity": 0.68
+            },
+            {
+              "text": "shop",
+              "x": 76,
+              "y": 14,
+              "size": 0.58,
+              "rotate": 7,
+              "tone": "muted",
+              "weight": 500,
+              "opacity": 0.66
+            }
+          ]
+        }
+      },
+      {
+        "id": "feeling",
+        "label": "Feeling",
+        "title": "The product needs a room.",
+        "feeling": [
+          "dark",
+          "gold",
+          "private",
+          "slow"
+        ],
+        "meaning": "The emotional layer is lounge, not ecommerce.",
+        "center": "ATMOSPHERE",
+        "accent": "#b89a5e",
+        "object": "none",
+        "media": [],
+        "smart": {
+          "status": "ROOM",
+          "rows": [
+            {
+              "label": "DARK",
+              "value": "ON"
+            },
+            {
+              "label": "GOLD",
+              "value": "LOW"
+            },
+            {
+              "label": "PRIVATE",
+              "value": "HIGH",
+              "highlight": true
+            }
+          ]
+        },
+        "soul": {
+          "mode": "stack",
+          "words": [
+            {
+              "text": "dark",
+              "tone": "black",
+              "size": 1.12,
+              "weight": 900
+            },
+            {
+              "text": "gold",
+              "tone": "black",
+              "size": 1.12,
+              "weight": 900
+            },
+            {
+              "text": "private",
+              "tone": "black",
+              "size": 0.9299999999999999,
+              "weight": 760
+            },
+            {
+              "text": "slow",
+              "tone": "black",
+              "size": 0.895,
+              "weight": 760
+            },
+            {
+              "text": "lounge",
+              "tone": "black",
+              "size": 0.86,
+              "weight": 760
+            },
+            {
+              "text": "ritual",
+              "tone": "muted",
+              "size": 0.825,
+              "weight": 760
+            }
+          ]
+        }
+      },
+      {
+        "id": "image",
+        "label": "Image",
+        "title": "A private club online.",
+        "feeling": [
+          "club",
+          "ritual",
+          "velvet",
+          "table"
+        ],
+        "meaning": "The image moves the site from shop to space.",
+        "center": "CLUB",
+        "accent": "#b89a5e",
+        "object": "none",
+        "media": [],
+        "smart": {
+          "status": "CLUB",
+          "rows": [
+            {
+              "label": "RITUAL",
+              "value": "ON"
+            },
+            {
+              "label": "TABLE",
+              "value": "SET"
+            },
+            {
+              "label": "BELONGING",
+              "value": "OPEN",
+              "highlight": true
+            }
+          ]
+        },
+        "soul": {
+          "mode": "orbit",
+          "words": [
+            {
+              "text": "club",
+              "x": 28,
+              "y": 18,
+              "size": 1.1,
+              "rotate": -9,
+              "tone": "accent",
+              "weight": 850,
+              "opacity": 0.9
+            },
+            {
+              "text": "velvet",
+              "x": 64,
+              "y": 36,
+              "size": 0.95,
+              "rotate": 8,
+              "tone": "black",
+              "weight": 820,
+              "opacity": 0.86
+            },
+            {
+              "text": "table",
+              "x": 24,
+              "y": 48,
+              "size": 0.85,
+              "rotate": -4,
+              "tone": "accent",
+              "weight": 750,
+              "opacity": 0.84
+            },
+            {
+              "text": "ritual",
+              "x": 70,
+              "y": 62,
+              "size": 0.9,
+              "rotate": -11,
+              "tone": "gold",
+              "weight": 750,
+              "opacity": 0.76
+            },
+            {
+              "text": "private",
+              "x": 46,
+              "y": 78,
+              "size": 1.0,
+              "rotate": -7,
+              "tone": "black",
+              "weight": 800,
+              "opacity": 0.84
+            },
+            {
+              "text": "inside",
+              "x": 78,
+              "y": 18,
+              "size": 0.46,
+              "rotate": 18,
+              "tone": "muted",
+              "weight": 500,
+              "opacity": 0.55
+            }
+          ]
+        }
+      },
+      {
+        "id": "frame",
+        "label": "Frame",
+        "title": "Catalog becomes club.",
+        "feeling": [
+          "warm",
+          "dense",
+          "selected",
+          "inside"
+        ],
+        "meaning": "The new frame gives the catalog a social atmosphere.",
+        "center": "CURATED",
+        "accent": "#b89a5e",
+        "object": "none",
+        "media": [],
+        "smart": {
+          "status": "CURATED",
+          "rows": [
+            {
+              "label": "CATALOG",
+              "value": "WARM"
+            },
+            {
+              "label": "SELECTION",
+              "value": "TIGHT",
+              "highlight": true
+            },
+            {
+              "label": "INSIDE",
+              "value": "YES"
+            }
+          ]
+        },
+        "soul": {
+          "mode": "frame",
+          "words": [
+            {
+              "text": "warm",
+              "side": "top",
+              "pos": 25,
+              "size": 0.78,
+              "tone": "accent",
+              "weight": 800
+            },
+            {
+              "text": "dense",
+              "side": "left",
+              "pos": 35,
+              "size": 0.78,
+              "tone": "accent",
+              "weight": 800
+            },
+            {
+              "text": "selected",
+              "side": "right",
+              "pos": 35,
+              "size": 0.78,
+              "tone": "accent",
+              "weight": 800
+            },
+            {
+              "text": "inside",
+              "side": "bottom",
+              "pos": 50,
+              "size": 0.78,
+              "tone": "black",
+              "weight": 800
+            },
+            {
+              "text": "curated",
+              "side": "top",
+              "pos": 75,
+              "size": 0.64,
+              "tone": "accent",
+              "weight": 700
+            }
+          ]
+        }
+      },
+      {
+        "id": "reality",
+        "label": "Reality",
+        "title": "Chaveta.",
+        "feeling": [
+          "premium",
+          "dark",
+          "gold",
+          "lounge"
+        ],
+        "meaning": "A premium atmosphere placed over an existing catalog.",
+        "center": "CHAVETA",
+        "accent": "#b89a5e",
+        "object": "none",
+        "media": [],
+        "smart": {
+          "status": "CHAVETA",
+          "rows": [
+            {
+              "label": "PREMIUM",
+              "value": "ON"
+            },
+            {
+              "label": "LOUNGE",
+              "value": "DEEP",
+              "highlight": true
+            },
+            {
+              "label": "CLUB",
+              "value": "OPEN"
+            }
+          ]
+        },
+        "soul": {
+          "mode": "quiet",
+          "words": [
+            {
+              "text": "premium",
+              "x": 35,
+              "y": 28,
+              "size": 1.25,
+              "rotate": -2,
+              "tone": "black",
+              "weight": 800,
+              "opacity": 0.88
+            },
+            {
+              "text": "dark",
+              "x": 62,
+              "y": 48,
+              "size": 1.42,
+              "rotate": 5,
+              "tone": "accent",
+              "weight": 850,
+              "opacity": 0.9
+            },
+            {
+              "text": "gold",
+              "x": 55,
+              "y": 70,
+              "size": 1.0,
+              "rotate": -1,
+              "tone": "gold",
+              "weight": 760,
+              "opacity": 0.75
+            },
+            {
+              "text": "lounge",
+              "x": 82,
+              "y": 18,
+              "size": 0.62,
+              "rotate": 8,
+              "tone": "muted",
+              "weight": 500,
+              "opacity": 0.55
+            },
+            {
+              "text": "inside",
+              "x": 28,
+              "y": 82,
+              "size": 0.62,
+              "rotate": -3,
+              "tone": "muted",
+              "weight": 500,
+              "opacity": 0.55
+            }
+          ]
+        }
+      }
+    ],
+    "cover": {
+      "label": "Intro",
+      "center": "CHAVETA",
+      "title": "Catalog → Club",
+      "meaning": "A project transformation: Catalog → Club",
+      "object": "none",
+      "media": [],
+      "visual": {
+        "type": "words",
+        "words": [
+          {
+            "text": "CHAVETA",
+            "tone": "black"
+          }
+        ]
+      }
+    }
+  }
+]

@@ -1,0 +1,197 @@
+---
+const { projects, initialProject = 0, initialStep = 0 } = Astro.props;
+const project = projects[initialProject];
+const step = project.steps[initialStep];
+const media = step.media ?? [];
+const object = step.object ?? "none";
+const fallbackSmart = {
+  status: "LIVE",
+  rows: [
+    { label: "SYSTEMS", value: "24" },
+    { label: "CONNECTIONS", value: "1,284" },
+    { label: "GROWTH", value: "+38%", highlight: true },
+  ],
+};
+const smart = step.smart ?? project.smart ?? fallbackSmart;
+const smartRows = Array.isArray(smart?.rows) ? smart.rows : [];
+const initialSoul = step.soul ?? { mode: "cloud", words: step.feeling ?? [] };
+const initialSoulMode = initialSoul?.mode ?? "cloud";
+const initialSoulWords = Array.isArray(initialSoul?.words)
+  ? initialSoul.words
+      .map((item) => (typeof item === "string" ? { text: item } : item))
+      .filter((item) => item?.text)
+  : (step.feeling ?? []).map((word) => ({ text: word }));
+---
+
+<section
+  class:list={["experience", { "has-media": media.length > 0 }]}
+  id="experience"
+  data-project={project.id}
+  data-frame={step.id}
+  data-object={object}
+  data-initial-project={initialProject}
+  data-initial-step={initialStep}
+>
+  <div class="frame-bg" id="frameBg" aria-hidden="true"></div>
+
+  <div class="frame-media" id="frameMedia" aria-hidden="true">
+    {
+      media.map((src, index) => (
+        <img
+          src={src}
+          class:list={[{ active: index === 0 }]}
+          alt=""
+          loading={index === 0 ? "eager" : "lazy"}
+          decoding="async"
+        />
+      ))
+    }
+  </div>
+
+  <div class="frame-words-layer" id="frameWords" aria-hidden="true"></div>
+
+  <canvas class="neural-field" id="neuralField"></canvas>
+  <div class="light-vignette" aria-hidden="true"></div>
+
+  <main class="film-stage" id="filmStage" aria-hidden="true">
+    <div class="visual-mass" id="visualMass">
+      <!-- visual mass renders from app.js -->
+    </div>
+  </main>
+  <div class="project-wordmark" id="projectWordmark">{project.name}</div>
+
+  <header class="project-rail" aria-label="Projects">
+    <button
+      class="rail-arrow"
+      id="railLeft"
+      type="button"
+      aria-label="Previous projects">‹</button
+    >
+    <div class="project-track" id="projectTrack">
+      {
+        projects.map((item, index) => (
+          <button
+            class:list={["project-pill", { active: index === initialProject }]}
+            data-project={index}
+            type="button"
+          >
+            <span>{item.name}</span>
+            <small>{item.subtitle}</small>
+          </button>
+        ))
+      }
+    </div>
+    <button
+      class="rail-arrow"
+      id="railRight"
+      type="button"
+      aria-label="Next projects">›</button
+    >
+  </header>
+
+  <aside
+    class="project-title"
+    id="projectTitle"
+    data-step-number={String(initialStep + 1).padStart(2, "0")}
+  >
+    <p id="stepLabel">{step.label}</p>
+    <h1 id="centerWord">{step.center}</h1>
+    <h2 id="stepTitle">{step.title}</h2>
+  </aside>
+
+  <aside
+    class:list={["feeling-panel", "soul-panel", `soul-${initialSoulMode}`]}
+    id="feelingPanel"
+    aria-label="Soul field"
+  >
+    {
+      initialSoulWords.map((word, index) => (
+        <span class="soul-word" style={`--i:${index};`}>
+          {word.text}
+        </span>
+      ))
+    }
+  </aside>
+
+  <aside
+    class="smart-panel"
+    id="smartPanel"
+    aria-label="Frame signals"
+    hidden={smart === false}
+  >
+    <div class="smart-status">
+      <span></span>
+      <b id="smartStatus">{smart && smart.status ? smart.status : "LIVE"}</b>
+    </div>
+
+    <div id="smartRows">
+      {
+        smartRows.map((row) => (
+          <div class="smart-row">
+            <small>{row.label}</small>
+            <strong class:list={[{ green: row.highlight }]}>{row.value}</strong>
+          </div>
+        ))
+      }
+    </div>
+  </aside>
+
+  <aside class="meaning-panel">
+    <p id="meaningText" set:html={step.meaning}></p>
+  </aside>
+
+  <nav class="step-tabs" id="stepTabs" aria-label="Film steps">
+    {
+      project.steps.map((filmStep, index) => (
+        <button
+          class:list={["step-tab", { active: index === initialStep }]}
+          data-step={index}
+          type="button"
+        >
+          <b>{String(index + 1).padStart(2, "0")}</b>
+          <span>{filmStep.label}</span>
+        </button>
+      ))
+    }
+  </nav>
+
+  <button
+    class="corner-logo"
+    id="aboutOpen"
+    type="button"
+    aria-label="About REALL"
+  >
+    <img src="/reall-logo.svg" alt="REALL" />
+  </button>
+
+  <button class="bring-idea" id="contactOpen" type="button">
+    <span>BRING AN IDEA</span>
+    <b>+</b>
+  </button>
+
+  <div class="modal-backdrop" id="modalBackdrop"></div>
+
+  <section class="modal" id="aboutModal" aria-hidden="true">
+    <button class="modal-close" id="aboutClose" type="button">×</button>
+    <h3>REALL</h3>
+    <p>
+      I hold a question, a feeling, an image and a result until they become one
+      thing.
+    </p>
+    <p>This site shows how raw categories become new realities.</p>
+  </section>
+
+  <section class="modal" id="contactModal" aria-hidden="true">
+    <button class="modal-close" id="contactClose" type="button">×</button>
+    <h3>Bring an idea</h3>
+    <p>Business, product, space, service or something unfinished.</p>
+    <textarea placeholder="What do you have?"></textarea>
+    <button class="send-button" type="button">Send later</button>
+  </section>
+
+  <script
+    id="projectsData"
+    type="application/json"
+    set:html={JSON.stringify(projects)}
+  />
+</section>
