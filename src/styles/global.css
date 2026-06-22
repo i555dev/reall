@@ -489,8 +489,8 @@ textarea {
 .meaning-panel {
   position: absolute;
   z-index: var(--z-ui);
-  right: clamp(92px, 10vw, 200px);
-  top: 100px;
+  right: 190px;
+  top: 110px;
   width: 150px;
 }
 
@@ -503,6 +503,8 @@ textarea {
   border-left: 2px solid var(--accent);
   padding-left: 5px;
   padding: 15px 0 15px 5px;
+  backdrop-filter: blur(2px);
+  background: #ffffff2e;
 }
 
 .step-tabs {
@@ -551,6 +553,9 @@ textarea {
   z-index: var(--z-ui);
   padding: 0;
   background: var(--accent);
+  width: 72px;
+  bottom: 20px;
+  left: 20px;
 }
 
 .corner-logo img {
@@ -780,15 +785,6 @@ textarea {
 
   .smart-panel {
     display: none;
-  }
-
-  .meaning-panel {
-    right: 0px;
-    top: 110px;
-  }
-
-  .meaning-panel p {
-    font-size: 10px;
   }
 
   .step-tabs {
@@ -1382,23 +1378,6 @@ textarea {
   letter-spacing: 0.28em;
 }
 
-.experience[data-mode="cover"] .meaning-panel {
-  right: clamp(84px, 10vw, 180px);
-  top: 22%;
-  width: min(230px, 18vw);
-}
-
-.experience[data-mode="cover"] .meaning-panel p {
-  border-left: 0;
-  padding: 0;
-  color: rgba(7, 7, 6, 0.86);
-  background: transparent;
-  font-size: clamp(12px, 1vw, 15px);
-  line-height: 1.7;
-  letter-spacing: 0.09em;
-  font-weight: 600;
-}
-
 .experience[data-mode="cover"] .step-tab {
   color: rgba(7, 7, 6, 0.46);
 }
@@ -1551,14 +1530,6 @@ textarea {
   max-width: 420px;
 }
 
-
-
-.experience[data-layout="heroBackground"] .meaning-panel p {
-  color: rgba(7, 7, 6, 0.88);
-  background: rgba(255, 255, 255, 0.18);
-  backdrop-filter: blur(2px);
-}
-
 .experience[data-layout="heroBackground"] .project-wordmark {
   opacity: 1;
 }
@@ -1570,5 +1541,10 @@ textarea {
 
   .experience[data-layout="heroBackground"] .step-tabs {
     bottom: 92px;
+  }
+
+  .meaning-panel {
+    right: 0px;
+    top: 128px;
   }
 }
