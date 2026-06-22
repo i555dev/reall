@@ -329,12 +329,15 @@ textarea {
   position: absolute;
   z-index: var(--z-ui);
   top: clamp(18px, 3.4vw, 38px);
-  left: clamp(34px, 6vw, 98px);
-  right: clamp(34px, 6vw, 98px);
+  left: 0px;
+  right: 0px;
   display: grid;
   grid-template-columns: 30px 1fr 30px;
   align-items: center;
+  backdrop-filter: blur(2px);
   gap: 18px;
+  background: #fff1;
+  padding: 10px 13% 10px 13%;
 }
 
 .project-track {
@@ -345,7 +348,6 @@ textarea {
   scrollbar-width: none;
   scroll-behavior: smooth;
   mask-image: linear-gradient(90deg, transparent 0, #000 42px, #000 calc(100% - 42px), transparent 100%);
-  padding: 2px 16px 12px;
 }
 
 .project-track::-webkit-scrollbar {
@@ -384,7 +386,7 @@ textarea {
 .project-pill small {
   display: block;
   margin-top: 3px;
-  color: var(--muted);
+  color: #000;
   font-size: 12px;
   white-space: nowrap;
 }
@@ -392,7 +394,7 @@ textarea {
 .rail-arrow {
   width: 30px;
   height: 30px;
-  display: grid;
+  display: contents;
   place-items: center;
   color: rgba(7, 7, 6, 0.42);
   font-size: 34px;
@@ -530,6 +532,7 @@ textarea {
   color: rgba(7, 7, 6, 0.86);
   text-align: left;
   cursor: pointer;
+  text-shadow: 0px 1px 0px #fffa;
 }
 
 .step-tab:hover,
@@ -1380,10 +1383,6 @@ textarea {
   letter-spacing: 0.28em;
 }
 
-.experience[data-mode="cover"] .step-tab {
-  color: rgba(7, 7, 6, 0.46);
-}
-
 .experience[data-mode="cover"] .step-tab:hover {
   color: var(--accent);
 }
@@ -1423,14 +1422,6 @@ textarea {
 @media (max-width: 900px) {
   .experience[data-mode="cover"] {
     min-height: 100svh;
-  }
-
-  .experience[data-mode="cover"] .project-rail {
-    top: 12px;
-    left: 14px;
-    right: 14px;
-    grid-template-columns: 22px 1fr 22px;
-    gap: 8px;
   }
 
   .experience[data-mode="cover"] .project-track {

@@ -2589,7 +2589,9 @@
       "title": "Catalog → Club",
       "meaning": "A project transformation: Catalog → Club",
       "object": "none",
-      "media": [],
+      "media": [
+        "/projects/chaveta/cover/chaveta-intro.webp"
+      ],
       "visual": {
         "type": "words",
         "words": [
