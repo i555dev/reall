@@ -505,6 +505,7 @@ textarea {
   padding: 15px 0 15px 5px;
   backdrop-filter: blur(2px);
   background: #ffffff2e;
+  text-shadow: 0px 0px 3px #fff;
 }
 
 .step-tabs {
