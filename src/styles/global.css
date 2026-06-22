@@ -1551,3 +1551,36 @@ textarea {
     max-width: 40%;
   }
 }
+
+.project-title h2 {
+  animation: stepTitleBreath 5.8s ease-in-out infinite;
+  transform-origin: left center;
+}
+
+.project-title h2 {
+  --step-title-spacing: 0.18em;
+  --step-title-spacing-open: 0.235em;
+  animation: stepTitleBreath 5.8s ease-in-out infinite;
+}
+
+@keyframes stepTitleBreath {
+
+  0%,
+  100% {
+    letter-spacing: var(--step-title-spacing);
+    opacity: 0.86;
+  }
+
+  50% {
+    letter-spacing: var(--step-title-spacing-open);
+    opacity: 1;
+  }
+}
+
+@media (max-width: 900px) {
+  .project-title h2 {
+    --step-title-spacing: 0.11em;
+    --step-title-spacing-open: 0.15em;
+    animation-duration: 6.8s;
+  }
+}
