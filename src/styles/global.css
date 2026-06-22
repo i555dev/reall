@@ -549,9 +549,6 @@ textarea {
 .corner-logo {
   position: absolute;
   z-index: var(--z-ui);
-  left: clamp(5px, 1vw, 15px);
-  bottom: clamp(5px, 1vw, 15px);
-  width: clamp(55px, 8vw, 70px);
   padding: 0;
   background: var(--accent);
 }
@@ -812,8 +809,8 @@ textarea {
 
   .corner-logo {
     left: 18px;
-    bottom: 60px;
-    width: 86px;
+    bottom: 30px;
+    width: 72px;
   }
 
   .bring-idea {
@@ -1402,11 +1399,6 @@ textarea {
   font-weight: 600;
 }
 
-.experience[data-mode="cover"] .step-tabs {
-  right: var(--right-x);
-  top: 55%;
-}
-
 .experience[data-mode="cover"] .step-tab {
   color: rgba(7, 7, 6, 0.46);
 }
@@ -1519,17 +1511,6 @@ textarea {
     letter-spacing: 0.08em;
   }
 
-  .experience[data-mode="cover"] .step-tabs {
-    left: auto;
-    right: 16px;
-    top: auto;
-    bottom: 104px;
-    height: auto;
-    display: grid;
-    gap: 8px;
-    transform: none !important;
-  }
-
   .experience[data-mode="cover"] .step-tab {
     grid-template-columns: 1fr;
     justify-items: end;
@@ -1540,11 +1521,6 @@ textarea {
     display: none;
   }
 
-  .experience[data-mode="cover"] .corner-logo {
-    left: 18px;
-    bottom: 30px;
-    width: 72px;
-  }
 }
 
 /* --- Reality hero background layout --- */
