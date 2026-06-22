@@ -503,7 +503,7 @@ textarea {
   border-left: 2px solid var(--accent);
   padding-left: 5px;
   padding: 15px 0 15px 5px;
-  backdrop-filter: blur(2px);
+  backdrop-filter: blur(4px);
   background: #ffffff2e;
   text-shadow: 0px 0px 3px #fff7;
 }
@@ -1527,20 +1527,13 @@ textarea {
   mix-blend-mode: screen;
 }
 
-.experience[data-layout="heroBackground"] .project-title {
-  top: 19%;
-  max-width: 420px;
-}
+
 
 .experience[data-layout="heroBackground"] .project-wordmark {
   opacity: 1;
 }
 
 @media (max-width: 900px) {
-  .experience[data-layout="heroBackground"] .project-title {
-    top: 96px;
-  }
-
   .experience[data-layout="heroBackground"] .step-tabs {
     bottom: 92px;
   }
