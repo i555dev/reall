@@ -350,12 +350,13 @@ textarea {
 
 .project-track {
   display: flex;
-  justify-content: center;
+  padding: 0 10px;
+  justify-content: left;
   gap: clamp(18px, 3.6vw, 58px);
   overflow-x: auto;
   scrollbar-width: none;
   scroll-behavior: smooth;
-  mask-image: linear-gradient(90deg, transparent 0, #000 42px, #000 calc(100% - 42px), transparent 100%);
+  mask-image: linear-gradient(90deg, transparent 0, #000 25px, #000 calc(100% - 20px), transparent 100%);
 }
 
 .project-track::-webkit-scrollbar {
@@ -1428,6 +1429,10 @@ textarea {
 }
 
 @media (max-width: 900px) {
+  .meaning-panel p {
+    border-radius: 0px;
+  }
+
   .experience[data-mode="cover"] {
     min-height: 100svh;
   }
@@ -1581,10 +1586,11 @@ textarea {
   position: absolute;
   left: 50%;
   top: 50%;
-  width: var(--cover-object-width, min(42vw, 620px));
-  height: var(--cover-object-height, auto);
+  width: 50%;
+  width: clamp(140px, 18vw, 280px);
+  height: clamp(140px, 18vw, 280px);
   transform: translate(-50%, -50%);
-  display: grid;
+  display: contents;
   place-items: center;
   pointer-events: none;
   z-index: 6;
@@ -1593,11 +1599,12 @@ textarea {
 .cover-object-img {
   display: block;
   width: 100%;
-  height: auto;
   max-height: 70vh;
+  height: auto;
   object-fit: contain;
 }
 
 .experience[data-project="chaveta"] .cover-object-scene {
   --cover-object-width: clamp(100px, 14vw, 150px);
+  display: grid;
 }
