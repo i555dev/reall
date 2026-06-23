@@ -279,48 +279,6 @@ textarea {
   user-select: none;
 }
 
-.frame-word.tone-black {
-  --word-color: rgba(7, 7, 6, 0.86);
-}
-
-.frame-word.tone-concrete {
-  --word-color: rgba(78, 73, 66, 0.28);
-}
-
-.frame-word.tone-dust {
-  --word-color: rgba(145, 134, 119, 0.34);
-}
-
-.frame-word.tone-red {
-  --word-color: rgba(219, 33, 34, 0.34);
-}
-
-.frame-word.tone-yellow {
-  --word-color: rgba(255, 255, 115, 0.44);
-}
-
-.frame-word.tone-gold {
-  color: rgba(255, 215, 0, var(--o, 0.74));
-}
-
-.frame-word.tone-green {
-  color: rgba(46, 204, 113, var(--o, 0.74));
-}
-
-.frame-word.tone-olive {
-  color: #222316;
-}
-
-.frame-word.tone-white {
-  --word-color: rgba(255, 255, 255, 0.52);
-  mix-blend-mode: screen;
-}
-
-.frame-word.tone-green,
-.frame-word.tone-accent {
-  --word-color: color-mix(in srgb, var(--accent), transparent 28%);
-}
-
 .frame-word.behavior-hit {
   text-shadow: 0 18px 40px rgba(7, 7, 6, 0.08);
 }
@@ -481,7 +439,6 @@ textarea {
 
 .feeling-panel span {
   display: contents;
-  color: rgba(7, 7, 6, 0.8);
   font-family: Raleway, Inter, sans-serif;
   font-size: clamp(16px, 1.35vw, 24px);
   font-weight: 200;
@@ -885,6 +842,7 @@ textarea {
   transform: translateY(-50%) !important;
   pointer-events: none;
   transition: opacity 0.24s ease;
+  max-width: 10%;
 }
 
 .feeling-panel.soul-panel .soul-word {
@@ -892,7 +850,6 @@ textarea {
   display: block;
   left: var(--x, 50%);
   top: var(--y, 50%);
-  color: rgba(7, 7, 6, var(--o, 0.78));
   font-family: Georgia, 'Times New Roman', serif;
   font-size: calc(clamp(18px, 1.55vw, 34px) * var(--s, 1));
   font-weight: var(--w, 760);
@@ -910,49 +867,60 @@ textarea {
   content: none;
 }
 
-.feeling-panel.soul-panel .tone-black {
-  color: rgba(0, 0, 0, var(--o, 0.86));
-}
-
-.feeling-panel.soul-panel .tone-mute {
-  color: rgba(12, 12, 11, calc(var(--o, 0.7) * 0.7));
-}
-
-.feeling-panel.soul-panel .tone-dust {
-  color: rgba(112, 105, 93, var(--o, 0.9));
-}
-
-.feeling-panel.soul-panel .tone-accent,
-.feeling-panel.soul-panel .tone-green {
+.feeling-panel.soul-panel .tone-accent {
   color: color-mix(in srgb, var(--accent), #070706 22%);
   opacity: var(--o, 0.86);
 }
 
-.feeling-panel.soul-panel .tone-gold {
+.tone-mute {
+  color: rgba(12, 12, 11, calc(var(--o, 0.7) * 0.7));
+}
+
+.tone-black {
+  color: rgba(0, 0, 0, var(--o, 0.86));
+}
+
+.tone-blue {
+  color: rgba(74, 228, 244, var(--o, .82));
+}
+
+.tone-concrete {
+  --word-color: rgba(78, 73, 66, 0.28);
+}
+
+.tone-dust {
+  --word-color: rgba(145, 134, 119, 0.34);
+}
+
+.tone-red {
+  --word-color: rgba(219, 33, 34, 0.34);
+}
+
+.tone-yellow {
+  --word-color: rgba(255, 255, 115, 0.44);
+}
+
+.tone-gold {
   color: rgba(255, 215, 0, var(--o, 0.74));
 }
 
-.feeling-panel.soul-panel .tone-yellow {
-  color: rgba(255, 255, 0, var(--o, 0.74));
+.tone-green {
+  color: rgba(46, 204, 113, var(--o, 0.74));
 }
 
-.feeling-panel.soul-panel .tone-blue,
-.frame-word.tone-blue {
-  color: rgba(74, 228, 244, var(--o, 0.82));
+.tone-olive {
+  color: #222316;
 }
 
-.feeling-panel.soul-panel .tone-red {
-  color: rgba(156, 45, 34, var(--o, 0.72));
+.tone-white {
+  --word-color: rgba(255, 255, 255, 0.52);
+  mix-blend-mode: screen;
 }
 
-.feeling-panel.soul-panel .tone-white {
-  color: rgba(255, 255, 255, var(--o, 0.78));
-  text-shadow: 0 1px 12px rgba(0, 0, 0, .12);
+.frame-word.tone-accent {
+  --word-color: color-mix(in srgb, var(--accent), transparent 28%);
 }
 
-.feeling-panel.soul-panel .tone-concrete {
-  color: rgba(72, 75, 70, var(--o, 0.72));
-}
 
 /* 01: question / raw cloud */
 .feeling-panel.soul-cloud .soul-word {
@@ -1069,6 +1037,7 @@ textarea {
     width: 46vw;
     height: 190px;
     transform: none !important;
+    max-width: 33%;
   }
 
   .feeling-panel.soul-panel .soul-word {

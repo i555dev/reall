@@ -415,6 +415,80 @@
           "/projects/livetile/frames/image/hexhome.webp",
           "/projects/livetile/frames/image/livehex.webp"
         ],
+        "words": [
+          {
+            "text": "ROOTS",
+            "tone": "dust",
+            "weight": 1.08,
+            "speed": 0.42,
+            "behavior": "float",
+            "angle": -8,
+            "spin": 0.035
+          },
+          {
+            "text": "WATER",
+            "tone": "blue",
+            "weight": 1.18,
+            "speed": 0.5,
+            "behavior": "hit",
+            "angle": 10,
+            "spin": -0.04
+          },
+          {
+            "text": "LIGHT",
+            "tone": "yellow",
+            "weight": 1.22,
+            "speed": 0.46,
+            "behavior": "hit",
+            "angle": -14,
+            "spin": 0.045
+          },
+          {
+            "text": "HEX",
+            "tone": "black",
+            "weight": 1.3,
+            "speed": 0.34,
+            "behavior": "stuck",
+            "angle": 3,
+            "spin": 0.01
+          },
+          {
+            "text": "LOOP",
+            "tone": "gold",
+            "weight": 1.02,
+            "speed": 0.52,
+            "behavior": "float",
+            "angle": 15,
+            "spin": -0.035
+          },
+          {
+            "text": "WALL",
+            "tone": "black",
+            "weight": 1.16,
+            "speed": 0.38,
+            "behavior": "stuck",
+            "angle": -4,
+            "spin": 0.01
+          },
+          {
+            "text": "SYSTEM",
+            "tone": "blue",
+            "weight": 0.92,
+            "speed": 0.44,
+            "behavior": "fade",
+            "angle": -12,
+            "spin": 0.04
+          },
+          {
+            "text": "VISION",
+            "tone": "green",
+            "weight": 1.26,
+            "speed": 0.36,
+            "behavior": "hit",
+            "angle": 6,
+            "spin": 0.035
+          }
+        ],
         "smart": {
           "status": "IMAGE",
           "rows": [
@@ -540,6 +614,80 @@
           "/projects/livetile/frames/frame/2.webp",
           "/projects/livetile/frames/frame/3.webp",
           "/projects/livetile/frames/frame/4.webp"
+        ],
+        "words": [
+          {
+            "text": "WALL",
+            "tone": "black",
+            "weight": 1.22,
+            "speed": 0.32,
+            "behavior": "stuck",
+            "angle": -3,
+            "spin": 0.01
+          },
+          {
+            "text": "HEX",
+            "tone": "concrete",
+            "weight": 1.28,
+            "speed": 0.38,
+            "behavior": "hit",
+            "angle": 7,
+            "spin": -0.035
+          },
+          {
+            "text": "WATER",
+            "tone": "blue",
+            "weight": 1.08,
+            "speed": 0.46,
+            "behavior": "float",
+            "angle": -11,
+            "spin": 0.04
+          },
+          {
+            "text": "LIGHT",
+            "tone": "yellow",
+            "weight": 1.14,
+            "speed": 0.44,
+            "behavior": "hit",
+            "angle": 13,
+            "spin": -0.04
+          },
+          {
+            "text": "FASTENING",
+            "tone": "dust",
+            "weight": 0.82,
+            "speed": 0.42,
+            "behavior": "fade",
+            "angle": -6,
+            "spin": 0.025
+          },
+          {
+            "text": "VISIBLE",
+            "tone": "green",
+            "weight": 0.96,
+            "speed": 0.4,
+            "behavior": "hit",
+            "angle": 4,
+            "spin": 0.035
+          },
+          {
+            "text": "HIDDEN",
+            "tone": "black",
+            "weight": 0.98,
+            "speed": 0.36,
+            "behavior": "stuck",
+            "angle": -9,
+            "spin": 0.015
+          },
+          {
+            "text": "CONSTRUCTION",
+            "tone": "gold",
+            "weight": 0.9,
+            "speed": 0.48,
+            "behavior": "float",
+            "angle": 10,
+            "spin": -0.03
+          }
         ],
         "smart": {
           "status": "FRAME",
@@ -1661,40 +1809,40 @@
   },
   {
     "id": "soma",
-    "name": "SOMA",
-    "subtitle": "Hotel → Frequency",
-    "accent": "#7a5cff",
+    "name": "SOMA FAMILY",
+    "subtitle": "Free Frequency → Private Neo-Nomad Hotel",
+    "accent": "#5966D8",
     "steps": [
       {
         "id": "question",
         "label": "Question",
-        "title": "Why do hotels feel the same?",
+        "title": "What if a radio station could become a place?",
         "feeling": [
-          "same",
-          "neutral",
-          "quiet",
-          "forgotten"
+          "station",
+          "signal",
+          "free",
+          "unbuilt"
         ],
-        "meaning": "The question opens a hidden layer: not rooms, but mood.",
-        "center": "HOTEL",
-        "accent": "#7a5cff",
+        "meaning": "There was no hotel.\nThere was a station.\n\nI was listening to SomaFM — Groove Salad, Drone Zone, Deep Space One, Lush.\nNot as background music, but as a world with its own people, rhythm and atmosphere.\n\nThe question appeared before the brief:\n\nWhat if this free frequency could become a place?\nWhat if the people who live on this signal had a home in the physical world?",
+        "center": "SIGNAL",
+        "accent": "#5966D8",
         "object": "none",
         "media": [],
         "smart": {
-          "status": "SAME",
+          "status": "SOURCE",
           "rows": [
             {
-              "label": "ROOMS",
-              "value": "NEUTRAL"
+              "label": "HOTEL",
+              "value": "NOT YET"
             },
             {
-              "label": "MOOD",
-              "value": "HIDDEN",
+              "label": "STATION",
+              "value": "PLAYING",
               "highlight": true
             },
             {
-              "label": "MEMORY",
-              "value": "LOW"
+              "label": "VISION",
+              "value": "OPEN"
             }
           ]
         },
@@ -1702,64 +1850,74 @@
           "mode": "cloud",
           "words": [
             {
-              "text": "same",
-              "x": 32,
-              "y": 24,
-              "size": 1.55,
+              "text": "SomaFM",
+              "x": 30,
+              "y": 22,
+              "size": 1.5,
               "rotate": -4,
-              "tone": "black",
+              "tone": "accent",
               "weight": 900,
               "opacity": 0.95
             },
             {
-              "text": "neutral",
-              "x": 24,
-              "y": 42,
-              "size": 1.3,
-              "rotate": -9,
-              "tone": "black",
-              "weight": 850,
-              "opacity": 0.88
+              "text": "Groove Salad",
+              "x": 58,
+              "y": 38,
+              "size": 1.22,
+              "rotate": 5,
+              "tone": "green",
+              "weight": 900,
+              "opacity": 0.9
             },
             {
-              "text": "room",
+              "text": "station",
               "x": 22,
-              "y": 58,
-              "size": 1.15,
-              "rotate": -5,
+              "y": 55,
+              "size": 1.08,
+              "rotate": -7,
               "tone": "black",
               "weight": 780,
               "opacity": 0.82
             },
             {
-              "text": "forgotten",
-              "x": 54,
-              "y": 55,
-              "size": 1.05,
-              "rotate": 5,
-              "tone": "muted",
-              "weight": 650,
+              "text": "free",
+              "x": 72,
+              "y": 20,
+              "size": 0.92,
+              "rotate": 8,
+              "tone": "blue",
+              "weight": 760,
               "opacity": 0.72
             },
             {
-              "text": "hotel",
+              "text": "signal",
               "x": 50,
-              "y": 74,
+              "y": 72,
               "size": 1.18,
               "rotate": -3,
-              "tone": "black",
-              "weight": 820,
+              "tone": "red",
+              "weight": 850,
               "opacity": 0.86
             },
             {
-              "text": "quiet",
+              "text": "listener",
+              "x": 78,
+              "y": 58,
+              "size": 0.74,
+              "rotate": 7,
+              "tone": "muted",
+              "weight": 620,
+              "opacity": 0.58
+            },
+            {
+              "text": "place?",
               "x": 22,
               "y": 14,
-              "size": 0.55,
-              "rotate": -8,
+              "size": 0.58,
+              "rotate": -6,
               "tone": "muted",
               "weight": 500,
-              "opacity": 0.68
+              "opacity": 0.66
             }
           ]
         }
@@ -1767,33 +1925,33 @@
       {
         "id": "feeling",
         "label": "Feeling",
-        "title": "A place needs a frequency.",
+        "title": "The listener is tired of the masquerade.",
         "feeling": [
-          "sound",
-          "night",
-          "signal",
-          "private"
+          "tired",
+          "private",
+          "tactile",
+          "real"
         ],
-        "meaning": "The emotional core is a room tuned to a state.",
-        "center": "MOOD",
-        "accent": "#7a5cff",
+        "meaning": "The guest is not a tourist.\nHe is a digital professional, an audiophile, a design-conscious nomad — someone who has seen enough polished surfaces and social performance.\n\nHe does not need more entertainment.\nHe needs relief.\n\nCoffee.\nSound.\nGreenery.\nA wall with a hand inside it.\nA concrete bed with weight.\nA room that does not ask him to perform.\n\nA place where the nervous system exhales.",
+        "center": "RELIEF",
+        "accent": "#5966D8",
         "object": "none",
         "media": [],
         "smart": {
-          "status": "FREQUENCY",
+          "status": "NOMAD",
           "rows": [
             {
-              "label": "SOUND",
-              "value": "SOFT"
+              "label": "TOURISM",
+              "value": "OFF"
             },
             {
-              "label": "NIGHT",
-              "value": "DEEP"
-            },
-            {
-              "label": "STATE",
-              "value": "TUNED",
+              "label": "MASK",
+              "value": "REMOVED",
               "highlight": true
+            },
+            {
+              "label": "CONTACT",
+              "value": "TACTILE"
             }
           ]
         },
@@ -1801,40 +1959,68 @@
           "mode": "stack",
           "words": [
             {
-              "text": "night",
+              "text": "coffee",
               "tone": "black",
-              "size": 1.12,
-              "weight": 900
+              "state": "want",
+              "size": 1.02,
+              "weight": 780,
+              "opacity": 0.8
             },
             {
               "text": "sound",
-              "tone": "black",
-              "size": 1.12,
-              "weight": 900
+              "tone": "accent",
+              "state": "want",
+              "size": 1.22,
+              "weight": 900,
+              "opacity": 0.92
             },
             {
-              "text": "signal",
-              "tone": "black",
-              "size": 0.9299999999999999,
-              "weight": 760
+              "text": "greenery",
+              "tone": "green",
+              "state": "want",
+              "size": 1.1,
+              "weight": 850,
+              "opacity": 0.88
             },
             {
-              "text": "private",
-              "tone": "black",
-              "size": 0.895,
-              "weight": 760
+              "text": "texture",
+              "tone": "gold",
+              "state": "want",
+              "size": 1.05,
+              "weight": 820,
+              "opacity": 0.78
             },
             {
-              "text": "mood",
-              "tone": "black",
-              "size": 0.86,
-              "weight": 760
+              "text": "concrete",
+              "tone": "concrete",
+              "state": "want",
+              "size": 0.92,
+              "weight": 760,
+              "opacity": 0.68
             },
             {
-              "text": "soft",
+              "text": "noise",
               "tone": "muted",
-              "size": 0.825,
-              "weight": 760
+              "state": "reject",
+              "size": 0.82,
+              "weight": 640,
+              "opacity": 0.48
+            },
+            {
+              "text": "mask",
+              "tone": "muted",
+              "state": "reject",
+              "size": 0.86,
+              "weight": 650,
+              "opacity": 0.5
+            },
+            {
+              "text": "tourist",
+              "tone": "muted",
+              "state": "reject",
+              "size": 0.82,
+              "weight": 620,
+              "opacity": 0.46
             }
           ]
         }
@@ -1842,33 +2028,33 @@
       {
         "id": "image",
         "label": "Image",
-        "title": "Rooms as stations.",
+        "title": "A hotel as a physical radio station.",
         "feeling": [
-          "radio",
+          "rooms",
+          "stations",
           "wave",
-          "ambient",
-          "sleep"
+          "tribe"
         ],
-        "meaning": "A hotel can become a space of frequencies.",
-        "center": "SIGNAL",
-        "accent": "#7a5cff",
+        "meaning": "The image becomes clear:\n\nNot rooms.\nStations.\n\nGroove Salad is green, alive, elastic, morning.\nDrone Zone is slow, dark, deep, inward.\nDeep Space One is cosmic, blue, private, endless.\nLush is soft, human, atmospheric.\n\nThe guest does not choose standard or deluxe.\nHe chooses the frequency he wants to live in.",
+        "center": "STATIONS",
+        "accent": "#5966D8",
         "object": "none",
         "media": [],
         "smart": {
-          "status": "SIGNAL",
+          "status": "ROOMS",
           "rows": [
             {
-              "label": "ROOMS",
-              "value": "STATIONS"
+              "label": "NUMBER",
+              "value": "STATION"
             },
             {
-              "label": "WAVE",
-              "value": "ON",
+              "label": "MOOD",
+              "value": "TUNED",
               "highlight": true
             },
             {
-              "label": "SLEEP",
-              "value": "NEAR"
+              "label": "GUEST",
+              "value": "LISTENER"
             }
           ]
         },
@@ -1876,37 +2062,37 @@
           "mode": "orbit",
           "words": [
             {
-              "text": "radio",
+              "text": "Groove Salad",
               "x": 28,
               "y": 18,
-              "size": 1.1,
+              "size": 1.0,
               "rotate": -9,
-              "tone": "accent",
-              "weight": 850,
+              "tone": "green",
+              "weight": 900,
               "opacity": 0.9
             },
             {
-              "text": "wave",
+              "text": "Drone Zone",
               "x": 64,
-              "y": 36,
+              "y": 34,
               "size": 0.95,
               "rotate": 8,
-              "tone": "black",
+              "tone": "blue",
               "weight": 820,
               "opacity": 0.86
             },
             {
-              "text": "ambient",
-              "x": 24,
-              "y": 48,
-              "size": 0.85,
+              "text": "Deep Space One",
+              "x": 22,
+              "y": 50,
+              "size": 0.78,
               "rotate": -4,
               "tone": "accent",
-              "weight": 750,
-              "opacity": 0.84
+              "weight": 800,
+              "opacity": 0.86
             },
             {
-              "text": "sleep",
+              "text": "Lush",
               "x": 70,
               "y": 62,
               "size": 0.9,
@@ -1916,7 +2102,7 @@
               "opacity": 0.76
             },
             {
-              "text": "station",
+              "text": "room tone",
               "x": 46,
               "y": 78,
               "size": 1.0,
@@ -1929,9 +2115,9 @@
               "text": "frequency",
               "x": 78,
               "y": 18,
-              "size": 0.46,
+              "size": 0.5,
               "rotate": 18,
-              "tone": "muted",
+              "tone": "black",
               "weight": 500,
               "opacity": 0.55
             }
@@ -1941,33 +2127,33 @@
       {
         "id": "frame",
         "label": "Frame",
-        "title": "Hotel becomes frequency.",
+        "title": "The frequency becomes rules.",
         "feeling": [
-          "tuned",
-          "deep",
-          "soft",
-          "hidden"
+          "closed",
+          "sound",
+          "material",
+          "care"
         ],
-        "meaning": "The new category is not accommodation. It is atmosphere.",
-        "center": "FREQUENCY",
-        "accent": "#7a5cff",
+        "meaning": "Now the frequency has to become a hotel system.\n\n4 or 9 rooms.\nClosed territory.\nNo outside traffic.\nNo random crowd.\n\nHand-applied plaster walls.\nGradient color.\nPolished concrete beds.\nMarshall sound in every room.\nSomaFM as the room setting.\nHealthy breakfasts without fake wellness.\nCoffee, plants, warm light, personal care.\n\nA quiet concrete sanctuary with one bright Groove Salad stripe — a sign that you are on the right frequency.",
+        "center": "SYSTEM",
+        "accent": "#5966D8",
         "object": "none",
         "media": [],
         "smart": {
-          "status": "TUNED",
+          "status": "FRAME",
           "rows": [
             {
-              "label": "HOTEL",
-              "value": "MOOD"
+              "label": "ROOMS",
+              "value": "4 / 9"
             },
             {
-              "label": "ROOM",
-              "value": "STATE"
-            },
-            {
-              "label": "CATEGORY",
-              "value": "NEW",
+              "label": "TERRITORY",
+              "value": "PRIVATE",
               "highlight": true
+            },
+            {
+              "label": "SOUND",
+              "value": "MARSHALL"
             }
           ]
         },
@@ -1975,43 +2161,51 @@
           "mode": "frame",
           "words": [
             {
-              "text": "tuned",
+              "text": "closed",
               "side": "top",
-              "pos": 25,
+              "pos": 22,
               "size": 0.78,
               "tone": "accent",
               "weight": 800
             },
             {
-              "text": "deep",
-              "side": "left",
-              "pos": 35,
-              "size": 0.78,
-              "tone": "accent",
-              "weight": 800
-            },
-            {
-              "text": "soft",
-              "side": "right",
-              "pos": 35,
-              "size": 0.78,
-              "tone": "accent",
-              "weight": 800
-            },
-            {
-              "text": "hidden",
-              "side": "bottom",
-              "pos": 50,
-              "size": 0.78,
+              "text": "Marshall",
+              "side": "top",
+              "pos": 62,
+              "size": 0.72,
               "tone": "black",
-              "weight": 800
+              "weight": 760
             },
             {
-              "text": "atmosphere",
-              "side": "top",
-              "pos": 75,
-              "size": 0.64,
-              "tone": "accent",
+              "text": "plaster",
+              "side": "left",
+              "pos": 36,
+              "size": 0.76,
+              "tone": "gold",
+              "weight": 780
+            },
+            {
+              "text": "concrete",
+              "side": "right",
+              "pos": 38,
+              "size": 0.76,
+              "tone": "concrete",
+              "weight": 780
+            },
+            {
+              "text": "Groove stripe",
+              "side": "bottom",
+              "pos": 46,
+              "size": 0.76,
+              "tone": "green",
+              "weight": 820
+            },
+            {
+              "text": "care",
+              "side": "bottom",
+              "pos": 78,
+              "size": 0.62,
+              "tone": "black",
               "weight": 700
             }
           ]
@@ -2020,33 +2214,33 @@
       {
         "id": "reality",
         "label": "Reality",
-        "title": "Soma FM.",
+        "title": "A free frequency becomes a private neo-nomad hotel.",
         "feeling": [
-          "dark",
-          "room",
-          "music",
-          "escape"
+          "belonging",
+          "privacy",
+          "audio",
+          "place"
         ],
-        "meaning": "A hotel concept built around sound and inner state.",
+        "meaning": "SOMA Family Hotel is a private boutique sanctuary for new global nomads, audiophiles and design-conscious travelers.\n\nIt was not adapted from an existing hotel.\nIt was imagined from listening.\n\nA free radio frequency became a physical world: name, audience, atmosphere, rooms, material logic, sound ritual, breakfast culture and commercial story.\n\nNot a hotel with music.\nA place for people who live on the same frequency.",
         "center": "SOMA",
-        "accent": "#7a5cff",
+        "accent": "#5966D8",
         "object": "none",
         "media": [],
         "smart": {
           "status": "SOMA",
           "rows": [
             {
-              "label": "ROOMS",
-              "value": "12"
+              "label": "SOURCE",
+              "value": "FREQUENCY"
             },
             {
-              "label": "FREQUENCY",
-              "value": "ON",
+              "label": "PLACE",
+              "value": "PRIVATE",
               "highlight": true
             },
             {
-              "label": "ESCAPE",
-              "value": "DEEP"
+              "label": "GUEST",
+              "value": "NEO NOMAD"
             }
           ]
         },
@@ -2054,29 +2248,29 @@
           "mode": "quiet",
           "words": [
             {
-              "text": "dark",
-              "x": 35,
+              "text": "belonging",
+              "x": 34,
               "y": 28,
-              "size": 1.25,
+              "size": 1.14,
               "rotate": -2,
               "tone": "black",
               "weight": 800,
               "opacity": 0.88
             },
             {
-              "text": "room",
+              "text": "private",
               "x": 62,
-              "y": 48,
-              "size": 1.42,
+              "y": 46,
+              "size": 1.28,
               "rotate": 5,
               "tone": "accent",
               "weight": 850,
               "opacity": 0.9
             },
             {
-              "text": "music",
-              "x": 55,
-              "y": 70,
+              "text": "nomad",
+              "x": 54,
+              "y": 68,
               "size": 1.0,
               "rotate": -1,
               "tone": "gold",
@@ -2084,8 +2278,8 @@
               "opacity": 0.75
             },
             {
-              "text": "escape",
-              "x": 82,
+              "text": "frequency",
+              "x": 78,
               "y": 18,
               "size": 0.62,
               "rotate": 8,
@@ -2094,71 +2288,119 @@
               "opacity": 0.55
             },
             {
-              "text": "sleep",
-              "x": 28,
+              "text": "Groove Salad",
+              "x": 26,
               "y": 82,
-              "size": 0.62,
+              "size": 0.68,
               "rotate": -3,
-              "tone": "muted",
-              "weight": 500,
-              "opacity": 0.55
+              "tone": "green",
+              "weight": 700,
+              "opacity": 0.72
             }
           ]
         }
       }
     ],
     "cover": {
-      "label": "Intro",
-      "center": "SOMA",
-      "title": "Hotel → Frequency",
-      "meaning": "A project transformation: Hotel → Frequency",
+      "label": "Concept",
+      "center": "SOMA FAMILY",
+      "title": "Free Frequency → Private Neo-Nomad Hotel",
+      "meaning": "I was listening to a station.\nThen I imagined a hotel for the people who live on that frequency.\n\nA free SomaFM feeling became a private boutique sanctuary for digital nomads, audiophiles and people tired of noise.",
       "object": "none",
-      "media": [],
+      "media": [
+        "/projects/soma/cover/soma-intro-bg.webp"
+      ],
       "visual": {
-        "type": "words",
-        "words": [
-          {
-            "text": "SOMA",
-            "tone": "black"
-          }
-        ]
+        "type": "coverObject",
+        "src": "/projects/soma/cover/bed.webp"
       }
     }
   },
   {
     "id": "chaveta",
     "name": "CHAVETA",
-    "subtitle": "Catalog → Club",
+    "subtitle": "Raw Inventory → Premium Club Store",
     "accent": "#b89a5e",
     "steps": [
       {
-        "id": "question",
-        "label": "Question",
-        "title": "Why does a catalog feel cold?",
+        "id": "before",
+        "label": "Было",
+        "title": "Хорошее место. Плохая цифра.",
         "feeling": [
-          "list",
-          "price",
-          "filter",
-          "cold"
+          "хаос",
+          "старая база",
+          "нет фото",
+          "нет структуры"
         ],
-        "meaning": "A catalog sells items. But the client wants atmosphere and belonging.",
-        "center": "CATALOG",
+        "meaning": "У заведения может быть сильный продукт, красивое место и постоянные гости.\n\nНо в цифре всё выглядит как складская таблица: сырые названия, нет нормальной структуры, нет описаний, нет фотографий, нет желания выбирать.",
+        "center": "БЫЛО",
         "accent": "#b89a5e",
         "object": "none",
-        "media": [],
+        "media": [
+          "/projects/chaveta/frames/01/chaveta-1-1.webp",
+          "/projects/chaveta/frames/01/chaveta-1-2.webp",
+          "/projects/chaveta/frames/01/chaveta-1-3.webp"
+        ],
+        "words": [
+          {
+            "text": "СЫРАЯ БАЗА",
+            "tone": "dust",
+            "weight": 0.78,
+            "speed": 0.38,
+            "behavior": "hit",
+            "angle": -6,
+            "spin": 0.02
+          },
+          {
+            "text": "ТАБЛИЦЫ",
+            "tone": "white",
+            "weight": 1.05,
+            "speed": 0.48,
+            "behavior": "float",
+            "angle": 8,
+            "spin": -0.03
+          },
+          {
+            "text": "НЕТ ФОТО",
+            "tone": "red",
+            "weight": 0.9,
+            "speed": 0.42,
+            "behavior": "fade",
+            "angle": -10,
+            "spin": 0.02
+          },
+          {
+            "text": "СТАРЫЙ САЙТ",
+            "tone": "concrete",
+            "weight": 1.08,
+            "speed": 0.34,
+            "behavior": "stuck",
+            "angle": 4,
+            "spin": 0.01
+          },
+          {
+            "text": "НЕТ ЖЕЛАНИЯ",
+            "tone": "red",
+            "weight": 1.0,
+            "speed": 0.44,
+            "behavior": "hit",
+            "angle": 12,
+            "spin": -0.02
+          }
+        ],
         "smart": {
-          "status": "COLD",
+          "status": "БАЗА",
           "rows": [
             {
-              "label": "LIST",
-              "value": "PRICE"
+              "label": "СТРУКТУРА",
+              "value": "НЕТ"
             },
             {
-              "label": "FILTER",
-              "value": "ON"
+              "label": "ФОТО",
+              "value": "НЕТ"
             },
             {
-              "label": "ATMOSPHERE",
+              "label": "ЖЕЛАНИЕ",
               "value": "0",
               "highlight": true
             }
@@ -2168,182 +2410,148 @@
           "mode": "cloud",
           "words": [
             {
-              "text": "list",
-              "x": 32,
+              "text": "хаос",
+              "x": 30,
               "y": 24,
-              "size": 1.55,
-              "rotate": -4,
-              "tone": "black",
-              "weight": 900,
-              "opacity": 0.95
-            },
-            {
-              "text": "price",
-              "x": 24,
-              "y": 42,
-              "size": 1.3,
-              "rotate": -9,
-              "tone": "black",
-              "weight": 850,
-              "opacity": 0.88
-            },
-            {
-              "text": "filter",
-              "x": 22,
-              "y": 58,
-              "size": 1.15,
+              "size": 1.45,
               "rotate": -5,
               "tone": "black",
-              "weight": 780,
-              "opacity": 0.82
+              "weight": 900,
+              "opacity": 0.9
             },
             {
-              "text": "cold",
-              "x": 54,
-              "y": 55,
-              "size": 1.05,
-              "rotate": 5,
+              "text": "таблицы",
+              "x": 52,
+              "y": 42,
+              "size": 1.2,
+              "rotate": 4,
+              "tone": "gold",
+              "weight": 820,
+              "opacity": 0.78
+            },
+            {
+              "text": "нет фото",
+              "x": 25,
+              "y": 60,
+              "size": 0.92,
+              "rotate": -7,
               "tone": "muted",
               "weight": 650,
+              "opacity": 0.62
+            },
+            {
+              "text": "нет описаний",
+              "x": 66,
+              "y": 58,
+              "size": 0.9,
+              "rotate": 6,
+              "tone": "muted",
+              "weight": 650,
+              "opacity": 0.58
+            },
+            {
+              "text": "старый сайт",
+              "x": 48,
+              "y": 76,
+              "size": 1.04,
+              "rotate": -3,
+              "tone": "dust",
+              "weight": 760,
               "opacity": 0.72
             },
             {
-              "text": "catalog",
-              "x": 50,
-              "y": 74,
-              "size": 1.18,
-              "rotate": -3,
-              "tone": "black",
-              "weight": 820,
-              "opacity": 0.86
-            },
-            {
-              "text": "item",
-              "x": 22,
-              "y": 14,
-              "size": 0.55,
-              "rotate": -8,
+              "text": "не купить",
+              "x": 78,
+              "y": 28,
+              "size": 0.78,
+              "rotate": 8,
               "tone": "muted",
-              "weight": 500,
-              "opacity": 0.68
-            },
-            {
-              "text": "shop",
-              "x": 76,
-              "y": 14,
-              "size": 0.58,
-              "rotate": 7,
-              "tone": "muted",
-              "weight": 500,
-              "opacity": 0.66
+              "weight": 620,
+              "opacity": 0.54
             }
           ]
         }
       },
       {
-        "id": "feeling",
-        "label": "Feeling",
-        "title": "The product needs a room.",
+        "id": "analysis",
+        "label": "Разбор",
+        "title": "Сначала не дизайн.",
         "feeling": [
-          "dark",
-          "gold",
-          "private",
-          "slow"
+          "типы",
+          "поля",
+          "логика",
+          "фильтры"
         ],
-        "meaning": "The emotional layer is lounge, not ecommerce.",
-        "center": "ATMOSPHERE",
+        "meaning": "Сначала нужно понять, что вообще продаётся.\n\nКакие есть типы товаров. Какие поля нужны. Как они связаны. Как искать, фильтровать, выбирать и покупать.",
+        "center": "РАЗБОР",
         "accent": "#b89a5e",
         "object": "none",
-        "media": [],
-        "smart": {
-          "status": "ROOM",
-          "rows": [
-            {
-              "label": "DARK",
-              "value": "ON"
-            },
-            {
-              "label": "GOLD",
-              "value": "LOW"
-            },
-            {
-              "label": "PRIVATE",
-              "value": "HIGH",
-              "highlight": true
-            }
-          ]
-        },
-        "soul": {
-          "mode": "stack",
-          "words": [
-            {
-              "text": "dark",
-              "tone": "black",
-              "size": 1.12,
-              "weight": 900
-            },
-            {
-              "text": "gold",
-              "tone": "black",
-              "size": 1.12,
-              "weight": 900
-            },
-            {
-              "text": "private",
-              "tone": "black",
-              "size": 0.9299999999999999,
-              "weight": 760
-            },
-            {
-              "text": "slow",
-              "tone": "black",
-              "size": 0.895,
-              "weight": 760
-            },
-            {
-              "text": "lounge",
-              "tone": "black",
-              "size": 0.86,
-              "weight": 760
-            },
-            {
-              "text": "ritual",
-              "tone": "muted",
-              "size": 0.825,
-              "weight": 760
-            }
-          ]
-        }
-      },
-      {
-        "id": "image",
-        "label": "Image",
-        "title": "A private club online.",
-        "feeling": [
-          "club",
-          "ritual",
-          "velvet",
-          "table"
+        "media": [
+          "/projects/chaveta/frames/02/chaveta-2-1.webp",
+          "/projects/chaveta/frames/02/chaveta-2-2.webp",
+          "/projects/chaveta/frames/02/chaveta-2-3.webp"
         ],
-        "meaning": "The image moves the site from shop to space.",
-        "center": "CLUB",
-        "accent": "#b89a5e",
-        "object": "none",
-        "media": [],
+        "words": [
+          {
+            "text": "ТИПЫ",
+            "tone": "yellow",
+            "weight": 1.1,
+            "speed": 0.4,
+            "behavior": "hit",
+            "angle": -4,
+            "spin": 0.02
+          },
+          {
+            "text": "ПОЛЯ",
+            "tone": "white",
+            "weight": 1.0,
+            "speed": 0.42,
+            "behavior": "float",
+            "angle": 7,
+            "spin": -0.02
+          },
+          {
+            "text": "ФИЛЬТРЫ",
+            "tone": "gold",
+            "weight": 1.18,
+            "speed": 0.35,
+            "behavior": "hit",
+            "angle": 5,
+            "spin": 0.015
+          },
+          {
+            "text": "ЗАВИСИМОСТИ",
+            "tone": "accent",
+            "weight": 1.02,
+            "speed": 0.32,
+            "behavior": "stuck",
+            "angle": -8,
+            "spin": 0.01
+          },
+          {
+            "text": "КАТЕГОРИИ",
+            "tone": "black",
+            "weight": 1.0,
+            "speed": 0.45,
+            "behavior": "fade",
+            "angle": 10,
+            "spin": -0.02
+          }
+        ],
         "smart": {
-          "status": "CLUB",
+          "status": "РАЗБОР",
           "rows": [
             {
-              "label": "RITUAL",
-              "value": "ON"
+              "label": "ТИПЫ",
+              "value": "НАЙДЕНЫ"
             },
             {
-              "label": "TABLE",
-              "value": "SET"
+              "label": "ПОЛЯ",
+              "value": "55'000+ "
             },
             {
-              "label": "BELONGING",
-              "value": "OPEN",
+              "label": "ЛОГИКА",
+              "value": "СОБРАНА",
               "highlight": true
             }
           ]
@@ -2352,98 +2560,149 @@
           "mode": "orbit",
           "words": [
             {
-              "text": "club",
+              "text": "типы",
               "x": 28,
-              "y": 18,
+              "y": 20,
               "size": 1.1,
-              "rotate": -9,
+              "rotate": -6,
               "tone": "accent",
               "weight": 850,
-              "opacity": 0.9
+              "opacity": 0.88
             },
             {
-              "text": "velvet",
-              "x": 64,
-              "y": 36,
-              "size": 0.95,
+              "text": "поля",
+              "x": 62,
+              "y": 34,
+              "size": 0.92,
               "rotate": 8,
-              "tone": "black",
-              "weight": 820,
-              "opacity": 0.86
-            },
-            {
-              "text": "table",
-              "x": 24,
-              "y": 48,
-              "size": 0.85,
-              "rotate": -4,
-              "tone": "accent",
-              "weight": 750,
-              "opacity": 0.84
-            },
-            {
-              "text": "ritual",
-              "x": 70,
-              "y": 62,
-              "size": 0.9,
-              "rotate": -11,
               "tone": "gold",
-              "weight": 750,
+              "weight": 800,
               "opacity": 0.76
             },
             {
-              "text": "private",
-              "x": 46,
-              "y": 78,
-              "size": 1.0,
-              "rotate": -7,
+              "text": "фильтры",
+              "x": 30,
+              "y": 50,
+              "size": 0.95,
+              "rotate": -4,
               "tone": "black",
-              "weight": 800,
-              "opacity": 0.84
+              "weight": 820,
+              "opacity": 0.8
             },
             {
-              "text": "inside",
+              "text": "категории",
+              "x": 68,
+              "y": 66,
+              "size": 0.86,
+              "rotate": -8,
+              "tone": "dust",
+              "weight": 760,
+              "opacity": 0.68
+            },
+            {
+              "text": "логика",
+              "x": 48,
+              "y": 78,
+              "size": 1.08,
+              "rotate": 3,
+              "tone": "accent",
+              "weight": 850,
+              "opacity": 0.86
+            },
+            {
+              "text": "связи",
               "x": 78,
               "y": 18,
-              "size": 0.46,
-              "rotate": 18,
+              "size": 0.62,
+              "rotate": 12,
               "tone": "muted",
-              "weight": 500,
-              "opacity": 0.55
+              "weight": 620,
+              "opacity": 0.5
             }
           ]
         }
       },
       {
-        "id": "frame",
-        "label": "Frame",
-        "title": "Catalog becomes club.",
+        "id": "build",
+        "label": "Сборка",
+        "title": "База становится магазином.",
         "feeling": [
-          "warm",
-          "dense",
-          "selected",
-          "inside"
+          "база",
+          "скрипты",
+          "карточки",
+          "checkout"
         ],
-        "meaning": "The new frame gives the catalog a social atmosphere.",
-        "center": "CURATED",
+        "meaning": "Старая товарная масса превращается в рабочий e-commerce.\n\nТаблицы. Скрипты. WooCommerce. Атрибуты. Карточки. Фильтры. Страницы. Checkout.",
+        "center": "СБОРКА",
         "accent": "#b89a5e",
         "object": "none",
-        "media": [],
+        "media": [
+          "/projects/chaveta/frames/03/chaveta-3-1.webp",
+          "/projects/chaveta/frames/03/chaveta-3-2.webp",
+          "/projects/chaveta/frames/03/chaveta-3-3.webp"
+        ],
+        "words": [
+          {
+            "text": "WOOCOMMERCE",
+            "tone": "gold",
+            "weight": 0.82,
+            "speed": 0.34,
+            "behavior": "hit",
+            "angle": -5,
+            "spin": 0.02
+          },
+          {
+            "text": "СКРИПТЫ",
+            "tone": "blue",
+            "weight": 0.95,
+            "speed": 0.48,
+            "behavior": "float",
+            "angle": 8,
+            "spin": -0.02
+          },
+          {
+            "text": "КАРТОЧКИ",
+            "tone": "yellow",
+            "weight": 1.08,
+            "speed": 0.4,
+            "behavior": "hit",
+            "angle": 6,
+            "spin": 0.02
+          },
+          {
+            "text": "CHECKOUT",
+            "tone": "black",
+            "weight": 1.0,
+            "speed": 0.36,
+            "behavior": "stuck",
+            "angle": -7,
+            "spin": 0.01
+          },
+          {
+            "text": "РАБОТАЕТ",
+            "tone": "green",
+            "weight": 0.78,
+            "speed": 0.44,
+            "behavior": "hit",
+            "angle": 3,
+            "spin": -0.02
+          }
+        ],
         "smart": {
-          "status": "CURATED",
+          "status": "МАГАЗИН",
           "rows": [
             {
-              "label": "CATALOG",
-              "value": "WARM"
+              "label": "ТОВАРЫ",
+              "value": "1'000+"
             },
             {
-              "label": "SELECTION",
-              "value": "TIGHT",
+              "label": "ПОЛЯ",
+              "value": "55'000+"
+            },
+            {
+              "label": "CHECKOUT",
+              "value": "ON",
               "highlight": true
-            },
-            {
-              "label": "INSIDE",
-              "value": "YES"
             }
           ]
         },
@@ -2451,155 +2710,220 @@
           "mode": "frame",
           "words": [
             {
-              "text": "warm",
+              "text": "база",
               "side": "top",
-              "pos": 25,
+              "pos": 24,
               "size": 0.78,
               "tone": "accent",
               "weight": 800
             },
             {
-              "text": "dense",
+              "text": "товары",
+              "side": "top",
+              "pos": 60,
+              "size": 0.72,
+              "tone": "gold",
+              "weight": 760
+            },
+            {
+              "text": "фильтры",
               "side": "left",
-              "pos": 35,
-              "size": 0.78,
+              "pos": 42,
+              "size": 0.74,
               "tone": "accent",
               "weight": 800
             },
             {
-              "text": "selected",
+              "text": "карточки",
               "side": "right",
-              "pos": 35,
-              "size": 0.78,
+              "pos": 42,
+              "size": 0.74,
               "tone": "accent",
               "weight": 800
             },
             {
-              "text": "inside",
+              "text": "checkout",
               "side": "bottom",
-              "pos": 50,
-              "size": 0.78,
+              "pos": 48,
+              "size": 0.72,
               "tone": "black",
-              "weight": 800
+              "weight": 780
             },
             {
-              "text": "curated",
-              "side": "top",
-              "pos": 75,
-              "size": 0.64,
+              "text": "работает",
+              "side": "bottom",
+              "pos": 76,
+              "size": 0.68,
               "tone": "accent",
-              "weight": 700
+              "weight": 760
+            }
+          ]
+        }
+      },
+      {
+        "id": "premium-layer",
+        "label": "Атмосфера",
+        "title": "Магазин должен звучать как клуб.",
+        "feeling": [
+          "тёмный",
+          "золото",
+          "детали",
+          "клуб"
+        ],
+        "meaning": "Cистема заработала, её пора переодеть.\n\nНе нарисовать красивую картинку, а надеть новый премиальный костюм на существующий сайт: страницы, карточки, фильтры, отступы, цвета - максимальное внимание к деталям.",
+        "center": "ПРЕМИУМ",
+        "accent": "#b89a5e",
+        "object": "none",
+        "media": [
+          "/projects/chaveta/frames/04/chaveta-4-1.webp",
+          "/projects/chaveta/frames/04/chaveta-4-2.webp",
+          "/projects/chaveta/frames/04/chaveta-4-3.webp",
+          "/projects/chaveta/frames/04/chaveta-4-4.webp"
+        ],
+        "words": [
+          {
+            "text": "PREMIUM",
+            "tone": "gold",
+            "weight": 1.22,
+            "speed": 0.4,
+            "behavior": "hit",
+            "angle": 4,
+            "spin": 0.02
+          },
+          {
+            "text": "CIGAR",
+            "tone": "accent",
+            "weight": 0.92,
+            "speed": 0.42,
+            "behavior": "float",
+            "angle": -8,
+            "spin": -0.02
+          },
+          {
+            "text": "CLUB",
+            "tone": "WHITE",
+            "weight": 1.08,
+            "speed": 0.34,
+            "behavior": "hit",
+            "angle": 9,
+            "spin": 0.02
+          }
+        ],
+        "smart": {
+          "status": "СКИН",
+          "rows": [
+            {
+              "label": "ДИЗАЙН",
+              "value": "Club noir",
+              "highlight": true
+            },
+            {
+              "label": "СТИЛЬ",
+              "value": "Камерная роскошь",
+              "highlight": true
+            },
+            {
+              "label": "АТМОСФЕРА",
+              "value": "Лаунж",
+              "highlight": true
+            }
+          ]
+        },
+        "soul": {
+          "mode": "stack",
+          "words": [
+            {
+              "text": "Акценты",
+              "tone": "olive",
+              "state": "want",
+              "size": 1.12,
+              "weight": 900,
+              "opacity": 0.88
+            },
+            {
+              "text": "Удовольствие",
+              "tone": "gold",
+              "state": "want",
+              "size": 1.22,
+              "weight": 900,
+              "opacity": 0.86
+            },
+            {
+              "text": "клуб",
+              "tone": "accent",
+              "state": "want",
+              "size": 1.18,
+              "weight": 850,
+              "opacity": 0.82
+            },
+            {
+              "text": "детали",
+              "tone": "white",
+              "state": "want",
+              "size": 0.92,
+              "weight": 720,
+              "opacity": 0.68
+            },
+            {
+              "text": "Удобство",
+              "tone": "green",
+              "state": "want",
+              "size": 0.86,
+              "weight": 680,
+              "opacity": 0.58
+            },
+            {
+              "text": "Впечатление",
+              "tone": "yellow",
+              "state": "want",
+              "size": 0.82,
+              "weight": 660,
+              "opacity": 0.52
             }
           ]
         }
       },
       {
         "id": "reality",
-        "label": "Reality",
-        "title": "Chaveta.",
+        "label": "Результат",
+        "title": "Магазин стал частью клуба.",
         "feeling": [
-          "premium",
-          "dark",
-          "gold",
-          "lounge"
+          "премиум",
+          "магазин",
+          "клуб",
+          "работает"
         ],
-        "meaning": "A premium atmosphere placed over an existing catalog.",
+        "meaning": "Рабочий магазин, который не выглядит отдельно от места.\n\nТовары, атмосфера, выбор и покупка собраны в одну премиальную систему.\n\n<a href='https://chaveta/ru' target='blanc'>Приходите в клуб</a> посмотреть и отдохнуть.",
         "center": "CHAVETA",
         "accent": "#b89a5e",
         "object": "none",
-        "media": [],
-        "smart": {
-          "status": "CHAVETA",
-          "rows": [
-            {
-              "label": "PREMIUM",
-              "value": "ON"
-            },
-            {
-              "label": "LOUNGE",
-              "value": "DEEP",
-              "highlight": true
-            },
-            {
-              "label": "CLUB",
-              "value": "OPEN"
-            }
-          ]
-        },
-        "soul": {
-          "mode": "quiet",
-          "words": [
-            {
-              "text": "premium",
-              "x": 35,
-              "y": 28,
-              "size": 1.25,
-              "rotate": -2,
-              "tone": "black",
-              "weight": 800,
-              "opacity": 0.88
-            },
-            {
-              "text": "dark",
-              "x": 62,
-              "y": 48,
-              "size": 1.42,
-              "rotate": 5,
-              "tone": "accent",
-              "weight": 850,
-              "opacity": 0.9
-            },
-            {
-              "text": "gold",
-              "x": 55,
-              "y": 70,
-              "size": 1.0,
-              "rotate": -1,
-              "tone": "gold",
-              "weight": 760,
-              "opacity": 0.75
-            },
-            {
-              "text": "lounge",
-              "x": 82,
-              "y": 18,
-              "size": 0.62,
-              "rotate": 8,
-              "tone": "muted",
-              "weight": 500,
-              "opacity": 0.55
-            },
-            {
-              "text": "inside",
-              "x": 28,
-              "y": 82,
-              "size": 0.62,
-              "rotate": -3,
-              "tone": "muted",
-              "weight": 500,
-              "opacity": 0.55
-            }
-          ]
-        }
+        "media": [
+          "/projects/chaveta/frames/05/chaveta-5.png"
+        ],
+        "smart": false,
+        "soul": false,
+        "words": [],
+        "layout": "heroBackground",
+        "hide": [
+          "soul",
+          "smart",
+          "mind",
+          "visual"
+        ]
       }
     ],
     "cover": {
-      "label": "Intro",
+      "label": "Кейс",
       "center": "CHAVETA",
-      "title": "Catalog → Club",
-      "meaning": "A project transformation: Catalog → Club",
+      "title": "Raw Inventory → Premium Club Store",
+      "meaning": "Сырая товарная база стала рабочим премиальным магазином — а затем цифровым продолжением клуба.",
       "object": "none",
       "media": [
         "/projects/chaveta/cover/chaveta-intro.webp"
       ],
       "visual": {
-        "type": "words",
-        "words": [
-          {
-            "text": "CHAVETA",
-            "tone": "black"
-          }
-        ]
+        "type": "coverObject",
+        "src": "/projects/chaveta/cover/chaveta-logo.webp"
       }
     }
   }
