@@ -2016,7 +2016,13 @@
         "center": "RELIEF",
         "accent": "#5966D8",
         "object": "none",
-        "media": [],
+        "media": [
+          "/projects/soma/frames/02/soma-2-1.webp",
+          "/projects/soma/frames/02/soma-2-2.webp",
+          "/projects/soma/frames/02/soma-2-3.webp",
+          "/projects/soma/frames/02/soma-2-4.webp",
+          "/projects/soma/frames/02/soma-2-5.webp"
+        ],
         "smart": {
           "status": "NOMAD",
           "rows": [
@@ -2193,7 +2199,12 @@
         "center": "STATIONS",
         "accent": "#5966D8",
         "object": "none",
-        "media": [],
+        "media": [
+          "/projects/soma/frames/03/soma-3-1.webp",
+          "/projects/soma/frames/03/soma-3-2.webp",
+          "/projects/soma/frames/03/soma-3-3.webp",
+          "/projects/soma/frames/03/soma-3-4.webp"
+        ],
         "smart": {
           "status": "ROOMS",
           "rows": [
@@ -2366,7 +2377,12 @@
         "center": "SYSTEM",
         "accent": "#5966D8",
         "object": "none",
-        "media": [],
+        "media": [
+          "/projects/soma/frames/04/soma-4-1.webp",
+          "/projects/soma/frames/04/soma-4-2.webp",
+          "/projects/soma/frames/04/soma-4-3.webp",
+          "/projects/soma/frames/04/soma-4-4.webp"
+        ],
         "smart": {
           "status": "FRAME",
           "rows": [
@@ -2517,146 +2533,19 @@
         "id": "reality",
         "label": "Reality",
         "title": "A free frequency becomes a private neo-nomad hotel.",
-        "feeling": [
-          "belonging",
-          "privacy",
-          "audio",
-          "place"
-        ],
+        "feeling": [],
         "meaning": "SOMA Family Hotel is a private boutique sanctuary for new global nomads, audiophiles and design-conscious travelers.\n\nIt was not adapted from an existing hotel.\nIt was imagined from listening.\n\nA free radio frequency became a physical world: name, audience, atmosphere, rooms, material logic, sound ritual, breakfast culture and commercial story.\n\nNot a hotel with music.\nA place for people who live on the same frequency.",
         "center": "SOMA",
         "accent": "#5966D8",
         "object": "none",
-        "media": [],
-        "smart": {
-          "status": "SOMA",
-          "rows": [
-            {
-              "label": "SOURCE",
-              "value": "FREQUENCY"
-            },
-            {
-              "label": "PLACE",
-              "value": "PRIVATE",
-              "highlight": true
-            },
-            {
-              "label": "GUEST",
-              "value": "NEO NOMAD"
-            }
-          ]
-        },
-        "soul": {
-          "mode": "quiet",
-          "words": [
-            {
-              "text": "belonging",
-              "x": 34,
-              "y": 28,
-              "size": 1.14,
-              "rotate": -2,
-              "tone": "black",
-              "weight": 800,
-              "opacity": 0.88
-            },
-            {
-              "text": "private",
-              "x": 62,
-              "y": 46,
-              "size": 1.28,
-              "rotate": 5,
-              "tone": "accent",
-              "weight": 850,
-              "opacity": 0.9
-            },
-            {
-              "text": "nomad",
-              "x": 54,
-              "y": 68,
-              "size": 1.0,
-              "rotate": -1,
-              "tone": "gold",
-              "weight": 760,
-              "opacity": 0.75
-            },
-            {
-              "text": "frequency",
-              "x": 78,
-              "y": 18,
-              "size": 0.62,
-              "rotate": 8,
-              "tone": "muted",
-              "weight": 500,
-              "opacity": 0.55
-            },
-            {
-              "text": "Groove Salad",
-              "x": 26,
-              "y": 82,
-              "size": 0.68,
-              "rotate": -3,
-              "tone": "green",
-              "weight": 700,
-              "opacity": 0.72
-            }
-          ]
-        },
-        "words": [
-          {
-            "text": "SOMA",
-            "tone": "accent",
-            "weight": 1.45,
-            "speed": 0.28,
-            "behavior": "stuck",
-            "angle": -2,
-            "spin": 0.01
-          },
-          {
-            "text": "PRIVATE",
-            "tone": "black",
-            "weight": 1.12,
-            "speed": 0.36,
-            "behavior": "stuck",
-            "angle": 4,
-            "spin": 0.01
-          },
-          {
-            "text": "NOMAD",
-            "tone": "gold",
-            "weight": 1.06,
-            "speed": 0.44,
-            "behavior": "hit",
-            "angle": -8,
-            "spin": 0.035
-          },
-          {
-            "text": "AUDIO",
-            "tone": "blue",
-            "weight": 0.96,
-            "speed": 0.46,
-            "behavior": "float",
-            "angle": 12,
-            "spin": -0.03
-          },
-          {
-            "text": "BELONGING",
-            "tone": "green",
-            "weight": 0.86,
-            "speed": 0.4,
-            "behavior": "hit",
-            "angle": -12,
-            "spin": 0.035
-          },
-          {
-            "text": "PLACE",
-            "tone": "black",
-            "weight": 1.0,
-            "speed": 0.34,
-            "behavior": "stuck",
-            "angle": 6,
-            "spin": 0.01
-          }
-        ]
+        "media": [
+          "/projects/soma/frames/05/soma-5-1.webp",
+          "/projects/soma/frames/05/soma-5-2.webp",
+          "/projects/soma/frames/05/soma-5-3.webp"
+        ],
+        "smart": false,
+        "soul": false,
+        "words": []
       }
     ],
     "cover": {
@@ -3251,7 +3140,7 @@
           "клуб",
           "работает"
         ],
-        "meaning": "Рабочий магазин, который не выглядит отдельно от места.\n\nТовары, атмосфера, выбор и покупка собраны в одну премиальную систему.\n\n<a href='https://chaveta/ru' target='blanc'>Приходите в клуб</a> посмотреть и отдохнуть.",
+        "meaning": "Рабочий магазин, который не выглядит отдельно от места.\n\nТовары, атмосфера, выбор и покупка собраны в одну премиальную систему.\n\n<a href='https://chaveta.ru' target='blanc'>Приходите в клуб</a> посмотреть и отдохнуть.",
         "center": "CHAVETA",
         "accent": "#b89a5e",
         "object": "none",
