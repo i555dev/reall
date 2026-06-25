@@ -1827,7 +1827,13 @@
         "center": "SIGNAL",
         "accent": "#5966D8",
         "object": "none",
-        "media": [],
+        "media": [
+          "/projects/soma/frames/01/soma-1-1.webp",
+          "/projects/soma/frames/01/soma-1-2.webp",
+          "/projects/soma/frames/01/soma-1-3.webp",
+          "/projects/soma/frames/01/soma-1-4.webp",
+          "/projects/soma/frames/01/soma-1-5.webp"
+        ],
         "smart": {
           "status": "SOURCE",
           "rows": [
@@ -1905,7 +1911,7 @@
               "y": 58,
               "size": 0.74,
               "rotate": 7,
-              "tone": "muted",
+              "tone": "gold",
               "weight": 620,
               "opacity": 0.58
             },
@@ -1920,7 +1926,81 @@
               "opacity": 0.66
             }
           ]
-        }
+        },
+        "words": [
+          {
+            "text": "SOMAFM",
+            "tone": "accent",
+            "weight": 1.34,
+            "speed": 0.34,
+            "behavior": "stuck",
+            "angle": -3,
+            "spin": 0.01
+          },
+          {
+            "text": "GROOVE",
+            "tone": "green",
+            "weight": 1.22,
+            "speed": 0.42,
+            "behavior": "hit",
+            "angle": 7,
+            "spin": -0.035
+          },
+          {
+            "text": "SIGNAL",
+            "tone": "blue",
+            "weight": 1.18,
+            "speed": 0.46,
+            "behavior": "float",
+            "angle": -10,
+            "spin": 0.04
+          },
+          {
+            "text": "FREE",
+            "tone": "black",
+            "weight": 1.02,
+            "speed": 0.38,
+            "behavior": "stuck",
+            "angle": 4,
+            "spin": 0.01
+          },
+          {
+            "text": "STATION",
+            "tone": "accent",
+            "weight": 0.96,
+            "speed": 0.44,
+            "behavior": "hit",
+            "angle": 13,
+            "spin": -0.035
+          },
+          {
+            "text": "LISTENER",
+            "tone": "dust",
+            "weight": 0.78,
+            "speed": 0.4,
+            "behavior": "fade",
+            "angle": -7,
+            "spin": 0.025
+          },
+          {
+            "text": "PLACE?",
+            "tone": "gold",
+            "weight": 0.9,
+            "speed": 0.48,
+            "behavior": "float",
+            "angle": 9,
+            "spin": -0.03
+          },
+          {
+            "text": "UNBUILT",
+            "tone": "concrete",
+            "weight": 0.82,
+            "speed": 0.36,
+            "behavior": "fade",
+            "angle": -12,
+            "spin": 0.025
+          }
+        ]
       },
       {
         "id": "feeling",
@@ -1936,7 +2016,13 @@
         "center": "RELIEF",
         "accent": "#5966D8",
         "object": "none",
-        "media": [],
+        "media": [
+          "/projects/soma/frames/02/soma-2-1.webp",
+          "/projects/soma/frames/02/soma-2-2.webp",
+          "/projects/soma/frames/02/soma-2-3.webp",
+          "/projects/soma/frames/02/soma-2-4.webp",
+          "/projects/soma/frames/02/soma-2-5.webp"
+        ],
         "smart": {
           "status": "NOMAD",
           "rows": [
@@ -2023,7 +2109,81 @@
               "opacity": 0.46
             }
           ]
-        }
+        },
+        "words": [
+          {
+            "text": "MASK",
+            "tone": "muted",
+            "weight": 1.02,
+            "speed": 0.42,
+            "behavior": "fade",
+            "angle": -8,
+            "spin": 0.03
+          },
+          {
+            "text": "NOISE",
+            "tone": "black",
+            "weight": 1.18,
+            "speed": 0.5,
+            "behavior": "hit",
+            "angle": 10,
+            "spin": -0.04
+          },
+          {
+            "text": "RELIEF",
+            "tone": "accent",
+            "weight": 1.34,
+            "speed": 0.34,
+            "behavior": "stuck",
+            "angle": -2,
+            "spin": 0.01
+          },
+          {
+            "text": "COFFEE",
+            "tone": "gold",
+            "weight": 0.96,
+            "speed": 0.44,
+            "behavior": "float",
+            "angle": 12,
+            "spin": -0.03
+          },
+          {
+            "text": "TEXTURE",
+            "tone": "concrete",
+            "weight": 1.06,
+            "speed": 0.4,
+            "behavior": "hit",
+            "angle": -13,
+            "spin": 0.035
+          },
+          {
+            "text": "SOUND",
+            "tone": "blue",
+            "weight": 1.22,
+            "speed": 0.38,
+            "behavior": "stuck",
+            "angle": 5,
+            "spin": 0.01
+          },
+          {
+            "text": "TACTILE",
+            "tone": "dust",
+            "weight": 0.88,
+            "speed": 0.46,
+            "behavior": "float",
+            "angle": -5,
+            "spin": 0.03
+          },
+          {
+            "text": "EXHALE",
+            "tone": "green",
+            "weight": 0.98,
+            "speed": 0.36,
+            "behavior": "hit",
+            "angle": 8,
+            "spin": -0.035
+          }
+        ]
       },
       {
         "id": "image",
@@ -2039,7 +2199,12 @@
         "center": "STATIONS",
         "accent": "#5966D8",
         "object": "none",
-        "media": [],
+        "media": [
+          "/projects/soma/frames/03/soma-3-1.webp",
+          "/projects/soma/frames/03/soma-3-2.webp",
+          "/projects/soma/frames/03/soma-3-3.webp",
+          "/projects/soma/frames/03/soma-3-4.webp"
+        ],
         "smart": {
           "status": "ROOMS",
           "rows": [
@@ -2122,7 +2287,81 @@
               "opacity": 0.55
             }
           ]
-        }
+        },
+        "words": [
+          {
+            "text": "ROOMS",
+            "tone": "black",
+            "weight": 1.08,
+            "speed": 0.36,
+            "behavior": "stuck",
+            "angle": -4,
+            "spin": 0.01
+          },
+          {
+            "text": "STATIONS",
+            "tone": "accent",
+            "weight": 1.34,
+            "speed": 0.42,
+            "behavior": "hit",
+            "angle": 8,
+            "spin": -0.035
+          },
+          {
+            "text": "GROOVE SALAD",
+            "tone": "green",
+            "weight": 0.9,
+            "speed": 0.46,
+            "behavior": "float",
+            "angle": -12,
+            "spin": 0.035
+          },
+          {
+            "text": "DRONE ZONE",
+            "tone": "blue",
+            "weight": 0.88,
+            "speed": 0.4,
+            "behavior": "hit",
+            "angle": 13,
+            "spin": -0.03
+          },
+          {
+            "text": "DEEP SPACE",
+            "tone": "accent",
+            "weight": 0.84,
+            "speed": 0.48,
+            "behavior": "float",
+            "angle": -7,
+            "spin": 0.03
+          },
+          {
+            "text": "LUSH",
+            "tone": "gold",
+            "weight": 0.78,
+            "speed": 0.44,
+            "behavior": "fade",
+            "angle": 9,
+            "spin": -0.025
+          },
+          {
+            "text": "WAVE",
+            "tone": "blue",
+            "weight": 1.12,
+            "speed": 0.38,
+            "behavior": "stuck",
+            "angle": 4,
+            "spin": 0.01
+          },
+          {
+            "text": "TRIBE",
+            "tone": "black",
+            "weight": 0.94,
+            "speed": 0.4,
+            "behavior": "hit",
+            "angle": -10,
+            "spin": 0.035
+          }
+        ]
       },
       {
         "id": "frame",
@@ -2138,7 +2377,12 @@
         "center": "SYSTEM",
         "accent": "#5966D8",
         "object": "none",
-        "media": [],
+        "media": [
+          "/projects/soma/frames/04/soma-4-1.webp",
+          "/projects/soma/frames/04/soma-4-2.webp",
+          "/projects/soma/frames/04/soma-4-3.webp",
+          "/projects/soma/frames/04/soma-4-4.webp"
+        ],
         "smart": {
           "status": "FRAME",
           "rows": [
@@ -2209,96 +2453,101 @@
               "weight": 700
             }
           ]
-        }
+        },
+        "words": [
+          {
+            "text": "4 / 9",
+            "tone": "accent",
+            "weight": 1.28,
+            "speed": 0.32,
+            "behavior": "stuck",
+            "angle": -2,
+            "spin": 0.01
+          },
+          {
+            "text": "PRIVATE",
+            "tone": "black",
+            "weight": 1.2,
+            "speed": 0.4,
+            "behavior": "hit",
+            "angle": 7,
+            "spin": -0.035
+          },
+          {
+            "text": "MARSHALL",
+            "tone": "gold",
+            "weight": 0.95,
+            "speed": 0.46,
+            "behavior": "float",
+            "angle": -12,
+            "spin": 0.03
+          },
+          {
+            "text": "PLASTER",
+            "tone": "concrete",
+            "weight": 0.94,
+            "speed": 0.4,
+            "behavior": "hit",
+            "angle": 12,
+            "spin": -0.03
+          },
+          {
+            "text": "CONCRETE",
+            "tone": "dust",
+            "weight": 1.04,
+            "speed": 0.38,
+            "behavior": "stuck",
+            "angle": -6,
+            "spin": 0.01
+          },
+          {
+            "text": "BREAKFAST",
+            "tone": "green",
+            "weight": 0.86,
+            "speed": 0.44,
+            "behavior": "fade",
+            "angle": 8,
+            "spin": -0.025
+          },
+          {
+            "text": "CARE",
+            "tone": "black",
+            "weight": 0.92,
+            "speed": 0.36,
+            "behavior": "hit",
+            "angle": 4,
+            "spin": 0.03
+          },
+          {
+            "text": "RULES",
+            "tone": "accent",
+            "weight": 1.08,
+            "speed": 0.42,
+            "behavior": "float",
+            "angle": -9,
+            "spin": 0.035
+          }
+        ]
       },
       {
         "id": "reality",
         "label": "Reality",
         "title": "A free frequency becomes a private neo-nomad hotel.",
-        "feeling": [
-          "belonging",
-          "privacy",
-          "audio",
-          "place"
-        ],
+        "feeling": [],
         "meaning": "SOMA Family Hotel is a private boutique sanctuary for new global nomads, audiophiles and design-conscious travelers.\n\nIt was not adapted from an existing hotel.\nIt was imagined from listening.\n\nA free radio frequency became a physical world: name, audience, atmosphere, rooms, material logic, sound ritual, breakfast culture and commercial story.\n\nNot a hotel with music.\nA place for people who live on the same frequency.",
         "center": "SOMA",
         "accent": "#5966D8",
         "object": "none",
-        "media": [],
-        "smart": {
-          "status": "SOMA",
-          "rows": [
-            {
-              "label": "SOURCE",
-              "value": "FREQUENCY"
-            },
-            {
-              "label": "PLACE",
-              "value": "PRIVATE",
-              "highlight": true
-            },
-            {
-              "label": "GUEST",
-              "value": "NEO NOMAD"
-            }
-          ]
-        },
-        "soul": {
-          "mode": "quiet",
-          "words": [
-            {
-              "text": "belonging",
-              "x": 34,
-              "y": 28,
-              "size": 1.14,
-              "rotate": -2,
-              "tone": "black",
-              "weight": 800,
-              "opacity": 0.88
-            },
-            {
-              "text": "private",
-              "x": 62,
-              "y": 46,
-              "size": 1.28,
-              "rotate": 5,
-              "tone": "accent",
-              "weight": 850,
-              "opacity": 0.9
-            },
-            {
-              "text": "nomad",
-              "x": 54,
-              "y": 68,
-              "size": 1.0,
-              "rotate": -1,
-              "tone": "gold",
-              "weight": 760,
-              "opacity": 0.75
-            },
-            {
-              "text": "frequency",
-              "x": 78,
-              "y": 18,
-              "size": 0.62,
-              "rotate": 8,
-              "tone": "muted",
-              "weight": 500,
-              "opacity": 0.55
-            },
-            {
-              "text": "Groove Salad",
-              "x": 26,
-              "y": 82,
-              "size": 0.68,
-              "rotate": -3,
-              "tone": "green",
-              "weight": 700,
-              "opacity": 0.72
-            }
-          ]
-        }
+        "media": [
+          "/projects/soma/frames/05/soma-5-1.webp",
+          "/projects/soma/frames/05/soma-5-2.webp",
+          "/projects/soma/frames/05/soma-5-3.webp",
+          "/projects/soma/frames/05/soma-5-4.webp",
+          "/projects/soma/frames/05/soma-5-5.webp"
+        ],
+        "smart": false,
+        "soul": false,
+        "words": []
       }
     ],
     "cover": {
@@ -2893,7 +3142,7 @@
           "клуб",
           "работает"
         ],
-        "meaning": "Рабочий магазин, который не выглядит отдельно от места.\n\nТовары, атмосфера, выбор и покупка собраны в одну премиальную систему.\n\n<a href='https://chaveta/ru' target='blanc'>Приходите в клуб</a> посмотреть и отдохнуть.",
+        "meaning": "Рабочий магазин, который не выглядит отдельно от места.\n\nТовары, атмосфера, выбор и покупка собраны в одну премиальную систему.\n\n<a href='https://chaveta.ru' target='blanc'>Приходите в клуб</a> посмотреть и отдохнуть.",
         "center": "CHAVETA",
         "accent": "#b89a5e",
         "object": "none",

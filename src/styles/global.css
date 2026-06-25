@@ -457,9 +457,9 @@ textarea {
 .meaning-panel {
   position: absolute;
   z-index: var(--z-ui);
-  right: 210px;
+  right: 200px;
   top: 110px;
-  width: 200px;
+  width: 220px;
 }
 
 .meaning-panel p {
@@ -735,11 +735,11 @@ textarea {
   }
 
   .project-title h1 {
-    font-size: 34px;
+    font-size: 30px;
   }
 
   .project-title h2 {
-    font-size: 13px;
+    font-size: 12px;
   }
 
   .feeling-panel {

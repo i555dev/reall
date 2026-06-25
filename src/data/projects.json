@@ -1334,39 +1334,99 @@
   {
     "id": "olga",
     "name": "OLGA",
-    "subtitle": "Astrology → Clarity",
+    "subtitle": "Астрология → Ясность",
     "accent": "#d00022",
     "steps": [
       {
         "id": "question",
         "label": "Question",
-        "title": "Why are people looking for predictions?",
+        "title": "Почему сайт объясняет цену, а не ценность?",
         "feeling": [
-          "fear",
-          "future",
-          "choice",
-          "fog"
+          "цена",
+          "услуга",
+          "не видно ценности",
+          "старый язык"
         ],
-        "meaning": "The point is not prediction. It is the need to stop moving blindly.",
-        "center": "ASTROLOGY",
+        "meaning": "Старый сайт не был плохим. Он говорил языком старой категории.\n\nАстролог. Консультация. Натальная карта. Соляр. Синастрия. Отзывы. Сертификаты.\n\nЦена и услуга видны.\nЦенность — нет.\n\nЧеловек с высоким запросом покупает не «астрологию». Он ищет ощущение: здесь меня поймут, и станет яснее.\n\nЗадача — раскрыть ценность до цены.",
+        "center": "ЦЕННОСТЬ",
         "accent": "#d00022",
         "object": "none",
-        "media": [],
+        "media": [
+          "/projects/olga/frames/01/olga-1-1.webp",
+          "/projects/olga/frames/01/olga-1-2.webp",
+          "/projects/olga/frames/01/olga-1-3.webp"
+        ],
+        "words": [
+          {
+            "text": "ЯЗЫК",
+            "tone": "black",
+            "weight": 1.18,
+            "speed": 0.38,
+            "behavior": "stuck",
+            "angle": -3,
+            "spin": 0.01
+          },
+          {
+            "text": "УСЛУГА",
+            "tone": "muted",
+            "weight": 1.08,
+            "speed": 0.44,
+            "behavior": "hit",
+            "angle": 7,
+            "spin": -0.03
+          },
+          {
+            "text": "ЦЕННОСТЬ",
+            "tone": "green",
+            "weight": 1.34,
+            "speed": 0.34,
+            "behavior": "stuck",
+            "angle": -2,
+            "spin": 0.01
+          },
+          {
+            "text": "СКРЫТА",
+            "tone": "gold",
+            "weight": 1.02,
+            "speed": 0.46,
+            "behavior": "float",
+            "angle": 11,
+            "spin": -0.03
+          },
+          {
+            "text": "КАРТА",
+            "tone": "black",
+            "weight": 0.88,
+            "speed": 0.4,
+            "behavior": "fade",
+            "angle": -9,
+            "spin": 0.025
+          },
+          {
+            "text": "СКУКА",
+            "tone": "accent",
+            "weight": 0.86,
+            "speed": 0.42,
+            "behavior": "hit",
+            "angle": 13,
+            "spin": -0.025
+          }
+        ],
         "smart": {
-          "status": "FOG",
+          "status": "ЦЕНА",
           "rows": [
             {
-              "label": "FUTURE",
-              "value": "NOISE"
+              "label": "УСЛУГА",
+              "value": "ВИДНА"
             },
             {
-              "label": "CHOICE",
-              "value": "UNCLEAR",
+              "label": "ЦЕННОСТЬ",
+              "value": "СКРЫТА",
               "highlight": true
             },
             {
-              "label": "FEAR",
-              "value": "HIGH"
+              "label": "ЯЗЫК",
+              "value": "СТАРЫЙ"
             }
           ]
         },
@@ -1374,74 +1434,74 @@
           "mode": "cloud",
           "words": [
             {
-              "text": "prediction",
+              "text": "цена",
               "x": 32,
               "y": 24,
-              "size": 1.55,
+              "size": 1.45,
               "rotate": -4,
               "tone": "black",
               "weight": 900,
-              "opacity": 0.95
+              "opacity": 0.92
             },
             {
-              "text": "fear",
+              "text": "услуга",
               "x": 24,
-              "y": 42,
-              "size": 1.3,
-              "rotate": -9,
+              "y": 44,
+              "size": 1.22,
+              "rotate": -8,
               "tone": "black",
               "weight": 850,
-              "opacity": 0.88
-            },
-            {
-              "text": "future",
-              "x": 22,
-              "y": 58,
-              "size": 1.15,
-              "rotate": -5,
-              "tone": "black",
-              "weight": 780,
-              "opacity": 0.82
-            },
-            {
-              "text": "fog",
-              "x": 54,
-              "y": 55,
-              "size": 1.05,
-              "rotate": 5,
-              "tone": "muted",
-              "weight": 650,
-              "opacity": 0.72
-            },
-            {
-              "text": "choice",
-              "x": 50,
-              "y": 74,
-              "size": 1.18,
-              "rotate": -3,
-              "tone": "black",
-              "weight": 820,
               "opacity": 0.86
             },
             {
-              "text": "waiting",
-              "x": 22,
-              "y": 14,
-              "size": 0.55,
-              "rotate": -8,
+              "text": "натальная карта",
+              "x": 58,
+              "y": 38,
+              "size": 0.92,
+              "rotate": 5,
               "tone": "muted",
-              "weight": 500,
-              "opacity": 0.68
+              "weight": 650,
+              "opacity": 0.64
             },
             {
-              "text": "blind",
-              "x": 76,
-              "y": 14,
-              "size": 0.58,
-              "rotate": 7,
+              "text": "сертификаты",
+              "x": 52,
+              "y": 58,
+              "size": 0.78,
+              "rotate": 4,
               "tone": "muted",
-              "weight": 500,
-              "opacity": 0.66
+              "weight": 620,
+              "opacity": 0.58
+            },
+            {
+              "text": "ценность?",
+              "x": 48,
+              "y": 74,
+              "size": 1.18,
+              "rotate": -3,
+              "tone": "accent",
+              "weight": 880,
+              "opacity": 0.9
+            },
+            {
+              "text": "ясность",
+              "x": 78,
+              "y": 20,
+              "size": 0.72,
+              "rotate": 8,
+              "tone": "gold",
+              "weight": 700,
+              "opacity": 0.62
+            },
+            {
+              "text": "старый язык",
+              "x": 20,
+              "y": 15,
+              "size": 0.58,
+              "rotate": -7,
+              "tone": "muted",
+              "weight": 560,
+              "opacity": 0.6
             }
           ]
         }
@@ -1449,33 +1509,89 @@
       {
         "id": "feeling",
         "label": "Feeling",
-        "title": "Uncertainty wants a shape.",
+        "title": "Фокус смещается на человека.",
         "feeling": [
-          "anxiety",
-          "waiting",
-          "hope",
-          "fragile"
+          "бережно",
+          "путь",
+          "состояние",
+          "ясность"
         ],
-        "meaning": "Under the request is a human wish for orientation.",
-        "center": "FOG",
+        "meaning": "Переломный момент — смотреть не на услугу, а на человека перед ней.\n\nОн не хочет покупать «соляр» или «синастрию». Он осторожно ищет ответ:\n\nКуда идти?\nПочему не складывается?\nЧто со мной происходит?\nГде мой ресурс?\n\nНе тревожить. Не давить. Не продавать в лоб.\n\nГоворить языком ощущений, образов и ясности.",
+        "center": "ЧЕЛОВЕК",
         "accent": "#d00022",
         "object": "none",
         "media": [],
+        "words": [
+          {
+            "text": "ЧЕЛОВЕК",
+            "tone": "accent",
+            "weight": 1.32,
+            "speed": 0.34,
+            "behavior": "stuck",
+            "angle": -2,
+            "spin": 0.01
+          },
+          {
+            "text": "ПУТЬ",
+            "tone": "black",
+            "weight": 1.12,
+            "speed": 0.4,
+            "behavior": "hit",
+            "angle": 8,
+            "spin": -0.03
+          },
+          {
+            "text": "СОСТОЯНИЕ",
+            "tone": "gold",
+            "weight": 0.96,
+            "speed": 0.46,
+            "behavior": "float",
+            "angle": -11,
+            "spin": 0.03
+          },
+          {
+            "text": "БЕРЕЖНО",
+            "tone": "muted",
+            "weight": 0.92,
+            "speed": 0.42,
+            "behavior": "fade",
+            "angle": 6,
+            "spin": -0.02
+          },
+          {
+            "text": "ЯСНОСТЬ",
+            "tone": "accent",
+            "weight": 1.08,
+            "speed": 0.36,
+            "behavior": "hit",
+            "angle": -6,
+            "spin": 0.03
+          },
+          {
+            "text": "НЕ ТРЕВОЖИТЬ",
+            "tone": "black",
+            "weight": 0.78,
+            "speed": 0.44,
+            "behavior": "float",
+            "angle": 12,
+            "spin": -0.025
+          }
+        ],
         "smart": {
-          "status": "WAITING",
+          "status": "ФОКУС",
           "rows": [
             {
-              "label": "HOPE",
-              "value": "FRAGILE"
+              "label": "УСЛУГА",
+              "value": "НЕ ГЛАВНОЕ"
             },
             {
-              "label": "SIGNAL",
-              "value": "WEAK"
-            },
-            {
-              "label": "SHAPE",
-              "value": "NEEDED",
+              "label": "КЛИЕНТ",
+              "value": "В ЦЕНТРЕ",
               "highlight": true
+            },
+            {
+              "label": "ТОН",
+              "value": "БЕРЕЖНО"
             }
           ]
         },
@@ -1483,73 +1599,157 @@
           "mode": "stack",
           "words": [
             {
-              "text": "anxiety",
-              "tone": "black",
-              "size": 1.12,
-              "weight": 900
+              "text": "куда идти?",
+              "tone": "accent",
+              "state": "want",
+              "size": 1.18,
+              "weight": 900,
+              "opacity": 0.92
             },
             {
-              "text": "anxiety",
+              "text": "что со мной?",
               "tone": "black",
-              "size": 1.12,
-              "weight": 900
+              "state": "want",
+              "size": 1.06,
+              "weight": 820,
+              "opacity": 0.82
             },
             {
-              "text": "waiting",
-              "tone": "black",
-              "size": 0.9299999999999999,
-              "weight": 760
+              "text": "ресурс",
+              "tone": "gold",
+              "state": "want",
+              "size": 0.98,
+              "weight": 780,
+              "opacity": 0.76
             },
             {
-              "text": "hope",
+              "text": "отношения",
               "tone": "black",
-              "size": 0.895,
-              "weight": 760
+              "state": "want",
+              "size": 0.92,
+              "weight": 740,
+              "opacity": 0.7
             },
             {
-              "text": "fragile",
+              "text": "деньги",
               "tone": "black",
+              "state": "want",
               "size": 0.86,
-              "weight": 760
+              "weight": 720,
+              "opacity": 0.66
             },
             {
-              "text": "unknown",
+              "text": "давить",
               "tone": "muted",
-              "size": 0.825,
-              "weight": 760
+              "state": "reject",
+              "size": 0.8,
+              "weight": 620,
+              "opacity": 0.48
+            },
+            {
+              "text": "продавать в лоб",
+              "tone": "muted",
+              "state": "reject",
+              "size": 0.78,
+              "weight": 620,
+              "opacity": 0.46
+            },
+            {
+              "text": "шум",
+              "tone": "muted",
+              "state": "reject",
+              "size": 0.76,
+              "weight": 600,
+              "opacity": 0.44
             }
           ]
         }
       },
       {
         "id": "image",
-        "label": "Image",
-        "title": "A navigation system for life.",
+        "label": "Imagination",
+        "title": "Астрология становится бережной картой.",
         "feeling": [
-          "route",
-          "stars",
-          "lighthouse",
-          "window"
+          "карта",
+          "состояние",
+          "свет",
+          "палуба"
         ],
-        "meaning": "The image becomes navigation, not mysticism.",
-        "center": "NAVIGATION",
+        "meaning": "В воображении астрология выходит из тёмной мистики.\n\nНе фиолетовый туман.\nНе свечи.\nНе кристаллы.\n\nБелый стол. Море. Свет. Тонкие линии. Даты. Орбиты. Траектории.\n\nНе предсказание.\nПонимание себя через карту, состояние и разговор.",
+        "center": "КАРТА",
         "accent": "#d00022",
         "object": "none",
         "media": [],
+        "words": [
+          {
+            "text": "КАРТА",
+            "tone": "accent",
+            "weight": 1.28,
+            "speed": 0.36,
+            "behavior": "stuck",
+            "angle": -3,
+            "spin": 0.01
+          },
+          {
+            "text": "ОРБИТЫ",
+            "tone": "black",
+            "weight": 0.96,
+            "speed": 0.42,
+            "behavior": "float",
+            "angle": 9,
+            "spin": -0.03
+          },
+          {
+            "text": "СОСТОЯНИЕ",
+            "tone": "gold",
+            "weight": 1.08,
+            "speed": 0.4,
+            "behavior": "hit",
+            "angle": -11,
+            "spin": 0.03
+          },
+          {
+            "text": "РАЗГОВОР",
+            "tone": "muted",
+            "weight": 0.9,
+            "speed": 0.44,
+            "behavior": "fade",
+            "angle": 12,
+            "spin": -0.025
+          },
+          {
+            "text": "ПАЛУБА",
+            "tone": "black",
+            "weight": 0.86,
+            "speed": 0.38,
+            "behavior": "stuck",
+            "angle": 5,
+            "spin": 0.01
+          },
+          {
+            "text": "ПОНИМАНИЕ",
+            "tone": "accent",
+            "weight": 1.02,
+            "speed": 0.46,
+            "behavior": "hit",
+            "angle": -7,
+            "spin": 0.03
+          }
+        ],
         "smart": {
-          "status": "ROUTE",
+          "status": "КАРТА",
           "rows": [
             {
-              "label": "STARS",
-              "value": "MAP"
+              "label": "МИСТИКА",
+              "value": "OFF"
             },
             {
-              "label": "TIMING",
-              "value": "OPEN",
+              "label": "СОСТОЯНИЕ",
+              "value": "ВИДНО",
               "highlight": true
             },
             {
-              "label": "LIGHT",
+              "label": "ЯСНОСТЬ",
               "value": "ON"
             }
           ]
@@ -1558,64 +1758,74 @@
           "mode": "orbit",
           "words": [
             {
-              "text": "stars",
+              "text": "карта",
               "x": 28,
               "y": 18,
               "size": 1.1,
               "rotate": -9,
               "tone": "accent",
-              "weight": 850,
+              "weight": 900,
               "opacity": 0.9
             },
             {
-              "text": "route",
+              "text": "состояние",
               "x": 64,
-              "y": 36,
+              "y": 34,
               "size": 0.95,
               "rotate": 8,
               "tone": "black",
               "weight": 820,
-              "opacity": 0.86
+              "opacity": 0.84
             },
             {
-              "text": "lighthouse",
-              "x": 24,
-              "y": 48,
-              "size": 0.85,
+              "text": "орбиты",
+              "x": 22,
+              "y": 50,
+              "size": 0.82,
               "rotate": -4,
               "tone": "accent",
-              "weight": 750,
-              "opacity": 0.84
+              "weight": 760,
+              "opacity": 0.78
             },
             {
-              "text": "window",
+              "text": "психология",
               "x": 70,
               "y": 62,
-              "size": 0.9,
+              "size": 0.86,
               "rotate": -11,
               "tone": "gold",
-              "weight": 750,
-              "opacity": 0.76
+              "weight": 760,
+              "opacity": 0.74
             },
             {
-              "text": "map",
+              "text": "разговор",
               "x": 46,
               "y": 78,
-              "size": 1.0,
+              "size": 0.94,
               "rotate": -7,
               "tone": "black",
-              "weight": 800,
-              "opacity": 0.84
+              "weight": 780,
+              "opacity": 0.78
             },
             {
-              "text": "navigation",
+              "text": "свечи",
               "x": 78,
               "y": 18,
-              "size": 0.46,
+              "size": 0.52,
               "rotate": 18,
               "tone": "muted",
-              "weight": 500,
-              "opacity": 0.55
+              "weight": 520,
+              "opacity": 0.5
+            },
+            {
+              "text": "туман",
+              "x": 24,
+              "y": 68,
+              "size": 0.56,
+              "rotate": -12,
+              "tone": "muted",
+              "weight": 520,
+              "opacity": 0.46
             }
           ]
         }
@@ -1623,33 +1833,89 @@
       {
         "id": "frame",
         "label": "Frame",
-        "title": "Astrology becomes clarity.",
+        "title": "Услуги переводятся в язык запроса.",
         "feeling": [
-          "calm",
-          "decision",
-          "timing",
-          "self"
+          "запрос",
+          "структура",
+          "тон",
+          "доверие"
         ],
-        "meaning": "The frame changes from fortune-telling to understanding.",
-        "center": "CLARITY",
+        "meaning": "Образ становится системой сайта.\n\nНе список услуг, а входы через живые вопросы:\n\nКто я? Куда идти?\nПочему не складывается? Когда действовать?\nГде мой ресурс? Как увидеть свой путь?\n\nЛишнее уходит. Остаются воздух, белый свет, яхтенная лёгкость, алый акцент и структура доверия.\n\nВысокий чек становится естественным, потому что ценность уже почувствована.",
+        "center": "ЗАПРОС",
         "accent": "#d00022",
         "object": "none",
         "media": [],
+        "words": [
+          {
+            "text": "ЗАПРОС",
+            "tone": "accent",
+            "weight": 1.3,
+            "speed": 0.32,
+            "behavior": "stuck",
+            "angle": -2,
+            "spin": 0.01
+          },
+          {
+            "text": "КТО Я",
+            "tone": "black",
+            "weight": 1.08,
+            "speed": 0.4,
+            "behavior": "hit",
+            "angle": 7,
+            "spin": -0.03
+          },
+          {
+            "text": "КУДА ИДТИ",
+            "tone": "gold",
+            "weight": 0.95,
+            "speed": 0.46,
+            "behavior": "float",
+            "angle": -12,
+            "spin": 0.03
+          },
+          {
+            "text": "РЕСУРС",
+            "tone": "muted",
+            "weight": 0.94,
+            "speed": 0.4,
+            "behavior": "hit",
+            "angle": 12,
+            "spin": -0.03
+          },
+          {
+            "text": "ДОВЕРИЕ",
+            "tone": "black",
+            "weight": 1.04,
+            "speed": 0.38,
+            "behavior": "stuck",
+            "angle": -6,
+            "spin": 0.01
+          },
+          {
+            "text": "ЯСНОСТЬ",
+            "tone": "accent",
+            "weight": 1.08,
+            "speed": 0.42,
+            "behavior": "float",
+            "angle": -9,
+            "spin": 0.035
+          }
+        ],
         "smart": {
-          "status": "CLARITY",
+          "status": "FRAME",
           "rows": [
             {
-              "label": "DECISION",
-              "value": "FOCUS"
+              "label": "УСЛУГИ",
+              "value": "В ЗАПРОСЫ"
             },
             {
-              "label": "TIMING",
-              "value": "VISIBLE",
+              "label": "ТОН",
+              "value": "МЯГКИЙ",
               "highlight": true
             },
             {
-              "label": "SELF",
-              "value": "ON"
+              "label": "ЧЕК",
+              "value": "ЕСТЕСТВЕННЫЙ"
             }
           ]
         },
@@ -1657,42 +1923,50 @@
           "mode": "frame",
           "words": [
             {
-              "text": "timing",
+              "text": "кто я?",
               "side": "top",
-              "pos": 25,
+              "pos": 22,
               "size": 0.78,
               "tone": "accent",
               "weight": 800
             },
             {
-              "text": "decision",
-              "side": "left",
-              "pos": 35,
-              "size": 0.78,
-              "tone": "accent",
-              "weight": 800
-            },
-            {
-              "text": "self",
-              "side": "right",
-              "pos": 35,
-              "size": 0.78,
-              "tone": "accent",
-              "weight": 800
-            },
-            {
-              "text": "clarity",
-              "side": "bottom",
-              "pos": 50,
-              "size": 0.78,
+              "text": "куда идти?",
+              "side": "top",
+              "pos": 64,
+              "size": 0.72,
               "tone": "black",
-              "weight": 800
+              "weight": 760
             },
             {
-              "text": "calm",
-              "side": "top",
-              "pos": 75,
-              "size": 0.64,
+              "text": "любовь",
+              "side": "left",
+              "pos": 36,
+              "size": 0.76,
+              "tone": "accent",
+              "weight": 780
+            },
+            {
+              "text": "деньги",
+              "side": "right",
+              "pos": 38,
+              "size": 0.76,
+              "tone": "gold",
+              "weight": 780
+            },
+            {
+              "text": "ресурс",
+              "side": "bottom",
+              "pos": 46,
+              "size": 0.76,
+              "tone": "black",
+              "weight": 820
+            },
+            {
+              "text": "ясность",
+              "side": "bottom",
+              "pos": 78,
+              "size": 0.62,
               "tone": "accent",
               "weight": 700
             }
@@ -1702,109 +1976,32 @@
       {
         "id": "reality",
         "label": "Reality",
-        "title": "Olga Tkachenko.",
+        "title": "Ольга становится проводником к ясности.",
         "feeling": [
-          "elegant",
-          "white",
-          "red",
-          "clear"
+          "белый",
+          "ясно",
+          "бережно",
+          "премиум"
         ],
-        "meaning": "A premium personal site around clarity, not esotericism.",
+        "meaning": "Сайт больше не продаёт услугу и цену. Он раскрывает ценность.\n\n Натальная карта — не финальная точка. Это вход в разговор о себе. О целях, деньгах, отношениях, выборе, состоянии, времени и пути, который хочется увидеть яснее.\n\n Астрология становится картой. Ольга — бережным проводником.\n\n Готовая упаковка меняет категорию: из «астролога с услугами» — в пространство личной ясности.\n\n Простые чувства сайта:\n здесь меня поймут\nздесь можно выдохнуть\nздесь я найду ясность",
         "center": "OLGA",
         "accent": "#d00022",
         "object": "none",
         "media": [],
-        "smart": {
-          "status": "CLEAR",
-          "rows": [
-            {
-              "label": "REQUESTS",
-              "value": "12"
-            },
-            {
-              "label": "FOCUS",
-              "value": "HIGH",
-              "highlight": true
-            },
-            {
-              "label": "SIGNAL",
-              "value": "RED"
-            }
-          ]
-        },
-        "soul": {
-          "mode": "quiet",
-          "words": [
-            {
-              "text": "white",
-              "x": 35,
-              "y": 28,
-              "size": 1.25,
-              "rotate": -2,
-              "tone": "black",
-              "weight": 800,
-              "opacity": 0.88
-            },
-            {
-              "text": "red",
-              "x": 62,
-              "y": 48,
-              "size": 1.42,
-              "rotate": 5,
-              "tone": "accent",
-              "weight": 850,
-              "opacity": 0.9
-            },
-            {
-              "text": "clear",
-              "x": 55,
-              "y": 70,
-              "size": 1.0,
-              "rotate": -1,
-              "tone": "gold",
-              "weight": 760,
-              "opacity": 0.75
-            },
-            {
-              "text": "elegant",
-              "x": 82,
-              "y": 18,
-              "size": 0.62,
-              "rotate": 8,
-              "tone": "muted",
-              "weight": 500,
-              "opacity": 0.55
-            },
-            {
-              "text": "calm",
-              "x": 28,
-              "y": 82,
-              "size": 0.62,
-              "rotate": -3,
-              "tone": "muted",
-              "weight": 500,
-              "opacity": 0.55
-            }
-          ]
-        }
+        "words": [],
+        "smart": false,
+        "soul": false
       }
     ],
     "cover": {
-      "label": "Intro",
+      "label": "Кейс",
       "center": "OLGA",
-      "title": "Astrology → Clarity",
-      "meaning": "A project transformation: Astrology → Clarity",
+      "title": "Астрология → Ясность",
+      "meaning": "Старый сайт объяснял цену и услугу.\nНовая упаковка раскрывает ценность.\n\nФокус смещается с эксперта на человека:\nбережно, через ощущение, образ и ясность.\n\nАстрология становится личной навигацией.",
       "object": "none",
-      "media": [],
-      "visual": {
-        "type": "words",
-        "words": [
-          {
-            "text": "OLGA",
-            "tone": "black"
-          }
-        ]
-      }
+      "media": [
+        "/projects/olga/cover/olga-intro4.webp"
+      ]
     }
   },
   {
@@ -2541,7 +2738,9 @@
         "media": [
           "/projects/soma/frames/05/soma-5-1.webp",
           "/projects/soma/frames/05/soma-5-2.webp",
-          "/projects/soma/frames/05/soma-5-3.webp"
+          "/projects/soma/frames/05/soma-5-3.webp",
+          "/projects/soma/frames/05/soma-5-4.webp",
+          "/projects/soma/frames/05/soma-5-5.webp"
         ],
         "smart": false,
         "soul": false,
