@@ -538,8 +538,9 @@ textarea {
 
 .step-tab:hover,
 .step-tab.active {
-  color: #fff;
+  color: var(--accent);
 }
+
 
 .step-tabs.is-hinting .step-tab {
   animation: stepHintFlash 0.56s ease both;

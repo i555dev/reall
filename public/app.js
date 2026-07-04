@@ -591,10 +591,7 @@
     feelingPanel.hidden = false;
 
     const frameId = step.id || normalize(step.label);
-    const source = step.soul || {
-      mode: soulModeFallback[frameId] || 'cloud',
-      words: Array.isArray(step.feeling) ? step.feeling : []
-    };
+    const source = step.soul;
 
     const mode = safeSoulModes.has(normalize(source.mode)) ? normalize(source.mode) : 'cloud';
     const words = Array.isArray(source.words)

@@ -9,12 +9,6 @@
         "id": "question",
         "label": "Question",
         "title": "What if any wall could give you something?",
-        "feeling": [
-          "dead",
-          "flat",
-          "paint",
-          "empty"
-        ],
         "meaning": "What if any wall could give you something?\n\nMint for breakfast.\nBasil for dinner.\nFlowers for the room.\n\nNo garden.\nNo mess.\nNo complicated care.\n\nA beautiful wall with a hidden function.",
         "center": "WALL",
         "accent": "#24b837",
@@ -826,12 +820,6 @@
         "id": "question",
         "label": "Question",
         "title": "Why does language learning feel like school?",
-        "feeling": [
-          "school",
-          "homework",
-          "slow",
-          "tired"
-        ],
         "meaning": "The question attacks the old frame: lessons, grammar, waiting for results.",
         "center": "LANGUAGE",
         "accent": "#ff6a00",
@@ -945,12 +933,6 @@
         "id": "feeling",
         "label": "Feeling",
         "title": "No result. No body. No pulse.",
-        "feeling": [
-          "boredom",
-          "shame",
-          "delay",
-          "routine"
-        ],
         "meaning": "The emotional truth is simple: people want progress they can feel.",
         "center": "PROGRESS",
         "accent": "#ff6a00",
@@ -1032,12 +1014,6 @@
         "id": "image",
         "label": "Image",
         "title": "A gym for language.",
-        "feeling": [
-          "training",
-          "coach",
-          "sets",
-          "energy"
-        ],
         "meaning": "The image pulls language out of school and into training.",
         "center": "TRAINING",
         "accent": "#ff6a00",
@@ -1141,12 +1117,6 @@
         "id": "frame",
         "label": "Frame",
         "title": "Learning becomes fitness.",
-        "feeling": [
-          "measure",
-          "repeat",
-          "sweat",
-          "gain"
-        ],
         "meaning": "A new category appears: diagnosis, technique, rhythm, trainer, progress.",
         "center": "FITNESS",
         "accent": "#ff6a00",
@@ -1228,90 +1198,13 @@
         "id": "reality",
         "label": "Reality",
         "title": "SpeakFit.",
-        "feeling": [
-          "drive",
-          "result",
-          "body",
-          "voice"
-        ],
         "meaning": "A language product built like a fitness system.",
         "center": "SPEAKFIT",
         "accent": "#ff6a00",
         "object": "none",
         "media": [],
-        "smart": {
-          "status": "ACTIVE",
-          "rows": [
-            {
-              "label": "SESSIONS",
-              "value": "24"
-            },
-            {
-              "label": "PROGRESS",
-              "value": "+38%",
-              "highlight": true
-            },
-            {
-              "label": "VOICE",
-              "value": "ON"
-            }
-          ]
-        },
-        "soul": {
-          "mode": "quiet",
-          "words": [
-            {
-              "text": "drive",
-              "x": 35,
-              "y": 28,
-              "size": 1.25,
-              "rotate": -2,
-              "tone": "black",
-              "weight": 800,
-              "opacity": 0.88
-            },
-            {
-              "text": "result",
-              "x": 62,
-              "y": 48,
-              "size": 1.42,
-              "rotate": 5,
-              "tone": "accent",
-              "weight": 850,
-              "opacity": 0.9
-            },
-            {
-              "text": "voice",
-              "x": 55,
-              "y": 70,
-              "size": 1.0,
-              "rotate": -1,
-              "tone": "gold",
-              "weight": 760,
-              "opacity": 0.75
-            },
-            {
-              "text": "body",
-              "x": 82,
-              "y": 18,
-              "size": 0.62,
-              "rotate": 8,
-              "tone": "muted",
-              "weight": 500,
-              "opacity": 0.55
-            },
-            {
-              "text": "strong",
-              "x": 28,
-              "y": 82,
-              "size": 0.62,
-              "rotate": -3,
-              "tone": "muted",
-              "weight": 500,
-              "opacity": 0.55
-            }
-          ]
-        }
+        "smart": false,
+        "soul": false
       }
     ],
     "cover": {
@@ -1343,12 +1236,6 @@
         "id": "question",
         "label": "Question",
         "title": "Почему сайт объясняет цену, а не ценность?",
-        "feeling": [
-          "цена",
-          "услуга",
-          "не видно ценности",
-          "старый язык"
-        ],
         "meaning": "Старый сайт не был плохим. Он говорил языком старой категории.\n\nАстролог. Консультация. Натальная карта. Соляр. Синастрия. Отзывы. Сертификаты.\n\nЦена и услуга видны.\nЦенность — нет.\n\nЧеловек с высоким запросом покупает не «астрологию». Он ищет ощущение: здесь меня поймут, и станет яснее.\n\nЗадача — раскрыть ценность до цены.",
         "center": "ЦЕННОСТЬ",
         "accent": "#C41E3A ",
@@ -1512,12 +1399,6 @@
         "id": "feeling",
         "label": "Feeling",
         "title": "Фокус смещается на человека.",
-        "feeling": [
-          "бережно",
-          "путь",
-          "состояние",
-          "ясность"
-        ],
         "meaning": "Переломный момент — смотреть не на услугу, а на человека перед ней.\n\nОн не хочет покупать «соляр» или «синастрию». Он осторожно ищет ответ:\n\nКуда идти?\nПочему не складывается?\nЧто со мной происходит?\nГде мой ресурс?\n\nНе тревожить. Не давить. Не продавать в лоб.\n\nГоворить языком ощущений, образов и ясности.",
         "center": "ЧЕЛОВЕК",
         "accent": "#C41E3A ",
@@ -1677,12 +1558,6 @@
         "id": "image",
         "label": "Imagination",
         "title": "Астрология становится бережной картой.",
-        "feeling": [
-          "карта",
-          "состояние",
-          "свет",
-          "палуба"
-        ],
         "meaning": "В воображении астрология выходит из тёмной мистики.\n\nНе фиолетовый туман.\nНе свечи.\nНе кристаллы.\n\nБелый стол. Море. Свет. Тонкие линии. Даты. Орбиты. Траектории.\n\nНе предсказание.\nПонимание себя через карту, состояние и разговор.",
         "center": "КАРТА",
         "accent": "#C41E3A ",
@@ -1847,12 +1722,6 @@
         "id": "frame",
         "label": "Frame",
         "title": "Услуги переводятся в язык запроса.",
-        "feeling": [
-          "запрос",
-          "структура",
-          "тон",
-          "доверие"
-        ],
         "meaning": "Образ становится системой сайта.\n\nНе список услуг, а входы через живые вопросы:\n\nКто я? Куда идти?\nПочему не складывается? Когда действовать?\nГде мой ресурс? Как увидеть свой путь?\n\nЛишнее уходит. Остаются воздух, белый свет, яхтенная лёгкость, алый акцент и структура доверия.\n\nВысокий чек становится естественным, потому что ценность уже почувствована.",
         "center": "ЗАПРОС",
         "accent": "#C41E3A ",
@@ -1996,12 +1865,6 @@
         "id": "reality",
         "label": "Reality",
         "title": "Проводник к ясности.",
-        "feeling": [
-          "белый",
-          "ясно",
-          "бережно",
-          "премиум"
-        ],
         "meaning": "Сайт больше не продаёт услугу и цену. Он раскрывает ценность.\n\n Натальная карта — не финальная точка. Это вход в разговор о себе. О целях, деньгах, отношениях, выборе, состоянии, времени и пути, который хочется увидеть яснее.\n\n Астрология становится картой. Ольга — бережным проводником.\n\n Готовая упаковка меняет категорию: из «астролога с услугами» — в пространство личной ясности.\n\n Простые чувства сайта:\n здесь меня поймут,\nздесь можно выдохнуть,\nздесь я найду ясность.\n\n<a href='https://www.olga-astro.ru/' target='blanc'>Посмотреть и найти себя на сайте.",
         "center": "OLGA TKACHENKO",
         "accent": "#C41E3A ",
@@ -2037,12 +1900,6 @@
         "id": "question",
         "label": "Question",
         "title": "What if a radio station could become a place?",
-        "feeling": [
-          "station",
-          "signal",
-          "free",
-          "unbuilt"
-        ],
         "meaning": "There was no hotel.\nThere was a station.\n\nI was listening to SomaFM — Groove Salad, Drone Zone, Deep Space One, Lush.\nNot as background music, but as a world with its own people, rhythm and atmosphere.\n\nThe question appeared before the brief:\n\nWhat if this free frequency could become a place?\nWhat if the people who live on this signal had a home in the physical world?",
         "center": "SIGNAL",
         "accent": "#5966D8",
@@ -2226,12 +2083,6 @@
         "id": "feeling",
         "label": "Feeling",
         "title": "The listener is tired of the masquerade.",
-        "feeling": [
-          "tired",
-          "private",
-          "tactile",
-          "real"
-        ],
         "meaning": "The guest is not a tourist.\nHe is a digital professional, an audiophile, a design-conscious nomad — someone who has seen enough polished surfaces and social performance.\n\nHe does not need more entertainment.\nHe needs relief.\n\nCoffee.\nSound.\nGreenery.\nA wall with a hand inside it.\nA concrete bed with weight.\nA room that does not ask him to perform.\n\nA place where the nervous system exhales.",
         "center": "RELIEF",
         "accent": "#5966D8",
@@ -2409,12 +2260,6 @@
         "id": "image",
         "label": "Image",
         "title": "A hotel as a physical radio station.",
-        "feeling": [
-          "rooms",
-          "stations",
-          "wave",
-          "tribe"
-        ],
         "meaning": "The image becomes clear:\n\nNot rooms.\nStations.\n\nGroove Salad is green, alive, elastic, morning.\nDrone Zone is slow, dark, deep, inward.\nDeep Space One is cosmic, blue, private, endless.\nLush is soft, human, atmospheric.\n\nThe guest does not choose standard or deluxe.\nHe chooses the frequency he wants to live in.",
         "center": "STATIONS",
         "accent": "#5966D8",
@@ -2587,12 +2432,6 @@
         "id": "frame",
         "label": "Frame",
         "title": "The frequency becomes rules.",
-        "feeling": [
-          "closed",
-          "sound",
-          "material",
-          "care"
-        ],
         "meaning": "Now the frequency has to become a hotel system.\n\n4 or 9 rooms.\nClosed territory.\nNo outside traffic.\nNo random crowd.\n\nHand-applied plaster walls.\nGradient color.\nPolished concrete beds.\nMarshall sound in every room.\nSomaFM as the room setting.\nHealthy breakfasts without fake wellness.\nCoffee, plants, warm light, personal care.\n\nA quiet concrete sanctuary with one bright Groove Salad stripe — a sign that you are on the right frequency.",
         "center": "SYSTEM",
         "accent": "#5966D8",
@@ -2753,7 +2592,6 @@
         "id": "reality",
         "label": "Reality",
         "title": "A free frequency becomes a private neo-nomad hotel.",
-        "feeling": [],
         "meaning": "SOMA Family Hotel is a private boutique sanctuary for new global nomads, audiophiles and design-conscious travelers.\n\nIt was not adapted from an existing hotel.\nIt was imagined from listening.\n\nA free radio frequency became a physical world: name, audience, atmosphere, rooms, material logic, sound ritual, breakfast culture and commercial story.\n\nNot a hotel with music.\nA place for people who live on the same frequency.",
         "center": "SOMA",
         "accent": "#5966D8",
@@ -2796,12 +2634,6 @@
         "id": "before",
         "label": "Было",
         "title": "Хорошее место. Плохая цифра.",
-        "feeling": [
-          "хаос",
-          "старая база",
-          "нет фото",
-          "нет структуры"
-        ],
         "meaning": "У заведения может быть сильный продукт, красивое место и постоянные гости.\n\nНо в цифре всё выглядит как складская таблица: сырые названия, нет нормальной структуры, нет описаний, нет фотографий, нет желания выбирать.",
         "center": "БЫЛО",
         "accent": "#b89a5e",
@@ -2946,12 +2778,6 @@
         "id": "analysis",
         "label": "Разбор",
         "title": "Сначала не дизайн.",
-        "feeling": [
-          "типы",
-          "поля",
-          "логика",
-          "фильтры"
-        ],
         "meaning": "Сначала нужно понять, что вообще продаётся.\n\nКакие есть типы товаров. Какие поля нужны. Как они связаны. Как искать, фильтровать, выбирать и покупать.",
         "center": "РАЗБОР",
         "accent": "#b89a5e",
@@ -3096,12 +2922,6 @@
         "id": "build",
         "label": "Сборка",
         "title": "База становится магазином.",
-        "feeling": [
-          "база",
-          "скрипты",
-          "карточки",
-          "checkout"
-        ],
         "meaning": "Старая товарная масса превращается в рабочий e-commerce.\n\nТаблицы. Скрипты. WooCommerce. Атрибуты. Карточки. Фильтры. Страницы. Checkout.",
         "center": "СБОРКА",
         "accent": "#b89a5e",
@@ -3234,12 +3054,6 @@
         "id": "premium-layer",
         "label": "Атмосфера",
         "title": "Магазин должен звучать как клуб.",
-        "feeling": [
-          "тёмный",
-          "золото",
-          "детали",
-          "клуб"
-        ],
         "meaning": "Cистема заработала, её пора переодеть.\n\nНе нарисовать красивую картинку, а надеть новый премиальный костюм на существующий сайт: страницы, карточки, фильтры, отступы, цвета - максимальное внимание к деталям.",
         "center": "ПРЕМИУМ",
         "accent": "#b89a5e",
@@ -3357,12 +3171,6 @@
         "id": "reality",
         "label": "Результат",
         "title": "Магазин стал частью клуба.",
-        "feeling": [
-          "премиум",
-          "магазин",
-          "клуб",
-          "работает"
-        ],
         "meaning": "Рабочий магазин, который не выглядит отдельно от места.\n\nТовары, атмосфера, выбор и покупка собраны в одну премиальную систему.\n\n<a href='https://chaveta.ru' target='blanc'>Приходите в клуб</a> посмотреть и отдохнуть.",
         "center": "CHAVETA",
         "accent": "#b89a5e",
