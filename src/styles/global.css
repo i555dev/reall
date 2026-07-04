@@ -293,6 +293,28 @@ textarea {
 
 /* 6 — UI/text layer */
 
+.lang-toggle {
+  position: absolute;
+  z-index: calc(var(--z-ui) + 1);
+  top: clamp(18px, 3.4vw, 38px);
+  right: clamp(18px, 3.2vw, 42px);
+  appearance: none;
+  border: 0;
+  border-radius: 999px;
+  padding: 8px 10px;
+  background: rgba(255, 255, 255, 0.52);
+  backdrop-filter: blur(10px);
+  color: rgba(7, 7, 6, 0.72);
+  font-size: 9px;
+  font-weight: 900;
+  letter-spacing: 0.18em;
+  cursor: pointer;
+}
+
+.lang-toggle:hover {
+  color: var(--accent);
+}
+
 .project-rail {
   position: absolute;
   z-index: var(--z-ui);
@@ -538,47 +560,31 @@ textarea {
 
 .step-tab:hover,
 .step-tab.active {
-  color: var(--accent);
+  color: #fff;
 }
-
 
 .step-tabs.is-hinting .step-tab {
-  animation: stepHintFlash 0.56s ease both;
+  animation: stepHintFlash 0.72s ease both;
 }
 
-.step-tabs.is-hinting .step-tab:nth-child(1) {
-  animation-delay: 0s;
-}
-
-.step-tabs.is-hinting .step-tab:nth-child(2) {
-  animation-delay: 0.16s;
-}
-
-.step-tabs.is-hinting .step-tab:nth-child(3) {
-  animation-delay: 0.32s;
-}
-
-.step-tabs.is-hinting .step-tab:nth-child(4) {
-  animation-delay: 0.48s;
-}
-
-.step-tabs.is-hinting .step-tab:nth-child(5) {
-  animation-delay: 0.64s;
-}
+.step-tabs.is-hinting .step-tab:nth-child(1) { animation-delay: 0s; }
+.step-tabs.is-hinting .step-tab:nth-child(2) { animation-delay: 0.16s; }
+.step-tabs.is-hinting .step-tab:nth-child(3) { animation-delay: 0.32s; }
+.step-tabs.is-hinting .step-tab:nth-child(4) { animation-delay: 0.48s; }
+.step-tabs.is-hinting .step-tab:nth-child(5) { animation-delay: 0.64s; }
 
 @keyframes stepHintFlash {
-
-  0%,
-  100% {
+  0%, 100% {
     background: rgba(255, 255, 255, 0.3);
     color: rgba(7, 7, 6, 0.86);
     transform: translateX(0);
+    box-shadow: none;
   }
-
   45% {
-    background: color-mix(in srgb, var(--accent), white 18%);
+    background: color-mix(in srgb, var(--accent), white 14%);
     color: #fff;
-    transform: translateX(-4px);
+    transform: translateX(-5px);
+    box-shadow: 0 0 26px color-mix(in srgb, var(--accent), transparent 62%);
   }
 }
 
@@ -610,7 +616,7 @@ textarea {
 }
 
 .corner-logo.is-pulsing {
-  animation: logoSoftPulse 4.8s ease-in-out infinite;
+  animation: logoBackgroundBreath 4.8s ease-in-out infinite;
 }
 
 .corner-logo.is-pulsing::after {
@@ -625,30 +631,20 @@ textarea {
   animation: logoGlowPulse 4.8s ease-in-out infinite;
 }
 
-@keyframes logoSoftPulse {
-
-  0%,
-  100% {
-    transform: translateZ(0) scale(1);
+@keyframes logoBackgroundBreath {
+  0%, 100% {
+    background: var(--accent);
+    box-shadow: 0 0 0 rgba(255,255,255,0);
   }
-
   50% {
-    transform: translateZ(0) scale(1.045);
+    background: color-mix(in srgb, var(--accent), white 12%);
+    box-shadow: 0 0 26px color-mix(in srgb, var(--accent), transparent 62%);
   }
 }
 
 @keyframes logoGlowPulse {
-
-  0%,
-  100% {
-    opacity: 0.20;
-    transform: scale(0.92);
-  }
-
-  50% {
-    opacity: 0.62;
-    transform: scale(1.08);
-  }
+  0%, 100% { opacity: 0.20; transform: scale(0.92); }
+  50% { opacity: 0.62; transform: scale(1.08); }
 }
 
 .bring-idea {
@@ -1626,7 +1622,7 @@ textarea {
 
   .meaning-panel {
     right: 0px;
-    top: 99px;
+    top: 128px;
     max-width: 40%;
   }
 }
@@ -1761,6 +1757,13 @@ button.project-pill[data-project="1"] {
 }
 
 @media (max-width: 900px) {
+  .lang-toggle {
+    top: 18px;
+    right: 14px;
+    padding: 7px 9px;
+    font-size: 8px;
+    background: rgba(255, 255, 255, 0.62);
+  }
 
   .project-rail {
     padding-right: 58px;

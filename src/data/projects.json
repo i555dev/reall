@@ -1204,7 +1204,15 @@
         "object": "none",
         "media": [],
         "smart": false,
-        "soul": false
+        "soul": false,
+        "words": [],
+        "layout": "heroBackground",
+        "hide": [
+          "soul",
+          "smart",
+          "mind",
+          "visual"
+        ]
       }
     ],
     "cover": {
@@ -1873,9 +1881,16 @@
           "/projects/olga/frames/05/olga-5-1.webp",
           "/projects/olga/frames/05/olga-5-2.webp"
         ],
-        "words": [],
         "smart": false,
-        "soul": false
+        "soul": false,
+        "words": [],
+        "layout": "heroBackground",
+        "hide": [
+          "soul",
+          "smart",
+          "mind",
+          "visual"
+        ]
       }
     ],
     "cover": {
@@ -2605,7 +2620,14 @@
         ],
         "smart": false,
         "soul": false,
-        "words": []
+        "words": [],
+        "layout": "heroBackground",
+        "hide": [
+          "soul",
+          "smart",
+          "mind",
+          "visual"
+        ]
       }
     ],
     "cover": {
