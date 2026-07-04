@@ -3,7 +3,6 @@
   const projects = JSON.parse(dataEl.textContent);
   const projectWordmark = document.getElementById('projectWordmark');
   const $ = (id) => document.getElementById(id);
-  const langToggle = $('langToggle');
 
   const experience = $('experience');
   const canvas = $('neuralField');
@@ -37,66 +36,26 @@
   let wordParticles = [];
   let realityTimer = null;
   let realityIndex = 0;
-  let currentLang = localStorage.getItem('reallLang') || '';
-
   const panelTitles = {
     en: { soul: 'FEELING', smart: 'STRUCTURE', meaning: 'MEANING' },
     ru: { soul: 'ЧУВСТВО', smart: 'ЛОГИКА', meaning: 'СМЫСЛ' }
   };
 
-  function projectDefaultLang(project) {
+  function projectLang(project = projects[projectIndex]) {
+    const explicit = String(project?.lang || '').toLowerCase();
+    if (explicit === 'ru' || explicit === 'en') return explicit;
     return ['olga', 'chaveta'].includes(String(project?.id || '').toLowerCase()) ? 'ru' : 'en';
   }
 
-  function activeLang(project = projects[projectIndex]) {
-    return currentLang || projectDefaultLang(project);
-  }
-
-  function pickLang(value, lang = currentLang) {
-    if (!value || typeof value !== 'object' || Array.isArray(value)) return value;
-    if ('ru' in value || 'en' in value) return value[lang] ?? value.en ?? value.ru ?? '';
-    return value;
-  }
-
-  function localizeObject(item, lang = currentLang) {
-    if (!item || typeof item !== 'object') return item;
-    const localized = { ...item };
-    const layer = item.i18n?.[lang] || item.lang?.[lang] || item[lang];
-    if (layer && typeof layer === 'object' && !Array.isArray(layer)) {
-      Object.assign(localized, layer);
-    }
-
-    ['name', 'subtitle', 'label', 'title', 'meaning', 'center'].forEach((key) => {
-      localized[key] = pickLang(localized[key], lang);
-    });
-
-    return localized;
-  }
-
   function getProject(index = projectIndex) {
-    const source = projects[index];
-    const lang = activeLang(source);
-    const project = localizeObject(source, lang);
-    project.steps = Array.isArray(source.steps)
-      ? source.steps.map((step) => localizeObject(step, lang))
-      : [];
-    project.cover = source.cover ? localizeObject(source.cover, lang) : source.cover;
-    return project;
+    return projects[index];
   }
 
   function updatePanelTitles(project = getProject()) {
-    const lang = activeLang(project);
-    const titles = panelTitles[lang] || panelTitles.en;
+    const titles = panelTitles[projectLang(project)] || panelTitles.en;
     document.querySelectorAll('[data-panel-title]').forEach((node) => {
       node.textContent = titles[node.dataset.panelTitle] || '';
     });
-  }
-
-  function updateLangToggle(project = projects[projectIndex]) {
-    if (!langToggle) return;
-    const lang = activeLang(project);
-    langToggle.textContent = lang === 'ru' ? 'RU' : 'EN';
-    langToggle.setAttribute('aria-label', lang === 'ru' ? 'Переключить на English' : 'Switch to Russian');
   }
 
   const normalize = (value) => String(value || '').toLowerCase();
@@ -366,9 +325,13 @@
       const fadePulse = particle.behavior === 'fade'
         ? 0.55 + Math.sin(time * 0.0015 + particle.phase) * 0.32
         : 1;
+      const mobileDepth = Math.max(0.75, Math.min(1.85, particle.weight || 1));
+      const mobileTiltX = tilt.active && isMobileView() ? (tilt.x - 0.5) * 78 * mobileDepth : 0;
+      const mobileTiltY = tilt.active && isMobileView() ? (tilt.y - 0.5) * 58 * mobileDepth : 0;
+
       particle.el.style.opacity = String(Math.max(0.08, particle.opacity * fadePulse));
       particle.el.style.filter = particle.behavior === 'hit' ? 'blur(0px)' : 'blur(0.8px)';
-      particle.el.style.transform = `translate3d(${particle.x}px, ${particle.y}px, 0) translate(-50%, -50%) rotate(${particle.rotate}deg)`;
+      particle.el.style.transform = `translate3d(${particle.x + mobileTiltX}px, ${particle.y + mobileTiltY}px, 0) translate(-50%, -50%) rotate(${particle.rotate}deg)`;
     }
 
     wordRaf = requestAnimationFrame(updateFrameWords);
@@ -781,7 +744,6 @@
     updateVisualMass(cover);
     renderProjectRail();
     renderStepTabs();
-    updateLangToggle(projects[projectIndex]);
     updatePanelTitles(project);
 
     if (smartPanel) smartPanel.hidden = true;
@@ -857,7 +819,6 @@
     if (smartPanel && Array.isArray(step.hide) && step.hide.includes('smart')) smartPanel.hidden = true;
     renderProjectRail();
     renderStepTabs();
-    updateLangToggle(projects[projectIndex]);
 
     const textNodes = [centerWord, stepTitle, stepLabel, meaningText].filter(Boolean);
 
@@ -898,17 +859,6 @@
 
   $('railLeft').addEventListener('click', () => projectTrack.scrollBy({ left: -280, behavior: 'smooth' }));
   $('railRight').addEventListener('click', () => projectTrack.scrollBy({ left: 280, behavior: 'smooth' }));
-
-  if (langToggle) {
-    updateLangToggle();
-    langToggle.addEventListener('click', () => {
-      currentLang = activeLang(projects[projectIndex]) === 'ru' ? 'en' : 'ru';
-      localStorage.setItem('reallLang', currentLang);
-      updateLangToggle(projects[projectIndex]);
-      if (viewMode === 'cover') setCover(projectIndex);
-      else setState(projectIndex, stepIndex);
-    });
-  }
 
   const backdrop = $('modalBackdrop');
   const about = $('aboutModal');
@@ -1200,7 +1150,6 @@
   }
 
   window.addEventListener('resize', resize);
-  updateLangToggle(projects[projectIndex]);
   resize();
   setCover(projectIndex);
   hintMobileSteps();

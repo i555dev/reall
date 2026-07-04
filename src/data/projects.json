@@ -813,7 +813,8 @@
         "type": "coverObject",
         "src": "/projects/livetile/cover/house-alpha.webp"
       }
-    }
+    },
+    "lang": "en"
   },
   {
     "id": "speakfit",
@@ -1329,7 +1330,8 @@
           }
         ]
       }
-    }
+    },
+    "lang": "en"
   },
   {
     "id": "olga",
@@ -2022,7 +2024,8 @@
       "media": [
         "/projects/olga/cover/olga-intro4.webp"
       ]
-    }
+    },
+    "lang": "ru"
   },
   {
     "id": "soma",
@@ -2780,7 +2783,8 @@
         "type": "coverObject",
         "src": "/projects/soma/cover/bed.webp"
       }
-    }
+    },
+    "lang": "en"
   },
   {
     "id": "chaveta",
@@ -3391,6 +3395,7 @@
         "type": "coverObject",
         "src": "/projects/chaveta/cover/chaveta-logo.webp"
       }
-    }
+    },
+    "lang": "ru"
   }
 ]
