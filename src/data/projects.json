@@ -1,0 +1,3396 @@
+[
+  {
+    "id": "livetile",
+    "name": "LIVETILE",
+    "subtitle": "Greenery → Living Architecture",
+    "accent": "#24b837",
+    "steps": [
+      {
+        "id": "question",
+        "label": "Question",
+        "title": "What if any wall could give you something?",
+        "feeling": [
+          "dead",
+          "flat",
+          "paint",
+          "empty"
+        ],
+        "meaning": "What if any wall could give you something?\n\nMint for breakfast.\nBasil for dinner.\nFlowers for the room.\n\nNo garden.\nNo mess.\nNo complicated care.\n\nA beautiful wall with a hidden function.",
+        "center": "WALL",
+        "accent": "#24b837",
+        "object": "none",
+        "media": [
+          "/projects/livetile/frames/question/office.webp",
+          "/projects/livetile/frames/question/cafe.webp",
+          "/projects/livetile/frames/question/kitchen.webp",
+          "/projects/livetile/frames/question/terrace.webp"
+        ],
+        "words": [
+          {
+            "text": "VERTICAL",
+            "tone": "black",
+            "weight": 1.45,
+            "speed": 0.38,
+            "behavior": "stuck",
+            "angle": 0,
+            "spin": 0
+          },
+          {
+            "text": "GROWING",
+            "tone": "green",
+            "weight": 1.32,
+            "speed": 0.48,
+            "behavior": "hit",
+            "angle": -8,
+            "spin": 0.035
+          },
+          {
+            "text": "WATER",
+            "tone": "blue",
+            "weight": 1.06,
+            "speed": 0.58,
+            "behavior": "float",
+            "angle": 12,
+            "spin": -0.04
+          },
+          {
+            "text": "LIGHT",
+            "tone": "yellow",
+            "weight": 1.12,
+            "speed": 0.54,
+            "behavior": "hit",
+            "angle": -18,
+            "spin": 0.05
+          },
+          {
+            "text": "HARVEST",
+            "tone": "gold",
+            "weight": 1.18,
+            "speed": 0.5,
+            "behavior": "hit",
+            "angle": -6,
+            "spin": 0.045
+          },
+          {
+            "text": "EASY",
+            "tone": "dust",
+            "weight": 0.92,
+            "speed": 0.42,
+            "behavior": "fade",
+            "angle": 9,
+            "spin": 0.04
+          },
+          {
+            "text": "DESIGN",
+            "tone": "black",
+            "weight": 1.22,
+            "speed": 0.34,
+            "behavior": "stuck",
+            "angle": 4,
+            "spin": 0.01
+          },
+          {
+            "text": "MODULE",
+            "tone": "concrete",
+            "weight": 1.0,
+            "speed": 0.5,
+            "behavior": "hit",
+            "angle": 18,
+            "spin": -0.05
+          },
+          {
+            "text": "SYSTEM",
+            "tone": "blue",
+            "weight": 0.95,
+            "speed": 0.44,
+            "behavior": "float",
+            "angle": -12,
+            "spin": 0.045
+          }
+        ],
+        "smart": {
+          "status": "WALL",
+          "rows": [
+            {
+              "label": "FUNCTION",
+              "value": "HIDDEN"
+            },
+            {
+              "label": "CARE",
+              "value": "LOW"
+            },
+            {
+              "label": "HARVEST",
+              "value": "NOT YET",
+              "highlight": false
+            }
+          ]
+        },
+        "soul": {
+          "mode": "cloud",
+          "words": [
+            {
+              "text": "mint",
+              "x": 22,
+              "y": 28,
+              "size": 1.2,
+              "rotate": -90,
+              "tone": "green",
+              "weight": 850,
+              "opacity": 0.9
+            },
+            {
+              "text": "basil",
+              "x": 52,
+              "y": 22,
+              "size": 1.55,
+              "rotate": 4,
+              "tone": "green",
+              "weight": 900,
+              "opacity": 0.96
+            },
+            {
+              "text": "dill",
+              "x": 88,
+              "y": 58,
+              "size": 1.05,
+              "rotate": -3,
+              "tone": "green",
+              "weight": 780,
+              "opacity": 0.82
+            },
+            {
+              "text": "flowers",
+              "x": 62,
+              "y": 43,
+              "size": 1.32,
+              "rotate": -6,
+              "tone": "red",
+              "weight": 850,
+              "opacity": 0.82
+            },
+            {
+              "text": "fresh",
+              "x": 42,
+              "y": 58,
+              "size": 1.42,
+              "rotate": 2,
+              "tone": "blue",
+              "weight": 900,
+              "opacity": 0.9
+            },
+            {
+              "text": "aroma",
+              "x": 74,
+              "y": 62,
+              "size": 0.82,
+              "rotate": 9,
+              "tone": "dust",
+              "weight": 650,
+              "opacity": 0.68
+            },
+            {
+              "text": "pool",
+              "x": 76,
+              "y": 18,
+              "size": 1.2,
+              "rotate": 7,
+              "tone": "blue",
+              "weight": 600,
+              "opacity": 0.58
+            },
+            {
+              "text": "kitchen",
+              "x": 18,
+              "y": 65,
+              "size": 0.78,
+              "rotate": -9,
+              "tone": "muted",
+              "weight": 600,
+              "opacity": 0.6
+            },
+            {
+              "text": "terrace",
+              "x": 72,
+              "y": 80,
+              "size": 0.86,
+              "rotate": 5,
+              "tone": "muted",
+              "weight": 650,
+              "opacity": 0.62
+            },
+            {
+              "text": "easy",
+              "x": 82,
+              "y": 36,
+              "size": 0.92,
+              "rotate": -4,
+              "tone": "gold",
+              "weight": 760,
+              "opacity": 0.72
+            },
+            {
+              "text": "want",
+              "x": 48,
+              "y": 86,
+              "size": 1.06,
+              "rotate": -3,
+              "tone": "yellow",
+              "weight": 850,
+              "opacity": 0.82
+            },
+            {
+              "text": "beautiful",
+              "x": 18,
+              "y": 15,
+              "size": 0.68,
+              "rotate": -6,
+              "tone": "yellow",
+              "weight": 600,
+              "opacity": 0.58
+            },
+            {
+              "text": "alive",
+              "x": 64,
+              "y": 68,
+              "size": 1.08,
+              "rotate": -2,
+              "tone": "green",
+              "weight": 850,
+              "opacity": 0.86
+            }
+          ]
+        }
+      },
+      {
+        "id": "feeling",
+        "label": "Feeling",
+        "title": "I want life closer.",
+        "meaning": "I want life closer.\n\nNot somewhere far away.\nNot in a field.\nNot at the dacha.\nNot as a garden I have to visit.\n\nWithin reach.\nNear the morning cup.\nOn the wall beside me.\n\nFresh, small, alive.\nPart of the day.",
+        "center": "LIFE",
+        "accent": "#24b837",
+        "object": "none",
+        "media": [
+          "/projects/livetile/frames/feeling/createadam.webp",
+          "/projects/livetile/frames/feeling/sprout.webp",
+          "/projects/livetile/frames/feeling/manwall.webp",
+          "/projects/livetile/frames/feeling/breakfast.webp"
+        ],
+        "words": [
+          {
+            "text": "LIFE",
+            "tone": "green",
+            "weight": 1.42,
+            "speed": 0.08,
+            "behavior": "stuck",
+            "angle": -2,
+            "spin": 0
+          },
+          {
+            "text": "WITHIN",
+            "tone": "white",
+            "weight": 0.82,
+            "speed": 0.05,
+            "behavior": "stuck",
+            "angle": 0,
+            "spin": 0
+          },
+          {
+            "text": "REACH",
+            "tone": "gold",
+            "weight": 1.5,
+            "speed": 0.07,
+            "behavior": "stuck",
+            "angle": 2,
+            "spin": 0
+          }
+        ],
+        "smart": {
+          "status": "CLOSER",
+          "rows": [
+            {
+              "label": "NATURE",
+              "value": "WANTED",
+              "highlight": true
+            },
+            {
+              "label": "DISTANCE",
+              "value": "TOO FAR"
+            },
+            {
+              "label": "CONTACT",
+              "value": "MISSING"
+            }
+          ]
+        },
+        "soul": {
+          "mode": "stack",
+          "words": [
+            {
+              "text": "touch",
+              "tone": "yellow",
+              "state": "want",
+              "size": 1.22,
+              "weight": 850,
+              "opacity": 0.9
+            },
+            {
+              "text": "morning",
+              "tone": "gold",
+              "state": "want",
+              "size": 1.1,
+              "weight": 760,
+              "opacity": 0.78
+            },
+            {
+              "text": "coffee",
+              "tone": "black",
+              "state": "want",
+              "size": 0.96,
+              "weight": 700,
+              "opacity": 0.68
+            },
+            {
+              "text": "mint",
+              "tone": "green",
+              "state": "want",
+              "size": 1.34,
+              "weight": 900,
+              "opacity": 0.94
+            },
+            {
+              "text": "home",
+              "tone": "black",
+              "state": "want",
+              "size": 1.18,
+              "weight": 820,
+              "opacity": 0.82
+            },
+            {
+              "text": "fresh",
+              "tone": "green",
+              "state": "want",
+              "size": 1.08,
+              "weight": 800,
+              "opacity": 0.86
+            },
+            {
+              "text": "far",
+              "tone": "muted",
+              "state": "reject",
+              "size": 0.92,
+              "weight": 650,
+              "opacity": 0.54
+            },
+            {
+              "text": "dacha",
+              "tone": "dust",
+              "state": "reject",
+              "size": 0.9,
+              "weight": 650,
+              "opacity": 0.52
+            },
+            {
+              "text": "waiting",
+              "tone": "muted",
+              "state": "reject",
+              "size": 0.86,
+              "weight": 620,
+              "opacity": 0.5
+            }
+          ]
+        }
+      },
+      {
+        "id": "imagination",
+        "label": "Imagination",
+        "title": "Impossible systems appear.",
+        "meaning": "Before the brief, there is imagination.\n\nRoots in water.\nLight above leaves.\nA loop that keeps life growing.\n\nThen the garden escapes the table\nand starts climbing the wall.\n\nSome images are strange.\nSome are too technical.\nSome are too beautiful to ignore.\n\nOne of them becomes the task.",
+        "center": "VISION",
+        "accent": "#25d44f",
+        "object": "none",
+        "media": [
+          "/projects/livetile/frames/image/science2.webp",
+          "/projects/livetile/frames/image/table2wall2.webp",
+          "/projects/livetile/frames/image/hexhome.webp",
+          "/projects/livetile/frames/image/livehex.webp"
+        ],
+        "words": [
+          {
+            "text": "ROOTS",
+            "tone": "dust",
+            "weight": 1.08,
+            "speed": 0.42,
+            "behavior": "float",
+            "angle": -8,
+            "spin": 0.035
+          },
+          {
+            "text": "WATER",
+            "tone": "blue",
+            "weight": 1.18,
+            "speed": 0.5,
+            "behavior": "hit",
+            "angle": 10,
+            "spin": -0.04
+          },
+          {
+            "text": "LIGHT",
+            "tone": "yellow",
+            "weight": 1.22,
+            "speed": 0.46,
+            "behavior": "hit",
+            "angle": -14,
+            "spin": 0.045
+          },
+          {
+            "text": "HEX",
+            "tone": "black",
+            "weight": 1.3,
+            "speed": 0.34,
+            "behavior": "stuck",
+            "angle": 3,
+            "spin": 0.01
+          },
+          {
+            "text": "LOOP",
+            "tone": "gold",
+            "weight": 1.02,
+            "speed": 0.52,
+            "behavior": "float",
+            "angle": 15,
+            "spin": -0.035
+          },
+          {
+            "text": "WALL",
+            "tone": "black",
+            "weight": 1.16,
+            "speed": 0.38,
+            "behavior": "stuck",
+            "angle": -4,
+            "spin": 0.01
+          },
+          {
+            "text": "SYSTEM",
+            "tone": "blue",
+            "weight": 0.92,
+            "speed": 0.44,
+            "behavior": "fade",
+            "angle": -12,
+            "spin": 0.04
+          },
+          {
+            "text": "VISION",
+            "tone": "green",
+            "weight": 1.26,
+            "speed": 0.36,
+            "behavior": "hit",
+            "angle": 6,
+            "spin": 0.035
+          }
+        ],
+        "smart": {
+          "status": "IMAGE",
+          "rows": [
+            {
+              "label": "FORM",
+              "value": "EMERGING",
+              "highlight": true
+            },
+            {
+              "label": "TECH",
+              "value": "VISIBLE"
+            },
+            {
+              "label": "BRIEF",
+              "value": "NOT YET"
+            }
+          ]
+        },
+        "soul": {
+          "mode": "stack",
+          "words": [
+            {
+              "text": "hex",
+              "tone": "black",
+              "state": "want",
+              "size": 1.26,
+              "weight": 900,
+              "opacity": 0.92
+            },
+            {
+              "text": "roots",
+              "tone": "dust",
+              "state": "want",
+              "size": 1.08,
+              "weight": 760,
+              "opacity": 0.72
+            },
+            {
+              "text": "water",
+              "tone": "blue",
+              "state": "want",
+              "size": 1.18,
+              "weight": 840,
+              "opacity": 0.88
+            },
+            {
+              "text": "light",
+              "tone": "yellow",
+              "state": "want",
+              "size": 1.22,
+              "weight": 880,
+              "opacity": 0.9
+            },
+            {
+              "text": "wall",
+              "tone": "black",
+              "state": "want",
+              "size": 1.12,
+              "weight": 820,
+              "opacity": 0.82
+            },
+            {
+              "text": "cells",
+              "tone": "muted",
+              "state": "want",
+              "size": 1.0,
+              "weight": 760,
+              "opacity": 0.7
+            },
+            {
+              "text": "loop",
+              "tone": "gold",
+              "state": "want",
+              "size": 1.08,
+              "weight": 840,
+              "opacity": 0.84
+            },
+            {
+              "text": "lab",
+              "tone": "muted",
+              "state": "reject",
+              "size": 0.92,
+              "weight": 680,
+              "opacity": 0.56
+            },
+            {
+              "text": "mess",
+              "tone": "muted",
+              "state": "reject",
+              "size": 0.9,
+              "weight": 660,
+              "opacity": 0.52
+            },
+            {
+              "text": "soil",
+              "tone": "dust",
+              "state": "reject",
+              "size": 0.86,
+              "weight": 640,
+              "opacity": 0.5
+            },
+            {
+              "text": "take care",
+              "tone": "muted",
+              "state": "reject",
+              "size": 0.84,
+              "weight": 620,
+              "opacity": 0.48
+            }
+          ]
+        }
+      },
+      {
+        "id": "brief",
+        "label": "Frame",
+        "title": "The vision becomes a brief.",
+        "meaning": "Now the image has to obey reality.\n\nWall. Hex. Water. Light. Fastening.\n\nThe beautiful idea becomes a list of constraints.\n\nWhat is visible?\nWhat is hidden?\nWhat holds it?\nWhat feeds it?\nWhat makes it grow?\n\nThis is where imagination becomes construction.",
+        "center": "BRIEF",
+        "accent": "#24b837",
+        "object": "livetile",
+        "media": [
+          "/projects/livetile/frames/frame/1.webp",
+          "/projects/livetile/frames/frame/2.webp",
+          "/projects/livetile/frames/frame/3.webp",
+          "/projects/livetile/frames/frame/4.webp"
+        ],
+        "words": [
+          {
+            "text": "WALL",
+            "tone": "black",
+            "weight": 1.22,
+            "speed": 0.32,
+            "behavior": "stuck",
+            "angle": -3,
+            "spin": 0.01
+          },
+          {
+            "text": "HEX",
+            "tone": "concrete",
+            "weight": 1.28,
+            "speed": 0.38,
+            "behavior": "hit",
+            "angle": 7,
+            "spin": -0.035
+          },
+          {
+            "text": "WATER",
+            "tone": "blue",
+            "weight": 1.08,
+            "speed": 0.46,
+            "behavior": "float",
+            "angle": -11,
+            "spin": 0.04
+          },
+          {
+            "text": "LIGHT",
+            "tone": "yellow",
+            "weight": 1.14,
+            "speed": 0.44,
+            "behavior": "hit",
+            "angle": 13,
+            "spin": -0.04
+          },
+          {
+            "text": "FASTENING",
+            "tone": "dust",
+            "weight": 0.82,
+            "speed": 0.42,
+            "behavior": "fade",
+            "angle": -6,
+            "spin": 0.025
+          },
+          {
+            "text": "VISIBLE",
+            "tone": "green",
+            "weight": 0.96,
+            "speed": 0.4,
+            "behavior": "hit",
+            "angle": 4,
+            "spin": 0.035
+          },
+          {
+            "text": "HIDDEN",
+            "tone": "black",
+            "weight": 0.98,
+            "speed": 0.36,
+            "behavior": "stuck",
+            "angle": -9,
+            "spin": 0.015
+          },
+          {
+            "text": "CONSTRUCTION",
+            "tone": "gold",
+            "weight": 0.9,
+            "speed": 0.48,
+            "behavior": "float",
+            "angle": 10,
+            "spin": -0.03
+          }
+        ],
+        "smart": {
+          "status": "FRAME",
+          "rows": [
+            {
+              "label": "PLANTS",
+              "value": "SURFACE"
+            },
+            {
+              "label": "MODULE",
+              "value": "HEX"
+            },
+            {
+              "label": "CATEGORY",
+              "value": "NEW",
+              "highlight": true
+            }
+          ]
+        },
+        "soul": {
+          "mode": "frame",
+          "words": [
+            {
+              "text": "plants",
+              "side": "top",
+              "pos": 22,
+              "size": 0.75,
+              "tone": "accent",
+              "weight": 760
+            },
+            {
+              "text": "plants",
+              "side": "top",
+              "pos": 50,
+              "size": 0.68,
+              "tone": "accent",
+              "weight": 700
+            },
+            {
+              "text": "plants",
+              "side": "top",
+              "pos": 78,
+              "size": 0.75,
+              "tone": "accent",
+              "weight": 760
+            },
+            {
+              "text": "surface",
+              "side": "left",
+              "pos": 34,
+              "size": 0.86,
+              "tone": "accent",
+              "weight": 800
+            },
+            {
+              "text": "surface",
+              "side": "left",
+              "pos": 64,
+              "size": 0.62,
+              "tone": "black",
+              "weight": 700
+            },
+            {
+              "text": "hex",
+              "side": "right",
+              "pos": 34,
+              "size": 0.82,
+              "tone": "accent",
+              "weight": 800
+            },
+            {
+              "text": "hex",
+              "side": "right",
+              "pos": 64,
+              "size": 0.66,
+              "tone": "accent",
+              "weight": 700
+            },
+            {
+              "text": "architecture",
+              "side": "bottom",
+              "pos": 50,
+              "size": 0.78,
+              "tone": "black",
+              "weight": 780
+            }
+          ]
+        }
+      },
+      {
+        "id": "reality",
+        "label": "Reality",
+        "title": "A new layer of home.",
+        "meaning": "LiveTile is the material result: a living wall system for fresh greens, light and home architecture.\n\n<a href='https://live-tile.com' target='_blank' rel='noopener noreferrer'>Order LiveTile</a> on the official site.",
+        "center": "LIVETILE",
+        "accent": "#24b837",
+        "object": "none",
+        "media": [
+          "/projects/livetile/frames/reality/livetile-reality-hero.webp"
+        ],
+        "smart": false,
+        "soul": false,
+        "words": [],
+        "layout": "heroBackground",
+        "hide": [
+          "soul",
+          "smart",
+          "mind",
+          "visual"
+        ]
+      }
+    ],
+    "cover": {
+      "label": "Live system",
+      "center": "LIVETILE",
+      "title": "Plants + Architecture",
+      "meaning": "A living system that connects plants, architecture and people.\n\nGreenery → Living Architecture",
+      "object": "livetile",
+      "media": [
+        "/projects/livetile/cover/background.webp"
+      ],
+      "visual": {
+        "type": "coverObject",
+        "src": "/projects/livetile/cover/house-alpha.webp"
+      }
+    }
+  },
+  {
+    "id": "speakfit",
+    "name": "SPEAKFIT",
+    "subtitle": "Language → Fitness",
+    "accent": "#ff6a00",
+    "steps": [
+      {
+        "id": "question",
+        "label": "Question",
+        "title": "Why does language learning feel like school?",
+        "feeling": [
+          "school",
+          "homework",
+          "slow",
+          "tired"
+        ],
+        "meaning": "The question attacks the old frame: lessons, grammar, waiting for results.",
+        "center": "LANGUAGE",
+        "accent": "#ff6a00",
+        "object": "none",
+        "media": [],
+        "smart": {
+          "status": "SCHOOL",
+          "rows": [
+            {
+              "label": "RESULT",
+              "value": "WAIT"
+            },
+            {
+              "label": "BODY",
+              "value": "OFF"
+            },
+            {
+              "label": "ENERGY",
+              "value": "LOW",
+              "highlight": true
+            }
+          ]
+        },
+        "soul": {
+          "mode": "cloud",
+          "words": [
+            {
+              "text": "school",
+              "x": 32,
+              "y": 24,
+              "size": 1.55,
+              "rotate": -4,
+              "tone": "black",
+              "weight": 900,
+              "opacity": 0.95
+            },
+            {
+              "text": "lesson",
+              "x": 24,
+              "y": 42,
+              "size": 1.3,
+              "rotate": -9,
+              "tone": "black",
+              "weight": 850,
+              "opacity": 0.88
+            },
+            {
+              "text": "grammar",
+              "x": 22,
+              "y": 58,
+              "size": 1.15,
+              "rotate": -5,
+              "tone": "black",
+              "weight": 780,
+              "opacity": 0.82
+            },
+            {
+              "text": "homework",
+              "x": 54,
+              "y": 55,
+              "size": 1.05,
+              "rotate": 5,
+              "tone": "muted",
+              "weight": 650,
+              "opacity": 0.72
+            },
+            {
+              "text": "slow",
+              "x": 50,
+              "y": 74,
+              "size": 1.18,
+              "rotate": -3,
+              "tone": "black",
+              "weight": 820,
+              "opacity": 0.86
+            },
+            {
+              "text": "tired",
+              "x": 22,
+              "y": 14,
+              "size": 0.55,
+              "rotate": -8,
+              "tone": "muted",
+              "weight": 500,
+              "opacity": 0.68
+            },
+            {
+              "text": "waiting",
+              "x": 76,
+              "y": 14,
+              "size": 0.58,
+              "rotate": 7,
+              "tone": "muted",
+              "weight": 500,
+              "opacity": 0.66
+            },
+            {
+              "text": "results?",
+              "x": 80,
+              "y": 35,
+              "size": 0.54,
+              "rotate": -3,
+              "tone": "muted",
+              "weight": 500,
+              "opacity": 0.66
+            }
+          ]
+        }
+      },
+      {
+        "id": "feeling",
+        "label": "Feeling",
+        "title": "No result. No body. No pulse.",
+        "feeling": [
+          "boredom",
+          "shame",
+          "delay",
+          "routine"
+        ],
+        "meaning": "The emotional truth is simple: people want progress they can feel.",
+        "center": "PROGRESS",
+        "accent": "#ff6a00",
+        "object": "none",
+        "media": [],
+        "smart": {
+          "status": "DELAY",
+          "rows": [
+            {
+              "label": "PROGRESS",
+              "value": "SLOW"
+            },
+            {
+              "label": "PULSE",
+              "value": "0",
+              "highlight": true
+            },
+            {
+              "label": "ROUTINE",
+              "value": "HIGH"
+            }
+          ]
+        },
+        "soul": {
+          "mode": "stack",
+          "words": [
+            {
+              "text": "homework",
+              "tone": "black",
+              "size": 1.12,
+              "weight": 900
+            },
+            {
+              "text": "homework",
+              "tone": "black",
+              "size": 1.12,
+              "weight": 900
+            },
+            {
+              "text": "repeat",
+              "tone": "black",
+              "size": 0.9299999999999999,
+              "weight": 760
+            },
+            {
+              "text": "shame",
+              "tone": "black",
+              "size": 0.895,
+              "weight": 760
+            },
+            {
+              "text": "delay",
+              "tone": "black",
+              "size": 0.86,
+              "weight": 760
+            },
+            {
+              "text": "routine",
+              "tone": "muted",
+              "size": 0.825,
+              "weight": 760
+            },
+            {
+              "text": "no result",
+              "tone": "muted",
+              "size": 0.79,
+              "weight": 760
+            },
+            {
+              "text": "tired",
+              "tone": "muted",
+              "size": 0.78,
+              "weight": 760
+            }
+          ]
+        }
+      },
+      {
+        "id": "image",
+        "label": "Image",
+        "title": "A gym for language.",
+        "feeling": [
+          "training",
+          "coach",
+          "sets",
+          "energy"
+        ],
+        "meaning": "The image pulls language out of school and into training.",
+        "center": "TRAINING",
+        "accent": "#ff6a00",
+        "object": "none",
+        "media": [],
+        "smart": {
+          "status": "TRAINING",
+          "rows": [
+            {
+              "label": "SETS",
+              "value": "ON"
+            },
+            {
+              "label": "COACH",
+              "value": "READY"
+            },
+            {
+              "label": "PULSE",
+              "value": "UP",
+              "highlight": true
+            }
+          ]
+        },
+        "soul": {
+          "mode": "orbit",
+          "words": [
+            {
+              "text": "gym",
+              "x": 28,
+              "y": 18,
+              "size": 1.1,
+              "rotate": -9,
+              "tone": "accent",
+              "weight": 850,
+              "opacity": 0.9
+            },
+            {
+              "text": "coach",
+              "x": 64,
+              "y": 36,
+              "size": 0.95,
+              "rotate": 8,
+              "tone": "black",
+              "weight": 820,
+              "opacity": 0.86
+            },
+            {
+              "text": "sets",
+              "x": 24,
+              "y": 48,
+              "size": 0.85,
+              "rotate": -4,
+              "tone": "accent",
+              "weight": 750,
+              "opacity": 0.84
+            },
+            {
+              "text": "pulse",
+              "x": 70,
+              "y": 62,
+              "size": 0.9,
+              "rotate": -11,
+              "tone": "gold",
+              "weight": 750,
+              "opacity": 0.76
+            },
+            {
+              "text": "training",
+              "x": 46,
+              "y": 78,
+              "size": 1.0,
+              "rotate": -7,
+              "tone": "black",
+              "weight": 800,
+              "opacity": 0.84
+            },
+            {
+              "text": "energy",
+              "x": 78,
+              "y": 18,
+              "size": 0.46,
+              "rotate": 18,
+              "tone": "muted",
+              "weight": 500,
+              "opacity": 0.55
+            },
+            {
+              "text": "body",
+              "x": 48,
+              "y": 64,
+              "size": 0.42,
+              "rotate": -3,
+              "tone": "muted",
+              "weight": 500,
+              "opacity": 0.52
+            }
+          ]
+        }
+      },
+      {
+        "id": "frame",
+        "label": "Frame",
+        "title": "Learning becomes fitness.",
+        "feeling": [
+          "measure",
+          "repeat",
+          "sweat",
+          "gain"
+        ],
+        "meaning": "A new category appears: diagnosis, technique, rhythm, trainer, progress.",
+        "center": "FITNESS",
+        "accent": "#ff6a00",
+        "object": "none",
+        "media": [],
+        "smart": {
+          "status": "SYSTEM",
+          "rows": [
+            {
+              "label": "DIAGNOSIS",
+              "value": "ON"
+            },
+            {
+              "label": "RHYTHM",
+              "value": "SET"
+            },
+            {
+              "label": "RESULT",
+              "value": "TRACKED",
+              "highlight": true
+            }
+          ]
+        },
+        "soul": {
+          "mode": "frame",
+          "words": [
+            {
+              "text": "diagnosis",
+              "side": "top",
+              "pos": 25,
+              "size": 0.78,
+              "tone": "accent",
+              "weight": 800
+            },
+            {
+              "text": "technique",
+              "side": "left",
+              "pos": 35,
+              "size": 0.78,
+              "tone": "accent",
+              "weight": 800
+            },
+            {
+              "text": "rhythm",
+              "side": "right",
+              "pos": 35,
+              "size": 0.78,
+              "tone": "accent",
+              "weight": 800
+            },
+            {
+              "text": "trainer",
+              "side": "bottom",
+              "pos": 50,
+              "size": 0.78,
+              "tone": "black",
+              "weight": 800
+            },
+            {
+              "text": "progress",
+              "side": "top",
+              "pos": 75,
+              "size": 0.64,
+              "tone": "accent",
+              "weight": 700
+            },
+            {
+              "text": "fitness",
+              "side": "bottom",
+              "pos": 72,
+              "size": 0.64,
+              "tone": "black",
+              "weight": 700
+            }
+          ]
+        }
+      },
+      {
+        "id": "reality",
+        "label": "Reality",
+        "title": "SpeakFit.",
+        "feeling": [
+          "drive",
+          "result",
+          "body",
+          "voice"
+        ],
+        "meaning": "A language product built like a fitness system.",
+        "center": "SPEAKFIT",
+        "accent": "#ff6a00",
+        "object": "none",
+        "media": [],
+        "smart": {
+          "status": "ACTIVE",
+          "rows": [
+            {
+              "label": "SESSIONS",
+              "value": "24"
+            },
+            {
+              "label": "PROGRESS",
+              "value": "+38%",
+              "highlight": true
+            },
+            {
+              "label": "VOICE",
+              "value": "ON"
+            }
+          ]
+        },
+        "soul": {
+          "mode": "quiet",
+          "words": [
+            {
+              "text": "drive",
+              "x": 35,
+              "y": 28,
+              "size": 1.25,
+              "rotate": -2,
+              "tone": "black",
+              "weight": 800,
+              "opacity": 0.88
+            },
+            {
+              "text": "result",
+              "x": 62,
+              "y": 48,
+              "size": 1.42,
+              "rotate": 5,
+              "tone": "accent",
+              "weight": 850,
+              "opacity": 0.9
+            },
+            {
+              "text": "voice",
+              "x": 55,
+              "y": 70,
+              "size": 1.0,
+              "rotate": -1,
+              "tone": "gold",
+              "weight": 760,
+              "opacity": 0.75
+            },
+            {
+              "text": "body",
+              "x": 82,
+              "y": 18,
+              "size": 0.62,
+              "rotate": 8,
+              "tone": "muted",
+              "weight": 500,
+              "opacity": 0.55
+            },
+            {
+              "text": "strong",
+              "x": 28,
+              "y": 82,
+              "size": 0.62,
+              "rotate": -3,
+              "tone": "muted",
+              "weight": 500,
+              "opacity": 0.55
+            }
+          ]
+        }
+      }
+    ],
+    "cover": {
+      "label": "Intro",
+      "center": "SPEAKFIT",
+      "title": "Language → Fitness",
+      "meaning": "A project transformation: Language → Fitness",
+      "object": "none",
+      "media": [],
+      "visual": {
+        "type": "words",
+        "words": [
+          {
+            "text": "SPEAKFIT",
+            "tone": "black"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "olga",
+    "name": "OLGA-ASTRO",
+    "subtitle": "Астрология → Ясность",
+    "accent": "#C41E3A ",
+    "steps": [
+      {
+        "id": "question",
+        "label": "Question",
+        "title": "Почему сайт объясняет цену, а не ценность?",
+        "feeling": [
+          "цена",
+          "услуга",
+          "не видно ценности",
+          "старый язык"
+        ],
+        "meaning": "Старый сайт не был плохим. Он говорил языком старой категории.\n\nАстролог. Консультация. Натальная карта. Соляр. Синастрия. Отзывы. Сертификаты.\n\nЦена и услуга видны.\nЦенность — нет.\n\nЧеловек с высоким запросом покупает не «астрологию». Он ищет ощущение: здесь меня поймут, и станет яснее.\n\nЗадача — раскрыть ценность до цены.",
+        "center": "ЦЕННОСТЬ",
+        "accent": "#C41E3A ",
+        "object": "none",
+        "media": [
+          "/projects/olga/frames/01/olga-1-1.webp",
+          "/projects/olga/frames/01/olga-1-2.webp",
+          "/projects/olga/frames/01/olga-1-3.webp"
+        ],
+        "words": [
+          {
+            "text": "ЯЗЫК",
+            "tone": "black",
+            "weight": 1.18,
+            "speed": 0.38,
+            "behavior": "stuck",
+            "angle": -3,
+            "spin": 0.01
+          },
+          {
+            "text": "УСЛУГА",
+            "tone": "muted",
+            "weight": 1.08,
+            "speed": 0.44,
+            "behavior": "hit",
+            "angle": 7,
+            "spin": -0.03
+          },
+          {
+            "text": "ЦЕННОСТЬ",
+            "tone": "green",
+            "weight": 1.34,
+            "speed": 0.34,
+            "behavior": "stuck",
+            "angle": -2,
+            "spin": 0.01
+          },
+          {
+            "text": "СКРЫТА",
+            "tone": "gold",
+            "weight": 1.02,
+            "speed": 0.46,
+            "behavior": "float",
+            "angle": 11,
+            "spin": -0.03
+          },
+          {
+            "text": "КАРТА",
+            "tone": "black",
+            "weight": 0.88,
+            "speed": 0.4,
+            "behavior": "fade",
+            "angle": -9,
+            "spin": 0.025
+          },
+          {
+            "text": "СКУКА",
+            "tone": "accent",
+            "weight": 0.86,
+            "speed": 0.42,
+            "behavior": "hit",
+            "angle": 13,
+            "spin": -0.025
+          }
+        ],
+        "smart": {
+          "status": "ЦЕНА",
+          "rows": [
+            {
+              "label": "УСЛУГА",
+              "value": "ВИДНА"
+            },
+            {
+              "label": "ЦЕННОСТЬ",
+              "value": "СКРЫТА",
+              "highlight": true
+            },
+            {
+              "label": "ЯЗЫК",
+              "value": "СТАРЫЙ"
+            }
+          ]
+        },
+        "soul": {
+          "mode": "cloud",
+          "words": [
+            {
+              "text": "цена",
+              "x": 32,
+              "y": 24,
+              "size": 1.45,
+              "rotate": -4,
+              "tone": "black",
+              "weight": 900,
+              "opacity": 0.92
+            },
+            {
+              "text": "услуга",
+              "x": 24,
+              "y": 44,
+              "size": 1.22,
+              "rotate": -8,
+              "tone": "black",
+              "weight": 850,
+              "opacity": 0.86
+            },
+            {
+              "text": "натальная карта",
+              "x": 58,
+              "y": 38,
+              "size": 0.92,
+              "rotate": 5,
+              "tone": "muted",
+              "weight": 650,
+              "opacity": 0.64
+            },
+            {
+              "text": "сертификаты",
+              "x": 52,
+              "y": 58,
+              "size": 0.78,
+              "rotate": 4,
+              "tone": "muted",
+              "weight": 620,
+              "opacity": 0.58
+            },
+            {
+              "text": "ценность?",
+              "x": 48,
+              "y": 74,
+              "size": 1.18,
+              "rotate": -3,
+              "tone": "accent",
+              "weight": 880,
+              "opacity": 0.9
+            },
+            {
+              "text": "ясность",
+              "x": 78,
+              "y": 20,
+              "size": 0.72,
+              "rotate": 8,
+              "tone": "gold",
+              "weight": 700,
+              "opacity": 0.62
+            },
+            {
+              "text": "старый язык",
+              "x": 20,
+              "y": 15,
+              "size": 0.58,
+              "rotate": -7,
+              "tone": "muted",
+              "weight": 560,
+              "opacity": 0.6
+            }
+          ]
+        }
+      },
+      {
+        "id": "feeling",
+        "label": "Feeling",
+        "title": "Фокус смещается на человека.",
+        "feeling": [
+          "бережно",
+          "путь",
+          "состояние",
+          "ясность"
+        ],
+        "meaning": "Переломный момент — смотреть не на услугу, а на человека перед ней.\n\nОн не хочет покупать «соляр» или «синастрию». Он осторожно ищет ответ:\n\nКуда идти?\nПочему не складывается?\nЧто со мной происходит?\nГде мой ресурс?\n\nНе тревожить. Не давить. Не продавать в лоб.\n\nГоворить языком ощущений, образов и ясности.",
+        "center": "ЧЕЛОВЕК",
+        "accent": "#C41E3A ",
+        "object": "none",
+        "media": [
+          "/projects/olga/frames/02/olga-2-1.webp",
+          "/projects/olga/frames/02/olga-2-2.webp",
+          "/projects/olga/frames/02/olga-2-3.webp",
+          "/projects/olga/frames/02/olga-2-4.webp",
+          "/projects/olga/frames/02/olga-2-5.webp"
+        ],
+        "words": [
+          {
+            "text": "ЧЕЛОВЕК",
+            "tone": "accent",
+            "weight": 1.32,
+            "speed": 0.34,
+            "behavior": "stuck",
+            "angle": -2,
+            "spin": 0.01
+          },
+          {
+            "text": "ТУПИК",
+            "tone": "black",
+            "weight": 1.12,
+            "speed": 0.4,
+            "behavior": "hit",
+            "angle": 8,
+            "spin": -0.03
+          },
+          {
+            "text": "СОСТОЯНИЕ",
+            "tone": "gold",
+            "weight": 0.96,
+            "speed": 0.46,
+            "behavior": "float",
+            "angle": -11,
+            "spin": 0.03
+          },
+          {
+            "text": "БЕРЕЖНО",
+            "tone": "muted",
+            "weight": 0.92,
+            "speed": 0.42,
+            "behavior": "fade",
+            "angle": 6,
+            "spin": -0.02
+          },
+          {
+            "text": "ЗНАКИ",
+            "tone": "cocrete",
+            "weight": 1.08,
+            "speed": 0.36,
+            "behavior": "hit",
+            "angle": -6,
+            "spin": 0.03
+          },
+          {
+            "text": "НЕ ТРЕВОЖИТЬ",
+            "tone": "green",
+            "weight": 0.78,
+            "speed": 0.44,
+            "behavior": "float",
+            "angle": 12,
+            "spin": -0.025
+          }
+        ],
+        "smart": {
+          "status": "ФОКУС",
+          "rows": [
+            {
+              "label": "УСЛУГА",
+              "value": "НЕ ГЛАВНОЕ"
+            },
+            {
+              "label": "КЛИЕНТ",
+              "value": "В ЦЕНТРЕ",
+              "highlight": true
+            },
+            {
+              "label": "ТОН",
+              "value": "БЕРЕЖНО"
+            }
+          ]
+        },
+        "soul": {
+          "mode": "stack",
+          "words": [
+            {
+              "text": "куда идти?",
+              "tone": "accent",
+              "state": "want",
+              "size": 1.18,
+              "weight": 900,
+              "opacity": 0.92
+            },
+            {
+              "text": "что со мной?",
+              "tone": "black",
+              "state": "want",
+              "size": 1.06,
+              "weight": 820,
+              "opacity": 0.82
+            },
+            {
+              "text": "ресурс",
+              "tone": "gold",
+              "state": "want",
+              "size": 0.98,
+              "weight": 780,
+              "opacity": 0.76
+            },
+            {
+              "text": "отношения",
+              "tone": "black",
+              "state": "want",
+              "size": 0.92,
+              "weight": 740,
+              "opacity": 0.7
+            },
+            {
+              "text": "деньги",
+              "tone": "black",
+              "state": "want",
+              "size": 0.86,
+              "weight": 720,
+              "opacity": 0.66
+            },
+            {
+              "text": "давить",
+              "tone": "muted",
+              "state": "reject",
+              "size": 0.8,
+              "weight": 620,
+              "opacity": 0.48
+            },
+            {
+              "text": "продавать в лоб",
+              "tone": "muted",
+              "state": "reject",
+              "size": 0.78,
+              "weight": 620,
+              "opacity": 0.46
+            },
+            {
+              "text": "шум",
+              "tone": "muted",
+              "state": "reject",
+              "size": 0.76,
+              "weight": 600,
+              "opacity": 0.44
+            }
+          ]
+        }
+      },
+      {
+        "id": "image",
+        "label": "Imagination",
+        "title": "Астрология становится бережной картой.",
+        "feeling": [
+          "карта",
+          "состояние",
+          "свет",
+          "палуба"
+        ],
+        "meaning": "В воображении астрология выходит из тёмной мистики.\n\nНе фиолетовый туман.\nНе свечи.\nНе кристаллы.\n\nБелый стол. Море. Свет. Тонкие линии. Даты. Орбиты. Траектории.\n\nНе предсказание.\nПонимание себя через карту, состояние и разговор.",
+        "center": "КАРТА",
+        "accent": "#C41E3A ",
+        "object": "none",
+        "media": [
+          "/projects/olga/frames/03/olga-3-1.webp",
+          "/projects/olga/frames/03/olga-3-2.webp",
+          "/projects/olga/frames/03/olga-3-3.webp",
+          "/projects/olga/frames/03/olga-3-4.webp"
+        ],
+        "words": [
+          {
+            "text": "КАРТА",
+            "tone": "accent",
+            "weight": 1.28,
+            "speed": 0.36,
+            "behavior": "stuck",
+            "angle": -3,
+            "spin": 0.01
+          },
+          {
+            "text": "ОРБИТЫ",
+            "tone": "blue",
+            "weight": 0.96,
+            "speed": 0.42,
+            "behavior": "float",
+            "angle": 9,
+            "spin": -0.03
+          },
+          {
+            "text": "СОСТОЯНИЕ",
+            "tone": "gold",
+            "weight": 1.08,
+            "speed": 0.4,
+            "behavior": "hit",
+            "angle": -11,
+            "spin": 0.03
+          },
+          {
+            "text": "РАЗГОВОР",
+            "tone": "muted",
+            "weight": 0.9,
+            "speed": 0.44,
+            "behavior": "fade",
+            "angle": 12,
+            "spin": -0.025
+          },
+          {
+            "text": "ПУТЬ",
+            "tone": "green",
+            "weight": 0.86,
+            "speed": 0.38,
+            "behavior": "stuck",
+            "angle": 5,
+            "spin": 0.01
+          },
+          {
+            "text": "ПОНИМАНИЕ",
+            "tone": "black",
+            "weight": 1.02,
+            "speed": 0.46,
+            "behavior": "hit",
+            "angle": -7,
+            "spin": 0.03
+          }
+        ],
+        "smart": {
+          "status": "КАРТА",
+          "rows": [
+            {
+              "label": "МИСТИКА",
+              "value": "OFF"
+            },
+            {
+              "label": "СОСТОЯНИЕ",
+              "value": "ВИДНО",
+              "highlight": true
+            },
+            {
+              "label": "ЯСНОСТЬ",
+              "value": "ON"
+            }
+          ]
+        },
+        "soul": {
+          "mode": "orbit",
+          "words": [
+            {
+              "text": "карта",
+              "x": 28,
+              "y": 18,
+              "size": 1.1,
+              "rotate": -9,
+              "tone": "accent",
+              "weight": 900,
+              "opacity": 0.9
+            },
+            {
+              "text": "состояние",
+              "x": 64,
+              "y": 34,
+              "size": 0.95,
+              "rotate": 8,
+              "tone": "black",
+              "weight": 820,
+              "opacity": 0.84
+            },
+            {
+              "text": "орбиты",
+              "x": 22,
+              "y": 50,
+              "size": 0.82,
+              "rotate": -4,
+              "tone": "accent",
+              "weight": 760,
+              "opacity": 0.78
+            },
+            {
+              "text": "психология",
+              "x": 70,
+              "y": 62,
+              "size": 0.86,
+              "rotate": -11,
+              "tone": "gold",
+              "weight": 760,
+              "opacity": 0.74
+            },
+            {
+              "text": "разговор",
+              "x": 46,
+              "y": 78,
+              "size": 0.94,
+              "rotate": -7,
+              "tone": "black",
+              "weight": 780,
+              "opacity": 0.78
+            },
+            {
+              "text": "свечи",
+              "x": 78,
+              "y": 18,
+              "size": 0.52,
+              "rotate": 18,
+              "tone": "muted",
+              "weight": 520,
+              "opacity": 0.5
+            },
+            {
+              "text": "туман",
+              "x": 24,
+              "y": 68,
+              "size": 0.56,
+              "rotate": -12,
+              "tone": "muted",
+              "weight": 520,
+              "opacity": 0.46
+            }
+          ]
+        }
+      },
+      {
+        "id": "frame",
+        "label": "Frame",
+        "title": "Услуги переводятся в язык запроса.",
+        "feeling": [
+          "запрос",
+          "структура",
+          "тон",
+          "доверие"
+        ],
+        "meaning": "Образ становится системой сайта.\n\nНе список услуг, а входы через живые вопросы:\n\nКто я? Куда идти?\nПочему не складывается? Когда действовать?\nГде мой ресурс? Как увидеть свой путь?\n\nЛишнее уходит. Остаются воздух, белый свет, яхтенная лёгкость, алый акцент и структура доверия.\n\nВысокий чек становится естественным, потому что ценность уже почувствована.",
+        "center": "ЗАПРОС",
+        "accent": "#C41E3A ",
+        "object": "none",
+        "media": [
+          "/projects/olga/frames/04/olga-4-1.webp",
+          "/projects/olga/frames/04/olga-4-2.webp",
+          "/projects/olga/frames/04/olga-4-3.webp",
+          "/projects/olga/frames/04/olga-4-4.webp",
+          "/projects/olga/frames/04/olga-4-5.webp"
+        ],
+        "words": [
+          {
+            "text": "ЗАПРОС",
+            "tone": "accent",
+            "weight": 1.3,
+            "speed": 0.32,
+            "behavior": "stuck",
+            "angle": -2,
+            "spin": 0.01
+          },
+          {
+            "text": "КТО Я",
+            "tone": "black",
+            "weight": 1.08,
+            "speed": 0.4,
+            "behavior": "hit",
+            "angle": 7,
+            "spin": -0.03
+          },
+          {
+            "text": "КУДА ИДТИ",
+            "tone": "gold",
+            "weight": 0.95,
+            "speed": 0.46,
+            "behavior": "float",
+            "angle": -12,
+            "spin": 0.03
+          },
+          {
+            "text": "РЕСУРС",
+            "tone": "green",
+            "weight": 0.94,
+            "speed": 0.4,
+            "behavior": "hit",
+            "angle": 12,
+            "spin": -0.03
+          },
+          {
+            "text": "ДОВЕРИЕ",
+            "tone": "blue",
+            "weight": 1.04,
+            "speed": 0.38,
+            "behavior": "stuck",
+            "angle": -6,
+            "spin": 0.01
+          },
+          {
+            "text": "ЯСНОСТЬ",
+            "tone": "accent",
+            "weight": 1.08,
+            "speed": 0.42,
+            "behavior": "float",
+            "angle": -9,
+            "spin": 0.035
+          }
+        ],
+        "smart": {
+          "status": "FRAME",
+          "rows": [
+            {
+              "label": "УСЛУГИ",
+              "value": "В ЗАПРОСЫ"
+            },
+            {
+              "label": "ТОН",
+              "value": "МЯГКИЙ",
+              "highlight": true
+            },
+            {
+              "label": "ЧЕК",
+              "value": "ЕСТЕСТВЕННЫЙ"
+            }
+          ]
+        },
+        "soul": {
+          "mode": "frame",
+          "words": [
+            {
+              "text": "кто я?",
+              "side": "top",
+              "pos": 22,
+              "size": 0.78,
+              "tone": "accent",
+              "weight": 800
+            },
+            {
+              "text": "куда идти?",
+              "side": "top",
+              "pos": 64,
+              "size": 0.72,
+              "tone": "black",
+              "weight": 760
+            },
+            {
+              "text": "любовь",
+              "side": "left",
+              "pos": 36,
+              "size": 0.76,
+              "tone": "accent",
+              "weight": 780
+            },
+            {
+              "text": "деньги",
+              "side": "right",
+              "pos": 38,
+              "size": 0.76,
+              "tone": "gold",
+              "weight": 780
+            },
+            {
+              "text": "ресурс",
+              "side": "bottom",
+              "pos": 46,
+              "size": 0.76,
+              "tone": "black",
+              "weight": 820
+            },
+            {
+              "text": "ясность",
+              "side": "bottom",
+              "pos": 78,
+              "size": 0.62,
+              "tone": "accent",
+              "weight": 700
+            }
+          ]
+        }
+      },
+      {
+        "id": "reality",
+        "label": "Reality",
+        "title": "Проводник к ясности.",
+        "feeling": [
+          "белый",
+          "ясно",
+          "бережно",
+          "премиум"
+        ],
+        "meaning": "Сайт больше не продаёт услугу и цену. Он раскрывает ценность.\n\n Натальная карта — не финальная точка. Это вход в разговор о себе. О целях, деньгах, отношениях, выборе, состоянии, времени и пути, который хочется увидеть яснее.\n\n Астрология становится картой. Ольга — бережным проводником.\n\n Готовая упаковка меняет категорию: из «астролога с услугами» — в пространство личной ясности.\n\n Простые чувства сайта:\n здесь меня поймут,\nздесь можно выдохнуть,\nздесь я найду ясность.\n\n<a href='https://www.olga-astro.ru/' target='blanc'>Посмотреть и найти себя на сайте.",
+        "center": "OLGA TKACHENKO",
+        "accent": "#C41E3A ",
+        "object": "none",
+        "media": [
+          "/projects/olga/frames/05/olga-5-1.webp",
+          "/projects/olga/frames/05/olga-5-2.webp"
+        ],
+        "words": [],
+        "smart": false,
+        "soul": false
+      }
+    ],
+    "cover": {
+      "label": "Кейс",
+      "center": "OLGA-ASTRO",
+      "title": "Астрология → Ясность",
+      "meaning": "Старый сайт объяснял цену и услугу.\nНовая упаковка раскрывает ценность.\n\nФокус смещается с эксперта на человека:\nбережно, через ощущение, образ и ясность.\n\nАстрология становится личной навигацией.",
+      "object": "none",
+      "media": [
+        "/projects/olga/cover/olga-intro4.webp"
+      ]
+    }
+  },
+  {
+    "id": "soma",
+    "name": "SOMA FAMILY",
+    "subtitle": "Free Frequency → Private Neo-Nomad Hotel",
+    "accent": "#5966D8",
+    "steps": [
+      {
+        "id": "question",
+        "label": "Question",
+        "title": "What if a radio station could become a place?",
+        "feeling": [
+          "station",
+          "signal",
+          "free",
+          "unbuilt"
+        ],
+        "meaning": "There was no hotel.\nThere was a station.\n\nI was listening to SomaFM — Groove Salad, Drone Zone, Deep Space One, Lush.\nNot as background music, but as a world with its own people, rhythm and atmosphere.\n\nThe question appeared before the brief:\n\nWhat if this free frequency could become a place?\nWhat if the people who live on this signal had a home in the physical world?",
+        "center": "SIGNAL",
+        "accent": "#5966D8",
+        "object": "none",
+        "media": [
+          "/projects/soma/frames/01/soma-1-1.webp",
+          "/projects/soma/frames/01/soma-1-2.webp",
+          "/projects/soma/frames/01/soma-1-3.webp",
+          "/projects/soma/frames/01/soma-1-4.webp",
+          "/projects/soma/frames/01/soma-1-5.webp"
+        ],
+        "smart": {
+          "status": "SOURCE",
+          "rows": [
+            {
+              "label": "HOTEL",
+              "value": "NOT YET"
+            },
+            {
+              "label": "STATION",
+              "value": "PLAYING",
+              "highlight": true
+            },
+            {
+              "label": "VISION",
+              "value": "OPEN"
+            }
+          ]
+        },
+        "soul": {
+          "mode": "cloud",
+          "words": [
+            {
+              "text": "SomaFM",
+              "x": 30,
+              "y": 22,
+              "size": 1.5,
+              "rotate": -4,
+              "tone": "accent",
+              "weight": 900,
+              "opacity": 0.95
+            },
+            {
+              "text": "Groove Salad",
+              "x": 58,
+              "y": 38,
+              "size": 1.22,
+              "rotate": 5,
+              "tone": "green",
+              "weight": 900,
+              "opacity": 0.9
+            },
+            {
+              "text": "station",
+              "x": 22,
+              "y": 55,
+              "size": 1.08,
+              "rotate": -7,
+              "tone": "black",
+              "weight": 780,
+              "opacity": 0.82
+            },
+            {
+              "text": "free",
+              "x": 72,
+              "y": 20,
+              "size": 0.92,
+              "rotate": 8,
+              "tone": "blue",
+              "weight": 760,
+              "opacity": 0.72
+            },
+            {
+              "text": "signal",
+              "x": 50,
+              "y": 72,
+              "size": 1.18,
+              "rotate": -3,
+              "tone": "red",
+              "weight": 850,
+              "opacity": 0.86
+            },
+            {
+              "text": "listener",
+              "x": 78,
+              "y": 58,
+              "size": 0.74,
+              "rotate": 7,
+              "tone": "gold",
+              "weight": 620,
+              "opacity": 0.58
+            },
+            {
+              "text": "place?",
+              "x": 22,
+              "y": 14,
+              "size": 0.58,
+              "rotate": -6,
+              "tone": "muted",
+              "weight": 500,
+              "opacity": 0.66
+            }
+          ]
+        },
+        "words": [
+          {
+            "text": "SOMAFM",
+            "tone": "accent",
+            "weight": 1.34,
+            "speed": 0.34,
+            "behavior": "stuck",
+            "angle": -3,
+            "spin": 0.01
+          },
+          {
+            "text": "GROOVE",
+            "tone": "green",
+            "weight": 1.22,
+            "speed": 0.42,
+            "behavior": "hit",
+            "angle": 7,
+            "spin": -0.035
+          },
+          {
+            "text": "SIGNAL",
+            "tone": "blue",
+            "weight": 1.18,
+            "speed": 0.46,
+            "behavior": "float",
+            "angle": -10,
+            "spin": 0.04
+          },
+          {
+            "text": "FREE",
+            "tone": "black",
+            "weight": 1.02,
+            "speed": 0.38,
+            "behavior": "stuck",
+            "angle": 4,
+            "spin": 0.01
+          },
+          {
+            "text": "STATION",
+            "tone": "accent",
+            "weight": 0.96,
+            "speed": 0.44,
+            "behavior": "hit",
+            "angle": 13,
+            "spin": -0.035
+          },
+          {
+            "text": "LISTENER",
+            "tone": "dust",
+            "weight": 0.78,
+            "speed": 0.4,
+            "behavior": "fade",
+            "angle": -7,
+            "spin": 0.025
+          },
+          {
+            "text": "PLACE?",
+            "tone": "gold",
+            "weight": 0.9,
+            "speed": 0.48,
+            "behavior": "float",
+            "angle": 9,
+            "spin": -0.03
+          },
+          {
+            "text": "UNBUILT",
+            "tone": "concrete",
+            "weight": 0.82,
+            "speed": 0.36,
+            "behavior": "fade",
+            "angle": -12,
+            "spin": 0.025
+          }
+        ]
+      },
+      {
+        "id": "feeling",
+        "label": "Feeling",
+        "title": "The listener is tired of the masquerade.",
+        "feeling": [
+          "tired",
+          "private",
+          "tactile",
+          "real"
+        ],
+        "meaning": "The guest is not a tourist.\nHe is a digital professional, an audiophile, a design-conscious nomad — someone who has seen enough polished surfaces and social performance.\n\nHe does not need more entertainment.\nHe needs relief.\n\nCoffee.\nSound.\nGreenery.\nA wall with a hand inside it.\nA concrete bed with weight.\nA room that does not ask him to perform.\n\nA place where the nervous system exhales.",
+        "center": "RELIEF",
+        "accent": "#5966D8",
+        "object": "none",
+        "media": [
+          "/projects/soma/frames/02/soma-2-1.webp",
+          "/projects/soma/frames/02/soma-2-2.webp",
+          "/projects/soma/frames/02/soma-2-3.webp",
+          "/projects/soma/frames/02/soma-2-4.webp",
+          "/projects/soma/frames/02/soma-2-5.webp"
+        ],
+        "smart": {
+          "status": "NOMAD",
+          "rows": [
+            {
+              "label": "TOURISM",
+              "value": "OFF"
+            },
+            {
+              "label": "MASK",
+              "value": "REMOVED",
+              "highlight": true
+            },
+            {
+              "label": "CONTACT",
+              "value": "TACTILE"
+            }
+          ]
+        },
+        "soul": {
+          "mode": "stack",
+          "words": [
+            {
+              "text": "coffee",
+              "tone": "black",
+              "state": "want",
+              "size": 1.02,
+              "weight": 780,
+              "opacity": 0.8
+            },
+            {
+              "text": "sound",
+              "tone": "accent",
+              "state": "want",
+              "size": 1.22,
+              "weight": 900,
+              "opacity": 0.92
+            },
+            {
+              "text": "greenery",
+              "tone": "green",
+              "state": "want",
+              "size": 1.1,
+              "weight": 850,
+              "opacity": 0.88
+            },
+            {
+              "text": "texture",
+              "tone": "gold",
+              "state": "want",
+              "size": 1.05,
+              "weight": 820,
+              "opacity": 0.78
+            },
+            {
+              "text": "concrete",
+              "tone": "concrete",
+              "state": "want",
+              "size": 0.92,
+              "weight": 760,
+              "opacity": 0.68
+            },
+            {
+              "text": "noise",
+              "tone": "muted",
+              "state": "reject",
+              "size": 0.82,
+              "weight": 640,
+              "opacity": 0.48
+            },
+            {
+              "text": "mask",
+              "tone": "muted",
+              "state": "reject",
+              "size": 0.86,
+              "weight": 650,
+              "opacity": 0.5
+            },
+            {
+              "text": "tourist",
+              "tone": "muted",
+              "state": "reject",
+              "size": 0.82,
+              "weight": 620,
+              "opacity": 0.46
+            }
+          ]
+        },
+        "words": [
+          {
+            "text": "MASK",
+            "tone": "muted",
+            "weight": 1.02,
+            "speed": 0.42,
+            "behavior": "fade",
+            "angle": -8,
+            "spin": 0.03
+          },
+          {
+            "text": "NOISE",
+            "tone": "black",
+            "weight": 1.18,
+            "speed": 0.5,
+            "behavior": "hit",
+            "angle": 10,
+            "spin": -0.04
+          },
+          {
+            "text": "RELIEF",
+            "tone": "accent",
+            "weight": 1.34,
+            "speed": 0.34,
+            "behavior": "stuck",
+            "angle": -2,
+            "spin": 0.01
+          },
+          {
+            "text": "COFFEE",
+            "tone": "gold",
+            "weight": 0.96,
+            "speed": 0.44,
+            "behavior": "float",
+            "angle": 12,
+            "spin": -0.03
+          },
+          {
+            "text": "TEXTURE",
+            "tone": "concrete",
+            "weight": 1.06,
+            "speed": 0.4,
+            "behavior": "hit",
+            "angle": -13,
+            "spin": 0.035
+          },
+          {
+            "text": "SOUND",
+            "tone": "blue",
+            "weight": 1.22,
+            "speed": 0.38,
+            "behavior": "stuck",
+            "angle": 5,
+            "spin": 0.01
+          },
+          {
+            "text": "TACTILE",
+            "tone": "dust",
+            "weight": 0.88,
+            "speed": 0.46,
+            "behavior": "float",
+            "angle": -5,
+            "spin": 0.03
+          },
+          {
+            "text": "EXHALE",
+            "tone": "green",
+            "weight": 0.98,
+            "speed": 0.36,
+            "behavior": "hit",
+            "angle": 8,
+            "spin": -0.035
+          }
+        ]
+      },
+      {
+        "id": "image",
+        "label": "Image",
+        "title": "A hotel as a physical radio station.",
+        "feeling": [
+          "rooms",
+          "stations",
+          "wave",
+          "tribe"
+        ],
+        "meaning": "The image becomes clear:\n\nNot rooms.\nStations.\n\nGroove Salad is green, alive, elastic, morning.\nDrone Zone is slow, dark, deep, inward.\nDeep Space One is cosmic, blue, private, endless.\nLush is soft, human, atmospheric.\n\nThe guest does not choose standard or deluxe.\nHe chooses the frequency he wants to live in.",
+        "center": "STATIONS",
+        "accent": "#5966D8",
+        "object": "none",
+        "media": [
+          "/projects/soma/frames/03/soma-3-1.webp",
+          "/projects/soma/frames/03/soma-3-2.webp",
+          "/projects/soma/frames/03/soma-3-3.webp",
+          "/projects/soma/frames/03/soma-3-4.webp"
+        ],
+        "smart": {
+          "status": "ROOMS",
+          "rows": [
+            {
+              "label": "NUMBER",
+              "value": "STATION"
+            },
+            {
+              "label": "MOOD",
+              "value": "TUNED",
+              "highlight": true
+            },
+            {
+              "label": "GUEST",
+              "value": "LISTENER"
+            }
+          ]
+        },
+        "soul": {
+          "mode": "orbit",
+          "words": [
+            {
+              "text": "Groove Salad",
+              "x": 28,
+              "y": 18,
+              "size": 1.0,
+              "rotate": -9,
+              "tone": "green",
+              "weight": 900,
+              "opacity": 0.9
+            },
+            {
+              "text": "Drone Zone",
+              "x": 64,
+              "y": 34,
+              "size": 0.95,
+              "rotate": 8,
+              "tone": "blue",
+              "weight": 820,
+              "opacity": 0.86
+            },
+            {
+              "text": "Deep Space One",
+              "x": 22,
+              "y": 50,
+              "size": 0.78,
+              "rotate": -4,
+              "tone": "accent",
+              "weight": 800,
+              "opacity": 0.86
+            },
+            {
+              "text": "Lush",
+              "x": 70,
+              "y": 62,
+              "size": 0.9,
+              "rotate": -11,
+              "tone": "gold",
+              "weight": 750,
+              "opacity": 0.76
+            },
+            {
+              "text": "room tone",
+              "x": 46,
+              "y": 78,
+              "size": 1.0,
+              "rotate": -7,
+              "tone": "black",
+              "weight": 800,
+              "opacity": 0.84
+            },
+            {
+              "text": "frequency",
+              "x": 78,
+              "y": 18,
+              "size": 0.5,
+              "rotate": 18,
+              "tone": "black",
+              "weight": 500,
+              "opacity": 0.55
+            }
+          ]
+        },
+        "words": [
+          {
+            "text": "ROOMS",
+            "tone": "black",
+            "weight": 1.08,
+            "speed": 0.36,
+            "behavior": "stuck",
+            "angle": -4,
+            "spin": 0.01
+          },
+          {
+            "text": "STATIONS",
+            "tone": "accent",
+            "weight": 1.34,
+            "speed": 0.42,
+            "behavior": "hit",
+            "angle": 8,
+            "spin": -0.035
+          },
+          {
+            "text": "GROOVE SALAD",
+            "tone": "green",
+            "weight": 0.9,
+            "speed": 0.46,
+            "behavior": "float",
+            "angle": -12,
+            "spin": 0.035
+          },
+          {
+            "text": "DRONE ZONE",
+            "tone": "blue",
+            "weight": 0.88,
+            "speed": 0.4,
+            "behavior": "hit",
+            "angle": 13,
+            "spin": -0.03
+          },
+          {
+            "text": "DEEP SPACE",
+            "tone": "accent",
+            "weight": 0.84,
+            "speed": 0.48,
+            "behavior": "float",
+            "angle": -7,
+            "spin": 0.03
+          },
+          {
+            "text": "LUSH",
+            "tone": "gold",
+            "weight": 0.78,
+            "speed": 0.44,
+            "behavior": "fade",
+            "angle": 9,
+            "spin": -0.025
+          },
+          {
+            "text": "WAVE",
+            "tone": "blue",
+            "weight": 1.12,
+            "speed": 0.38,
+            "behavior": "stuck",
+            "angle": 4,
+            "spin": 0.01
+          },
+          {
+            "text": "TRIBE",
+            "tone": "black",
+            "weight": 0.94,
+            "speed": 0.4,
+            "behavior": "hit",
+            "angle": -10,
+            "spin": 0.035
+          }
+        ]
+      },
+      {
+        "id": "frame",
+        "label": "Frame",
+        "title": "The frequency becomes rules.",
+        "feeling": [
+          "closed",
+          "sound",
+          "material",
+          "care"
+        ],
+        "meaning": "Now the frequency has to become a hotel system.\n\n4 or 9 rooms.\nClosed territory.\nNo outside traffic.\nNo random crowd.\n\nHand-applied plaster walls.\nGradient color.\nPolished concrete beds.\nMarshall sound in every room.\nSomaFM as the room setting.\nHealthy breakfasts without fake wellness.\nCoffee, plants, warm light, personal care.\n\nA quiet concrete sanctuary with one bright Groove Salad stripe — a sign that you are on the right frequency.",
+        "center": "SYSTEM",
+        "accent": "#5966D8",
+        "object": "none",
+        "media": [
+          "/projects/soma/frames/04/soma-4-1.webp",
+          "/projects/soma/frames/04/soma-4-2.webp",
+          "/projects/soma/frames/04/soma-4-3.webp",
+          "/projects/soma/frames/04/soma-4-4.webp"
+        ],
+        "smart": {
+          "status": "FRAME",
+          "rows": [
+            {
+              "label": "ROOMS",
+              "value": "4 / 9"
+            },
+            {
+              "label": "TERRITORY",
+              "value": "PRIVATE",
+              "highlight": true
+            },
+            {
+              "label": "SOUND",
+              "value": "MARSHALL"
+            }
+          ]
+        },
+        "soul": {
+          "mode": "frame",
+          "words": [
+            {
+              "text": "closed",
+              "side": "top",
+              "pos": 22,
+              "size": 0.78,
+              "tone": "accent",
+              "weight": 800
+            },
+            {
+              "text": "Marshall",
+              "side": "top",
+              "pos": 62,
+              "size": 0.72,
+              "tone": "black",
+              "weight": 760
+            },
+            {
+              "text": "plaster",
+              "side": "left",
+              "pos": 36,
+              "size": 0.76,
+              "tone": "gold",
+              "weight": 780
+            },
+            {
+              "text": "concrete",
+              "side": "right",
+              "pos": 38,
+              "size": 0.76,
+              "tone": "concrete",
+              "weight": 780
+            },
+            {
+              "text": "Groove stripe",
+              "side": "bottom",
+              "pos": 46,
+              "size": 0.76,
+              "tone": "green",
+              "weight": 820
+            },
+            {
+              "text": "care",
+              "side": "bottom",
+              "pos": 78,
+              "size": 0.62,
+              "tone": "black",
+              "weight": 700
+            }
+          ]
+        },
+        "words": [
+          {
+            "text": "4 / 9",
+            "tone": "accent",
+            "weight": 1.28,
+            "speed": 0.32,
+            "behavior": "stuck",
+            "angle": -2,
+            "spin": 0.01
+          },
+          {
+            "text": "PRIVATE",
+            "tone": "black",
+            "weight": 1.2,
+            "speed": 0.4,
+            "behavior": "hit",
+            "angle": 7,
+            "spin": -0.035
+          },
+          {
+            "text": "MARSHALL",
+            "tone": "gold",
+            "weight": 0.95,
+            "speed": 0.46,
+            "behavior": "float",
+            "angle": -12,
+            "spin": 0.03
+          },
+          {
+            "text": "PLASTER",
+            "tone": "concrete",
+            "weight": 0.94,
+            "speed": 0.4,
+            "behavior": "hit",
+            "angle": 12,
+            "spin": -0.03
+          },
+          {
+            "text": "CONCRETE",
+            "tone": "dust",
+            "weight": 1.04,
+            "speed": 0.38,
+            "behavior": "stuck",
+            "angle": -6,
+            "spin": 0.01
+          },
+          {
+            "text": "BREAKFAST",
+            "tone": "green",
+            "weight": 0.86,
+            "speed": 0.44,
+            "behavior": "fade",
+            "angle": 8,
+            "spin": -0.025
+          },
+          {
+            "text": "CARE",
+            "tone": "black",
+            "weight": 0.92,
+            "speed": 0.36,
+            "behavior": "hit",
+            "angle": 4,
+            "spin": 0.03
+          },
+          {
+            "text": "RULES",
+            "tone": "accent",
+            "weight": 1.08,
+            "speed": 0.42,
+            "behavior": "float",
+            "angle": -9,
+            "spin": 0.035
+          }
+        ]
+      },
+      {
+        "id": "reality",
+        "label": "Reality",
+        "title": "A free frequency becomes a private neo-nomad hotel.",
+        "feeling": [],
+        "meaning": "SOMA Family Hotel is a private boutique sanctuary for new global nomads, audiophiles and design-conscious travelers.\n\nIt was not adapted from an existing hotel.\nIt was imagined from listening.\n\nA free radio frequency became a physical world: name, audience, atmosphere, rooms, material logic, sound ritual, breakfast culture and commercial story.\n\nNot a hotel with music.\nA place for people who live on the same frequency.",
+        "center": "SOMA",
+        "accent": "#5966D8",
+        "object": "none",
+        "media": [
+          "/projects/soma/frames/05/soma-5-1.webp",
+          "/projects/soma/frames/05/soma-5-2.webp",
+          "/projects/soma/frames/05/soma-5-3.webp",
+          "/projects/soma/frames/05/soma-5-4.webp",
+          "/projects/soma/frames/05/soma-5-5.webp"
+        ],
+        "smart": false,
+        "soul": false,
+        "words": []
+      }
+    ],
+    "cover": {
+      "label": "Concept",
+      "center": "SOMA FAMILY",
+      "title": "Free Frequency → Private Neo-Nomad Hotel",
+      "meaning": "I was listening to a station.\nThen I imagined a hotel for the people who live on that frequency.\n\nA free SomaFM feeling became a private boutique sanctuary for digital nomads, audiophiles and people tired of noise.",
+      "object": "none",
+      "media": [
+        "/projects/soma/cover/soma-intro-bg.webp"
+      ],
+      "visual": {
+        "type": "coverObject",
+        "src": "/projects/soma/cover/bed.webp"
+      }
+    }
+  },
+  {
+    "id": "chaveta",
+    "name": "CHAVETA",
+    "subtitle": "Raw Inventory → Premium Club Store",
+    "accent": "#b89a5e",
+    "steps": [
+      {
+        "id": "before",
+        "label": "Было",
+        "title": "Хорошее место. Плохая цифра.",
+        "feeling": [
+          "хаос",
+          "старая база",
+          "нет фото",
+          "нет структуры"
+        ],
+        "meaning": "У заведения может быть сильный продукт, красивое место и постоянные гости.\n\nНо в цифре всё выглядит как складская таблица: сырые названия, нет нормальной структуры, нет описаний, нет фотографий, нет желания выбирать.",
+        "center": "БЫЛО",
+        "accent": "#b89a5e",
+        "object": "none",
+        "media": [
+          "/projects/chaveta/frames/01/chaveta-1-1.webp",
+          "/projects/chaveta/frames/01/chaveta-1-2.webp",
+          "/projects/chaveta/frames/01/chaveta-1-3.webp"
+        ],
+        "words": [
+          {
+            "text": "СЫРАЯ БАЗА",
+            "tone": "dust",
+            "weight": 0.78,
+            "speed": 0.38,
+            "behavior": "hit",
+            "angle": -6,
+            "spin": 0.02
+          },
+          {
+            "text": "ТАБЛИЦЫ",
+            "tone": "white",
+            "weight": 1.05,
+            "speed": 0.48,
+            "behavior": "float",
+            "angle": 8,
+            "spin": -0.03
+          },
+          {
+            "text": "НЕТ ФОТО",
+            "tone": "red",
+            "weight": 0.9,
+            "speed": 0.42,
+            "behavior": "fade",
+            "angle": -10,
+            "spin": 0.02
+          },
+          {
+            "text": "СТАРЫЙ САЙТ",
+            "tone": "concrete",
+            "weight": 1.08,
+            "speed": 0.34,
+            "behavior": "stuck",
+            "angle": 4,
+            "spin": 0.01
+          },
+          {
+            "text": "НЕТ ЖЕЛАНИЯ",
+            "tone": "red",
+            "weight": 1.0,
+            "speed": 0.44,
+            "behavior": "hit",
+            "angle": 12,
+            "spin": -0.02
+          }
+        ],
+        "smart": {
+          "status": "БАЗА",
+          "rows": [
+            {
+              "label": "СТРУКТУРА",
+              "value": "НЕТ"
+            },
+            {
+              "label": "ФОТО",
+              "value": "НЕТ"
+            },
+            {
+              "label": "ЖЕЛАНИЕ",
+              "value": "0",
+              "highlight": true
+            }
+          ]
+        },
+        "soul": {
+          "mode": "cloud",
+          "words": [
+            {
+              "text": "хаос",
+              "x": 30,
+              "y": 24,
+              "size": 1.45,
+              "rotate": -5,
+              "tone": "black",
+              "weight": 900,
+              "opacity": 0.9
+            },
+            {
+              "text": "таблицы",
+              "x": 52,
+              "y": 42,
+              "size": 1.2,
+              "rotate": 4,
+              "tone": "gold",
+              "weight": 820,
+              "opacity": 0.78
+            },
+            {
+              "text": "нет фото",
+              "x": 25,
+              "y": 60,
+              "size": 0.92,
+              "rotate": -7,
+              "tone": "muted",
+              "weight": 650,
+              "opacity": 0.62
+            },
+            {
+              "text": "нет описаний",
+              "x": 66,
+              "y": 58,
+              "size": 0.9,
+              "rotate": 6,
+              "tone": "muted",
+              "weight": 650,
+              "opacity": 0.58
+            },
+            {
+              "text": "старый сайт",
+              "x": 48,
+              "y": 76,
+              "size": 1.04,
+              "rotate": -3,
+              "tone": "dust",
+              "weight": 760,
+              "opacity": 0.72
+            },
+            {
+              "text": "не купить",
+              "x": 78,
+              "y": 28,
+              "size": 0.78,
+              "rotate": 8,
+              "tone": "muted",
+              "weight": 620,
+              "opacity": 0.54
+            }
+          ]
+        }
+      },
+      {
+        "id": "analysis",
+        "label": "Разбор",
+        "title": "Сначала не дизайн.",
+        "feeling": [
+          "типы",
+          "поля",
+          "логика",
+          "фильтры"
+        ],
+        "meaning": "Сначала нужно понять, что вообще продаётся.\n\nКакие есть типы товаров. Какие поля нужны. Как они связаны. Как искать, фильтровать, выбирать и покупать.",
+        "center": "РАЗБОР",
+        "accent": "#b89a5e",
+        "object": "none",
+        "media": [
+          "/projects/chaveta/frames/02/chaveta-2-1.webp",
+          "/projects/chaveta/frames/02/chaveta-2-2.webp",
+          "/projects/chaveta/frames/02/chaveta-2-3.webp"
+        ],
+        "words": [
+          {
+            "text": "ТИПЫ",
+            "tone": "yellow",
+            "weight": 1.1,
+            "speed": 0.4,
+            "behavior": "hit",
+            "angle": -4,
+            "spin": 0.02
+          },
+          {
+            "text": "ПОЛЯ",
+            "tone": "white",
+            "weight": 1.0,
+            "speed": 0.42,
+            "behavior": "float",
+            "angle": 7,
+            "spin": -0.02
+          },
+          {
+            "text": "ФИЛЬТРЫ",
+            "tone": "gold",
+            "weight": 1.18,
+            "speed": 0.35,
+            "behavior": "hit",
+            "angle": 5,
+            "spin": 0.015
+          },
+          {
+            "text": "ЗАВИСИМОСТИ",
+            "tone": "accent",
+            "weight": 1.02,
+            "speed": 0.32,
+            "behavior": "stuck",
+            "angle": -8,
+            "spin": 0.01
+          },
+          {
+            "text": "КАТЕГОРИИ",
+            "tone": "black",
+            "weight": 1.0,
+            "speed": 0.45,
+            "behavior": "fade",
+            "angle": 10,
+            "spin": -0.02
+          }
+        ],
+        "smart": {
+          "status": "РАЗБОР",
+          "rows": [
+            {
+              "label": "ТИПЫ",
+              "value": "НАЙДЕНЫ"
+            },
+            {
+              "label": "ПОЛЯ",
+              "value": "55'000+ "
+            },
+            {
+              "label": "ЛОГИКА",
+              "value": "СОБРАНА",
+              "highlight": true
+            }
+          ]
+        },
+        "soul": {
+          "mode": "orbit",
+          "words": [
+            {
+              "text": "типы",
+              "x": 28,
+              "y": 20,
+              "size": 1.1,
+              "rotate": -6,
+              "tone": "accent",
+              "weight": 850,
+              "opacity": 0.88
+            },
+            {
+              "text": "поля",
+              "x": 62,
+              "y": 34,
+              "size": 0.92,
+              "rotate": 8,
+              "tone": "gold",
+              "weight": 800,
+              "opacity": 0.76
+            },
+            {
+              "text": "фильтры",
+              "x": 30,
+              "y": 50,
+              "size": 0.95,
+              "rotate": -4,
+              "tone": "black",
+              "weight": 820,
+              "opacity": 0.8
+            },
+            {
+              "text": "категории",
+              "x": 68,
+              "y": 66,
+              "size": 0.86,
+              "rotate": -8,
+              "tone": "dust",
+              "weight": 760,
+              "opacity": 0.68
+            },
+            {
+              "text": "логика",
+              "x": 48,
+              "y": 78,
+              "size": 1.08,
+              "rotate": 3,
+              "tone": "accent",
+              "weight": 850,
+              "opacity": 0.86
+            },
+            {
+              "text": "связи",
+              "x": 78,
+              "y": 18,
+              "size": 0.62,
+              "rotate": 12,
+              "tone": "muted",
+              "weight": 620,
+              "opacity": 0.5
+            }
+          ]
+        }
+      },
+      {
+        "id": "build",
+        "label": "Сборка",
+        "title": "База становится магазином.",
+        "feeling": [
+          "база",
+          "скрипты",
+          "карточки",
+          "checkout"
+        ],
+        "meaning": "Старая товарная масса превращается в рабочий e-commerce.\n\nТаблицы. Скрипты. WooCommerce. Атрибуты. Карточки. Фильтры. Страницы. Checkout.",
+        "center": "СБОРКА",
+        "accent": "#b89a5e",
+        "object": "none",
+        "media": [
+          "/projects/chaveta/frames/03/chaveta-3-1.webp",
+          "/projects/chaveta/frames/03/chaveta-3-2.webp",
+          "/projects/chaveta/frames/03/chaveta-3-3.webp"
+        ],
+        "words": [
+          {
+            "text": "WOOCOMMERCE",
+            "tone": "gold",
+            "weight": 0.82,
+            "speed": 0.34,
+            "behavior": "hit",
+            "angle": -5,
+            "spin": 0.02
+          },
+          {
+            "text": "СКРИПТЫ",
+            "tone": "blue",
+            "weight": 0.95,
+            "speed": 0.48,
+            "behavior": "float",
+            "angle": 8,
+            "spin": -0.02
+          },
+          {
+            "text": "КАРТОЧКИ",
+            "tone": "yellow",
+            "weight": 1.08,
+            "speed": 0.4,
+            "behavior": "hit",
+            "angle": 6,
+            "spin": 0.02
+          },
+          {
+            "text": "CHECKOUT",
+            "tone": "black",
+            "weight": 1.0,
+            "speed": 0.36,
+            "behavior": "stuck",
+            "angle": -7,
+            "spin": 0.01
+          },
+          {
+            "text": "РАБОТАЕТ",
+            "tone": "green",
+            "weight": 0.78,
+            "speed": 0.44,
+            "behavior": "hit",
+            "angle": 3,
+            "spin": -0.02
+          }
+        ],
+        "smart": {
+          "status": "МАГАЗИН",
+          "rows": [
+            {
+              "label": "ТОВАРЫ",
+              "value": "1'000+"
+            },
+            {
+              "label": "ПОЛЯ",
+              "value": "55'000+"
+            },
+            {
+              "label": "CHECKOUT",
+              "value": "ON",
+              "highlight": true
+            }
+          ]
+        },
+        "soul": {
+          "mode": "frame",
+          "words": [
+            {
+              "text": "база",
+              "side": "top",
+              "pos": 24,
+              "size": 0.78,
+              "tone": "accent",
+              "weight": 800
+            },
+            {
+              "text": "товары",
+              "side": "top",
+              "pos": 60,
+              "size": 0.72,
+              "tone": "gold",
+              "weight": 760
+            },
+            {
+              "text": "фильтры",
+              "side": "left",
+              "pos": 42,
+              "size": 0.74,
+              "tone": "accent",
+              "weight": 800
+            },
+            {
+              "text": "карточки",
+              "side": "right",
+              "pos": 42,
+              "size": 0.74,
+              "tone": "accent",
+              "weight": 800
+            },
+            {
+              "text": "checkout",
+              "side": "bottom",
+              "pos": 48,
+              "size": 0.72,
+              "tone": "black",
+              "weight": 780
+            },
+            {
+              "text": "работает",
+              "side": "bottom",
+              "pos": 76,
+              "size": 0.68,
+              "tone": "accent",
+              "weight": 760
+            }
+          ]
+        }
+      },
+      {
+        "id": "premium-layer",
+        "label": "Атмосфера",
+        "title": "Магазин должен звучать как клуб.",
+        "feeling": [
+          "тёмный",
+          "золото",
+          "детали",
+          "клуб"
+        ],
+        "meaning": "Cистема заработала, её пора переодеть.\n\nНе нарисовать красивую картинку, а надеть новый премиальный костюм на существующий сайт: страницы, карточки, фильтры, отступы, цвета - максимальное внимание к деталям.",
+        "center": "ПРЕМИУМ",
+        "accent": "#b89a5e",
+        "object": "none",
+        "media": [
+          "/projects/chaveta/frames/04/chaveta-4-1.webp",
+          "/projects/chaveta/frames/04/chaveta-4-2.webp",
+          "/projects/chaveta/frames/04/chaveta-4-3.webp",
+          "/projects/chaveta/frames/04/chaveta-4-4.webp"
+        ],
+        "words": [
+          {
+            "text": "PREMIUM",
+            "tone": "gold",
+            "weight": 1.22,
+            "speed": 0.4,
+            "behavior": "hit",
+            "angle": 4,
+            "spin": 0.02
+          },
+          {
+            "text": "CIGAR",
+            "tone": "accent",
+            "weight": 0.92,
+            "speed": 0.42,
+            "behavior": "float",
+            "angle": -8,
+            "spin": -0.02
+          },
+          {
+            "text": "CLUB",
+            "tone": "WHITE",
+            "weight": 1.08,
+            "speed": 0.34,
+            "behavior": "hit",
+            "angle": 9,
+            "spin": 0.02
+          }
+        ],
+        "smart": {
+          "status": "СКИН",
+          "rows": [
+            {
+              "label": "ДИЗАЙН",
+              "value": "Club noir",
+              "highlight": true
+            },
+            {
+              "label": "СТИЛЬ",
+              "value": "Камерная роскошь",
+              "highlight": true
+            },
+            {
+              "label": "АТМОСФЕРА",
+              "value": "Лаунж",
+              "highlight": true
+            }
+          ]
+        },
+        "soul": {
+          "mode": "stack",
+          "words": [
+            {
+              "text": "Акценты",
+              "tone": "olive",
+              "state": "want",
+              "size": 1.12,
+              "weight": 900,
+              "opacity": 0.88
+            },
+            {
+              "text": "Удовольствие",
+              "tone": "gold",
+              "state": "want",
+              "size": 1.22,
+              "weight": 900,
+              "opacity": 0.86
+            },
+            {
+              "text": "клуб",
+              "tone": "accent",
+              "state": "want",
+              "size": 1.18,
+              "weight": 850,
+              "opacity": 0.82
+            },
+            {
+              "text": "детали",
+              "tone": "white",
+              "state": "want",
+              "size": 0.92,
+              "weight": 720,
+              "opacity": 0.68
+            },
+            {
+              "text": "Удобство",
+              "tone": "green",
+              "state": "want",
+              "size": 0.86,
+              "weight": 680,
+              "opacity": 0.58
+            },
+            {
+              "text": "Впечатление",
+              "tone": "yellow",
+              "state": "want",
+              "size": 0.82,
+              "weight": 660,
+              "opacity": 0.52
+            }
+          ]
+        }
+      },
+      {
+        "id": "reality",
+        "label": "Результат",
+        "title": "Магазин стал частью клуба.",
+        "feeling": [
+          "премиум",
+          "магазин",
+          "клуб",
+          "работает"
+        ],
+        "meaning": "Рабочий магазин, который не выглядит отдельно от места.\n\nТовары, атмосфера, выбор и покупка собраны в одну премиальную систему.\n\n<a href='https://chaveta.ru' target='blanc'>Приходите в клуб</a> посмотреть и отдохнуть.",
+        "center": "CHAVETA",
+        "accent": "#b89a5e",
+        "object": "none",
+        "media": [
+          "/projects/chaveta/frames/05/chaveta-5.png"
+        ],
+        "smart": false,
+        "soul": false,
+        "words": [],
+        "layout": "heroBackground",
+        "hide": [
+          "soul",
+          "smart",
+          "mind",
+          "visual"
+        ]
+      }
+    ],
+    "cover": {
+      "label": "Кейс",
+      "center": "CHAVETA",
+      "title": "Raw Inventory → Premium Club Store",
+      "meaning": "Сырая товарная база стала рабочим премиальным магазином — а затем цифровым продолжением клуба.",
+      "object": "none",
+      "media": [
+        "/projects/chaveta/cover/chaveta-intro.webp"
+      ],
+      "visual": {
+        "type": "coverObject",
+        "src": "/projects/chaveta/cover/chaveta-logo.webp"
+      }
+    }
+  }
+]
