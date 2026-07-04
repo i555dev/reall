@@ -545,15 +545,40 @@ textarea {
   animation: stepHintFlash 0.56s ease both;
 }
 
-.step-tabs.is-hinting .step-tab:nth-child(1) { animation-delay: 0s; }
-.step-tabs.is-hinting .step-tab:nth-child(2) { animation-delay: 0.16s; }
-.step-tabs.is-hinting .step-tab:nth-child(3) { animation-delay: 0.32s; }
-.step-tabs.is-hinting .step-tab:nth-child(4) { animation-delay: 0.48s; }
-.step-tabs.is-hinting .step-tab:nth-child(5) { animation-delay: 0.64s; }
+.step-tabs.is-hinting .step-tab:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.step-tabs.is-hinting .step-tab:nth-child(2) {
+  animation-delay: 0.16s;
+}
+
+.step-tabs.is-hinting .step-tab:nth-child(3) {
+  animation-delay: 0.32s;
+}
+
+.step-tabs.is-hinting .step-tab:nth-child(4) {
+  animation-delay: 0.48s;
+}
+
+.step-tabs.is-hinting .step-tab:nth-child(5) {
+  animation-delay: 0.64s;
+}
 
 @keyframes stepHintFlash {
-  0%, 100% { background: rgba(255, 255, 255, 0.3); color: rgba(7, 7, 6, 0.86); transform: translateX(0); }
-  45% { background: color-mix(in srgb, var(--accent), white 18%); color: #fff; transform: translateX(-4px); }
+
+  0%,
+  100% {
+    background: rgba(255, 255, 255, 0.3);
+    color: rgba(7, 7, 6, 0.86);
+    transform: translateX(0);
+  }
+
+  45% {
+    background: color-mix(in srgb, var(--accent), white 18%);
+    color: #fff;
+    transform: translateX(-4px);
+  }
 }
 
 .step-tab b {
@@ -600,13 +625,29 @@ textarea {
 }
 
 @keyframes logoSoftPulse {
-  0%, 100% { transform: translateZ(0) scale(1); }
-  50% { transform: translateZ(0) scale(1.045); }
+
+  0%,
+  100% {
+    transform: translateZ(0) scale(1);
+  }
+
+  50% {
+    transform: translateZ(0) scale(1.045);
+  }
 }
 
 @keyframes logoGlowPulse {
-  0%, 100% { opacity: 0.20; transform: scale(0.92); }
-  50% { opacity: 0.62; transform: scale(1.08); }
+
+  0%,
+  100% {
+    opacity: 0.20;
+    transform: scale(0.92);
+  }
+
+  50% {
+    opacity: 0.62;
+    transform: scale(1.08);
+  }
 }
 
 .bring-idea {
@@ -1584,7 +1625,7 @@ textarea {
 
   .meaning-panel {
     right: 0px;
-    top: 128px;
+    top: 99px;
     max-width: 40%;
   }
 }
