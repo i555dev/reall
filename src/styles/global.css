@@ -445,6 +445,8 @@ textarea {
   letter-spacing: 0.18em;
   font-weight: 500;
   text-transform: uppercase;
+  background: var(--accent);
+  color: #fff;
 }
 
 
@@ -567,19 +569,36 @@ textarea {
   animation: stepHintFlash 0.72s ease both;
 }
 
-.step-tabs.is-hinting .step-tab:nth-child(1) { animation-delay: 0s; }
-.step-tabs.is-hinting .step-tab:nth-child(2) { animation-delay: 0.16s; }
-.step-tabs.is-hinting .step-tab:nth-child(3) { animation-delay: 0.32s; }
-.step-tabs.is-hinting .step-tab:nth-child(4) { animation-delay: 0.48s; }
-.step-tabs.is-hinting .step-tab:nth-child(5) { animation-delay: 0.64s; }
+.step-tabs.is-hinting .step-tab:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.step-tabs.is-hinting .step-tab:nth-child(2) {
+  animation-delay: 0.16s;
+}
+
+.step-tabs.is-hinting .step-tab:nth-child(3) {
+  animation-delay: 0.32s;
+}
+
+.step-tabs.is-hinting .step-tab:nth-child(4) {
+  animation-delay: 0.48s;
+}
+
+.step-tabs.is-hinting .step-tab:nth-child(5) {
+  animation-delay: 0.64s;
+}
 
 @keyframes stepHintFlash {
-  0%, 100% {
+
+  0%,
+  100% {
     background: rgba(255, 255, 255, 0.3);
     color: rgba(7, 7, 6, 0.86);
     transform: translateX(0);
     box-shadow: none;
   }
+
   45% {
     background: color-mix(in srgb, var(--accent), white 14%);
     color: #fff;
@@ -632,10 +651,13 @@ textarea {
 }
 
 @keyframes logoBackgroundBreath {
-  0%, 100% {
+
+  0%,
+  100% {
     background: var(--accent);
-    box-shadow: 0 0 0 rgba(255,255,255,0);
+    box-shadow: 0 0 0 rgba(255, 255, 255, 0);
   }
+
   50% {
     background: color-mix(in srgb, var(--accent), white 12%);
     box-shadow: 0 0 26px color-mix(in srgb, var(--accent), transparent 62%);
@@ -643,8 +665,17 @@ textarea {
 }
 
 @keyframes logoGlowPulse {
-  0%, 100% { opacity: 0.20; transform: scale(0.92); }
-  50% { opacity: 0.62; transform: scale(1.08); }
+
+  0%,
+  100% {
+    opacity: 0.20;
+    transform: scale(0.92);
+  }
+
+  50% {
+    opacity: 0.62;
+    transform: scale(1.08);
+  }
 }
 
 .bring-idea {
@@ -1622,7 +1653,7 @@ textarea {
 
   .meaning-panel {
     right: 0px;
-    top: 128px;
+    top: 99px;
     max-width: 40%;
   }
 }
@@ -1685,14 +1716,6 @@ textarea {
 .experience[data-project="chaveta"] .cover-object-scene {
   --cover-object-width: clamp(100px, 14vw, 150px);
   display: grid;
-}
-
-.experience[data-project="chaveta"][data-frame="premium-layer"] .project-title * {
-  color: var(--accent);
-}
-
-.experience[data-project="chaveta"][data-frame="reality"] .project-title h2 {
-  color: var(--accent);
 }
 
 .experience[data-project="chaveta"][data-frame="premium-layer"] .meaning-panel p {
