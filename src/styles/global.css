@@ -1734,16 +1734,6 @@ textarea {
   display: grid;
 }
 
-.experience[data-project="chaveta"][data-frame="premium-layer"]
-  .meaning-panel
-  p {
-  color: #fffb;
-}
-
-.experience[data-project="chaveta"][data-frame="reality"] .meaning-panel p {
-  color: #fffb;
-}
-
 button.project-pill[data-project="1"] {
   display: none;
 }
